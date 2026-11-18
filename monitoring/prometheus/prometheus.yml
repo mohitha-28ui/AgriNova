@@ -1,0 +1,17 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: 'agrinova-backend'
+    metrics_path: '/api/admin/health'
+    static_configs:
+      - targets: ['backend:8000']
+
+  - job_name: 'hadoop-namenode'
+    static_configs:
+      - targets: ['namenode:9870']
+
+  - job_name: 'spark-master'
+    static_configs:
+      - targets: ['spark-master:8080']

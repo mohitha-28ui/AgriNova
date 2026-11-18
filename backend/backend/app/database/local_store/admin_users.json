@@ -1,0 +1,12 @@
+[
+  {
+    "email": "admin@agrinova.ai",
+    "hashed_password": "$2b$12$TUuTFnuTOyFl.3Ovqn4zLeTXf0yBaKN7QsEQklrSed/PRBd1NQ4we",
+    "full_name": "AgriNova System Administrator",
+    "role": "admin",
+    "phone": "+91-9876543210",
+    "is_active": true,
+    "created_at": "2026-11-18T23:01:40.320625",
+    "_id": "a1e38990-18c0-4722-a2ba-f92a8b769a75"
+  }
+]

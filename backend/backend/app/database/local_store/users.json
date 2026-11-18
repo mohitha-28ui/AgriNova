@@ -1,0 +1,22 @@
+[
+  {
+    "email": "admin@agrinova.ai",
+    "hashed_password": "$2b$12$TUuTFnuTOyFl.3Ovqn4zLeTXf0yBaKN7QsEQklrSed/PRBd1NQ4we",
+    "full_name": "AgriNova System Administrator",
+    "role": "admin",
+    "phone": "+91-9876543210",
+    "is_active": true,
+    "created_at": "2026-11-18T23:01:40.320625",
+    "_id": "8d741c9b-073d-4f50-9388-ffe977f9fb21"
+  },
+  {
+    "email": "farmer@agrinova.ai",
+    "hashed_password": "$2b$12$mIs9mI/paSC5JhXIHcqhpeYZlqrz8Cj4iag0WyLbJJfPwsDjgVJ1y",
+    "full_name": "Ramesh Kumar Patel",
+    "role": "farmer",
+    "phone": "+91-9123456789",
+    "is_active": true,
+    "created_at": "2026-11-18T23:01:40.537129",
+    "_id": "b523468b-5493-4893-9b58-e8205de7d200"
+  }
+]

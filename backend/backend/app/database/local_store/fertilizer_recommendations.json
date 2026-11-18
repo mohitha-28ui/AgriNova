@@ -1,0 +1,86 @@
+[
+  {
+    "crop": "Wheat",
+    "land_acres": 2.0,
+    "target_npk": "120-60-40",
+    "current_npk": "80-30-25",
+    "nutrient_deficits": {
+      "N_deficit": 40.0,
+      "P_deficit": 30.0,
+      "K_deficit": 15.0
+    },
+    "recommended_fertilizers": {
+      "urea_kg": 49.7,
+      "dap_kg": 52.7,
+      "mop_kg": 20.3,
+      "urea_50kg_bags": 1.0,
+      "dap_50kg_bags": 1.1,
+      "mop_50kg_bags": 0.4
+    },
+    "application_schedule": [
+      {
+        "timing": "Basal Application (At Sowing)",
+        "urea_bags": 0.3,
+        "dap_bags": 1.1,
+        "mop_bags": 0.2
+      },
+      {
+        "timing": "First Top Dressing (Tillering / 25-30 DAS)",
+        "urea_bags": 0.4,
+        "dap_bags": 0,
+        "mop_bags": 0
+      },
+      {
+        "timing": "Second Top Dressing (Panicle Initiation / 50-60 DAS)",
+        "urea_bags": 0.3,
+        "dap_bags": 0,
+        "mop_bags": 0.2
+      }
+    ],
+    "warnings_and_soil_amendments": [],
+    "timestamp": "2026-11-18T23:15:50.012177",
+    "_id": "8371da5d-2724-49d6-acab-16463e9876b3"
+  },
+  {
+    "crop": "Wheat",
+    "land_acres": 2.0,
+    "target_npk": "120-60-40",
+    "current_npk": "80-30-25",
+    "nutrient_deficits": {
+      "N_deficit": 40.0,
+      "P_deficit": 30.0,
+      "K_deficit": 15.0
+    },
+    "recommended_fertilizers": {
+      "urea_kg": 49.7,
+      "dap_kg": 52.7,
+      "mop_kg": 20.3,
+      "urea_50kg_bags": 1.0,
+      "dap_50kg_bags": 1.1,
+      "mop_50kg_bags": 0.4
+    },
+    "application_schedule": [
+      {
+        "timing": "Basal Application (At Sowing)",
+        "urea_bags": 0.3,
+        "dap_bags": 1.1,
+        "mop_bags": 0.2
+      },
+      {
+        "timing": "First Top Dressing (Tillering / 25-30 DAS)",
+        "urea_bags": 0.4,
+        "dap_bags": 0,
+        "mop_bags": 0
+      },
+      {
+        "timing": "Second Top Dressing (Panicle Initiation / 50-60 DAS)",
+        "urea_bags": 0.3,
+        "dap_bags": 0,
+        "mop_bags": 0.2
+      }
+    ],
+    "warnings_and_soil_amendments": [],
+    "timestamp": "2026-11-18T23:16:18.604896",
+    "_id": "0369756c-387c-46a9-a2df-acca03295192"
+  }
+]

@@ -1,0 +1,381 @@
+[
+  {
+    "topic": "agrinova-soil",
+    "partition": 0,
+    "offset": 1,
+    "key": "SOIL-PRB-229",
+    "payload": {
+      "probe_id": "SOIL-PRB-229",
+      "field_id": "FLD-PB-20",
+      "moisture_pct": 19.7,
+      "soil_temp_c": 22.3,
+      "ec_ds_m": 0.27,
+      "ph": 7.41
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.023038",
+    "_id": "8661aac5-76d4-41e0-9549-063a68a00953"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 0,
+    "offset": 1,
+    "key": "Paddy",
+    "payload": {
+      "mandi_code": "APMC-508",
+      "commodity": "Paddy",
+      "live_modal_price": 4055,
+      "daily_arrivals_mt": 232.7
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.024709",
+    "_id": "e8e74974-cdf6-4fb0-8c73-804c74a535d9"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 1,
+    "offset": 2,
+    "key": "Potato",
+    "payload": {
+      "mandi_code": "APMC-509",
+      "commodity": "Potato",
+      "live_modal_price": 2022,
+      "daily_arrivals_mt": 180.7
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.025951",
+    "_id": "355160bb-a795-472d-b34c-d90123229ffd"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 0,
+    "offset": 1,
+    "key": "WTHR-STN-107",
+    "payload": {
+      "sensor_id": "WTHR-STN-107",
+      "temperature_c": 33.2,
+      "humidity_pct": 46.3,
+      "wind_speed_kmh": 8.1,
+      "rainfall_rate_mm_hr": 7.7
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.027042",
+    "_id": "d0262ef7-0f53-4021-811e-cbe223f4b434"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 1,
+    "offset": 2,
+    "key": "WTHR-STN-104",
+    "payload": {
+      "sensor_id": "WTHR-STN-104",
+      "temperature_c": 38.2,
+      "humidity_pct": 40.5,
+      "wind_speed_kmh": 10.1,
+      "rainfall_rate_mm_hr": 10.2
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.028274",
+    "_id": "450c5518-717f-42ce-8395-79a76906b6d0"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 0,
+    "offset": 3,
+    "key": "WTHR-STN-105",
+    "payload": {
+      "sensor_id": "WTHR-STN-105",
+      "temperature_c": 28.0,
+      "humidity_pct": 77.2,
+      "wind_speed_kmh": 12.7,
+      "rainfall_rate_mm_hr": 9.7
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.029326",
+    "_id": "13ce1a5f-839e-406e-a7a9-b50994272361"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 2,
+    "offset": 3,
+    "key": "Mustard",
+    "payload": {
+      "mandi_code": "APMC-515",
+      "commodity": "Mustard",
+      "live_modal_price": 5184,
+      "daily_arrivals_mt": 125.2
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.030365",
+    "_id": "419bd136-122c-4cfd-9926-aaeaa3e4b818"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 0,
+    "offset": 4,
+    "key": "WTHR-STN-106",
+    "payload": {
+      "sensor_id": "WTHR-STN-106",
+      "temperature_c": 23.3,
+      "humidity_pct": 70.6,
+      "wind_speed_kmh": 15.7,
+      "rainfall_rate_mm_hr": 5.3
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.031502",
+    "_id": "eba53c9e-172d-4ee6-ae66-d897ce9a5811"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 2,
+    "offset": 1,
+    "key": "IRR-VALVE-304",
+    "payload": {
+      "valve_id": "IRR-VALVE-304",
+      "status": "OPEN",
+      "flow_rate_lpm": 91.5,
+      "zone": "Zone-Alpha"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.032520",
+    "_id": "98844855-2c89-42b9-ae5d-8cc3784758ad"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 0,
+    "offset": 2,
+    "key": "SOIL-PRB-205",
+    "payload": {
+      "probe_id": "SOIL-PRB-205",
+      "field_id": "FLD-PB-26",
+      "moisture_pct": 35.2,
+      "soil_temp_c": 19.5,
+      "ec_ds_m": 0.49,
+      "ph": 7.46
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.033476",
+    "_id": "2d2df862-4095-4253-8308-4f0bf862f2f4"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 2,
+    "offset": 4,
+    "key": "Mustard",
+    "payload": {
+      "mandi_code": "APMC-514",
+      "commodity": "Mustard",
+      "live_modal_price": 6653,
+      "daily_arrivals_mt": 255.4
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.034541",
+    "_id": "c9de689f-c73d-4105-afdc-5a30424ea4b9"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 0,
+    "offset": 3,
+    "key": "SOIL-PRB-206",
+    "payload": {
+      "probe_id": "SOIL-PRB-206",
+      "field_id": "FLD-PB-21",
+      "moisture_pct": 25.0,
+      "soil_temp_c": 21.8,
+      "ec_ds_m": 0.27,
+      "ph": 6.77
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:06:11.035588",
+    "_id": "9ac8bac4-3bcc-4138-bc17-9738c63e8353"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 1,
+    "offset": 1,
+    "key": "SOIL-PRB-226",
+    "payload": {
+      "probe_id": "SOIL-PRB-226",
+      "field_id": "FLD-PB-39",
+      "moisture_pct": 25.3,
+      "soil_temp_c": 19.3,
+      "ec_ds_m": 0.65,
+      "ph": 6.94
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:15:50.065770",
+    "_id": "034049c1-719a-45b3-811d-7c58b43f04b0"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 1,
+    "offset": 1,
+    "key": "Potato",
+    "payload": {
+      "mandi_code": "APMC-509",
+      "commodity": "Potato",
+      "live_modal_price": 2801,
+      "daily_arrivals_mt": 144.1
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:15:50.067197",
+    "_id": "d08efd7d-9194-4e45-a889-240b81ea2937"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 2,
+    "offset": 1,
+    "key": "WTHR-STN-105",
+    "payload": {
+      "sensor_id": "WTHR-STN-105",
+      "temperature_c": 30.5,
+      "humidity_pct": 51.8,
+      "wind_speed_kmh": 20.4,
+      "rainfall_rate_mm_hr": 3.6
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:15:50.068853",
+    "_id": "5c3505bb-077e-403f-a024-e3ded5fcd4c0"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 1,
+    "offset": 2,
+    "key": "Potato",
+    "payload": {
+      "mandi_code": "APMC-509",
+      "commodity": "Potato",
+      "live_modal_price": 5486,
+      "daily_arrivals_mt": 169.7
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:15:50.070597",
+    "_id": "40899a95-405e-459e-9a82-51a309a9c6be"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 1,
+    "offset": 2,
+    "key": "SOIL-PRB-218",
+    "payload": {
+      "probe_id": "SOIL-PRB-218",
+      "field_id": "FLD-PB-40",
+      "moisture_pct": 29.5,
+      "soil_temp_c": 23.6,
+      "ec_ds_m": 0.74,
+      "ph": 6.23
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:15:50.072100",
+    "_id": "c33fe410-ed32-42d7-a3e7-3f64ae2486e0"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 1,
+    "offset": 2,
+    "key": "WTHR-STN-101",
+    "payload": {
+      "sensor_id": "WTHR-STN-101",
+      "temperature_c": 32.9,
+      "humidity_pct": 68.8,
+      "wind_speed_kmh": 23.0,
+      "rainfall_rate_mm_hr": 5.7
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:15:50.073253",
+    "_id": "f094fbc4-d48a-45ae-b08f-cb647fe5f8bc"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 1,
+    "offset": 1,
+    "key": "Wheat",
+    "payload": {
+      "mandi_code": "APMC-512",
+      "commodity": "Wheat",
+      "live_modal_price": 2594,
+      "daily_arrivals_mt": 205.6
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:16:18.642498",
+    "_id": "800309d9-bd90-4bac-8046-2d106a12974e"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 0,
+    "offset": 1,
+    "key": "SOIL-PRB-204",
+    "payload": {
+      "probe_id": "SOIL-PRB-204",
+      "field_id": "FLD-PB-30",
+      "moisture_pct": 35.9,
+      "soil_temp_c": 24.3,
+      "ec_ds_m": 0.42,
+      "ph": 6.25
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:16:18.644456",
+    "_id": "216e7361-af87-4079-9d4a-d51b71e65395"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 0,
+    "offset": 1,
+    "key": "IRR-VALVE-308",
+    "payload": {
+      "valve_id": "IRR-VALVE-308",
+      "status": "OPEN",
+      "flow_rate_lpm": 38.7,
+      "zone": "Zone-Gamma"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:16:18.646391",
+    "_id": "ec2fb5ba-2903-4eb8-beb5-143120a73083"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 2,
+    "offset": 2,
+    "key": "IRR-VALVE-316",
+    "payload": {
+      "valve_id": "IRR-VALVE-316",
+      "status": "SCHEDULED",
+      "flow_rate_lpm": 99.3,
+      "zone": "Zone-Alpha"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:16:18.648404",
+    "_id": "6a8ef2d2-5765-459f-964b-446e67a6937f"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 0,
+    "offset": 1,
+    "key": "WTHR-STN-107",
+    "payload": {
+      "sensor_id": "WTHR-STN-107",
+      "temperature_c": 30.2,
+      "humidity_pct": 69.1,
+      "wind_speed_kmh": 21.4,
+      "rainfall_rate_mm_hr": 2.6
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:16:18.650252",
+    "_id": "29369523-73e5-4167-8ba1-13c7c771e81c"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 0,
+    "offset": 3,
+    "key": "IRR-VALVE-320",
+    "payload": {
+      "valve_id": "IRR-VALVE-320",
+      "status": "CLOSED",
+      "flow_rate_lpm": 71.5,
+      "zone": "Zone-Gamma"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-18T23:16:18.652067",
+    "_id": "0af2f166-6087-4c41-a069-69ae27165137"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Welcome to AgriNova",
+    "message": "AgriNova AI-Powered Big Data Smart Agriculture Platform is online and healthy.",
+    "type": "INFO",
+    "timestamp": "2026-11-18T23:01:40.654873",
+    "read": false,
+    "_id": "739058cb-c5b4-4950-a287-5456ee69ba17"
+  },
+  {
+    "title": "Mandi Spot Alert",
+    "message": "Wheat arrivals in Ludhiana Mandi increased by 14% with modal price at \u20b92,420/Quintal.",
+    "type": "ALERT",
+    "timestamp": "2026-11-18T23:01:40.654886",
+    "read": false,
+    "_id": "e0dad3b4-f2b8-4bdf-a160-2e6857ca6672"
+  }
+]

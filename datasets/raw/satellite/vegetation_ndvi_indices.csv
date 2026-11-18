@@ -1,0 +1,1201 @@
+Field_ID,State,District,Observation_Date,NDVI_Index,EVI_Index,NDWI_Moisture_Index,Canopy_Vigour
+FLD-UTT-100,Uttar Pradesh,Kanpur,2024-09-02,0.245,0.216,-0.066,Fallow / Bare Soil
+FLD-KAR-101,Karnataka,Shimoga,2024-04-03,0.579,0.496,0.337,Healthy / Moderate Canopy
+FLD-AND-102,Andhra Pradesh,Guntur,2024-08-29,0.26,0.245,0.338,Fallow / Bare Soil
+FLD-KAR-103,Karnataka,Mandya,2024-08-14,0.319,0.298,-0.051,Stressed / Sparse Vegetation
+FLD-MAH-104,Maharashtra,Aurangabad,2024-11-08,0.431,0.385,0.418,Stressed / Sparse Vegetation
+FLD-MAH-105,Maharashtra,Nashik,2024-03-09,0.288,0.26,0.075,Fallow / Bare Soil
+FLD-PUN-106,Punjab,Bathinda,2024-01-19,0.415,0.361,0.056,Stressed / Sparse Vegetation
+FLD-PUN-107,Punjab,Ludhiana,2024-03-07,0.324,0.304,0.408,Stressed / Sparse Vegetation
+FLD-GUJ-108,Gujarat,Vadodara,2024-06-09,0.652,0.55,0.402,Excellent / Dense Canopy
+FLD-GUJ-109,Gujarat,Surat,2024-05-12,0.76,0.691,0.228,Excellent / Dense Canopy
+FLD-WES-110,West Bengal,Burdwan,2024-06-09,0.768,0.637,-0.171,Excellent / Dense Canopy
+FLD-GUJ-111,Gujarat,Mehsana,2024-12-07,0.555,0.506,0.004,Healthy / Moderate Canopy
+FLD-AND-112,Andhra Pradesh,Kurnool,2024-04-26,0.403,0.35,0.048,Stressed / Sparse Vegetation
+FLD-PUN-113,Punjab,Amritsar,2024-11-06,0.272,0.239,0.001,Fallow / Bare Soil
+FLD-AND-114,Andhra Pradesh,West Godavari,2024-06-23,0.593,0.559,0.001,Healthy / Moderate Canopy
+FLD-MAD-115,Madhya Pradesh,Indore,2024-11-14,0.773,0.637,0.049,Excellent / Dense Canopy
+FLD-MAH-116,Maharashtra,Aurangabad,2024-06-20,0.339,0.309,0.228,Stressed / Sparse Vegetation
+FLD-PUN-117,Punjab,Amritsar,2024-08-15,0.187,0.156,0.431,Fallow / Bare Soil
+FLD-HAR-118,Haryana,Ambala,2024-12-22,0.641,0.606,-0.219,Healthy / Moderate Canopy
+FLD-UTT-119,Uttar Pradesh,Kanpur,2024-07-11,0.639,0.583,0.313,Healthy / Moderate Canopy
+FLD-AND-120,Andhra Pradesh,Guntur,2024-11-09,0.716,0.664,-0.233,Excellent / Dense Canopy
+FLD-KAR-121,Karnataka,Mysuru,2024-02-11,0.472,0.396,-0.248,Healthy / Moderate Canopy
+FLD-MAD-122,Madhya Pradesh,Jabalpur,2024-04-12,0.747,0.672,0.13,Excellent / Dense Canopy
+FLD-TAM-123,Tamil Nadu,Madurai,2024-06-09,0.727,0.659,0.439,Excellent / Dense Canopy
+FLD-AND-124,Andhra Pradesh,Krishna,2024-06-21,0.284,0.235,-0.075,Fallow / Bare Soil
+FLD-TAM-125,Tamil Nadu,Thanjavur,2024-12-05,0.546,0.507,-0.095,Healthy / Moderate Canopy
+FLD-MAD-126,Madhya Pradesh,Jabalpur,2024-03-17,0.438,0.394,0.159,Stressed / Sparse Vegetation
+FLD-TAM-127,Tamil Nadu,Tiruchirappalli,2024-10-09,0.624,0.527,0.005,Healthy / Moderate Canopy
+FLD-KAR-128,Karnataka,Mysuru,2024-10-01,0.352,0.327,-0.002,Stressed / Sparse Vegetation
+FLD-TAM-129,Tamil Nadu,Madurai,2024-07-28,0.527,0.46,-0.048,Healthy / Moderate Canopy
+FLD-UTT-130,Uttar Pradesh,Agra,2024-11-26,0.289,0.25,0.107,Fallow / Bare Soil
+FLD-AND-131,Andhra Pradesh,Kurnool,2024-10-11,0.694,0.601,-0.237,Excellent / Dense Canopy
+FLD-TAM-132,Tamil Nadu,Coimbatore,2024-10-30,0.527,0.448,0.154,Healthy / Moderate Canopy
+FLD-MAH-133,Maharashtra,Nagpur,2024-01-10,0.274,0.249,0.017,Fallow / Bare Soil
+FLD-KAR-134,Karnataka,Mysuru,2024-10-11,0.675,0.577,0.178,Excellent / Dense Canopy
+FLD-MAD-135,Madhya Pradesh,Bhopal,2024-01-11,0.756,0.681,0.19,Excellent / Dense Canopy
+FLD-KAR-136,Karnataka,Dharwad,2024-10-01,0.809,0.734,-0.017,Excellent / Dense Canopy
+FLD-GUJ-137,Gujarat,Vadodara,2024-11-14,0.216,0.199,0.331,Fallow / Bare Soil
+FLD-AND-138,Andhra Pradesh,Kurnool,2024-04-18,0.683,0.582,-0.072,Excellent / Dense Canopy
+FLD-MAH-139,Maharashtra,Nashik,2024-09-19,0.357,0.3,0.36,Stressed / Sparse Vegetation
+FLD-AND-140,Andhra Pradesh,Chittoor,2024-11-09,0.815,0.762,0.366,Excellent / Dense Canopy
+FLD-MAD-141,Madhya Pradesh,Gwalior,2024-09-28,0.516,0.487,-0.223,Healthy / Moderate Canopy
+FLD-GUJ-142,Gujarat,Rajkot,2024-10-01,0.216,0.201,-0.091,Fallow / Bare Soil
+FLD-AND-143,Andhra Pradesh,Guntur,2024-07-13,0.644,0.536,0.07,Healthy / Moderate Canopy
+FLD-MAH-144,Maharashtra,Nagpur,2024-06-28,0.742,0.637,0.313,Excellent / Dense Canopy
+FLD-PUN-145,Punjab,Jalandhar,2024-01-24,0.307,0.268,0.124,Stressed / Sparse Vegetation
+FLD-KAR-146,Karnataka,Mandya,2024-09-29,0.312,0.277,-0.069,Stressed / Sparse Vegetation
+FLD-AND-147,Andhra Pradesh,Chittoor,2024-12-17,0.205,0.179,-0.127,Fallow / Bare Soil
+FLD-AND-148,Andhra Pradesh,Chittoor,2024-02-16,0.376,0.309,-0.087,Stressed / Sparse Vegetation
+FLD-HAR-149,Haryana,Hisar,2024-04-19,0.306,0.277,-0.105,Stressed / Sparse Vegetation
+FLD-AND-150,Andhra Pradesh,Kurnool,2024-06-03,0.824,0.757,-0.023,Excellent / Dense Canopy
+FLD-PUN-151,Punjab,Patiala,2024-07-20,0.307,0.27,0.082,Stressed / Sparse Vegetation
+FLD-GUJ-152,Gujarat,Mehsana,2024-07-26,0.316,0.27,0.236,Stressed / Sparse Vegetation
+FLD-KAR-153,Karnataka,Mysuru,2024-09-02,0.594,0.52,0.031,Healthy / Moderate Canopy
+FLD-PUN-154,Punjab,Patiala,2024-09-10,0.616,0.529,0.438,Healthy / Moderate Canopy
+FLD-TAM-155,Tamil Nadu,Salem,2024-10-08,0.402,0.371,0.311,Stressed / Sparse Vegetation
+FLD-AND-156,Andhra Pradesh,Chittoor,2024-10-26,0.506,0.451,0.301,Healthy / Moderate Canopy
+FLD-GUJ-157,Gujarat,Vadodara,2024-01-04,0.795,0.653,0.213,Excellent / Dense Canopy
+FLD-KAR-158,Karnataka,Mandya,2024-10-22,0.586,0.51,0.314,Healthy / Moderate Canopy
+FLD-MAH-159,Maharashtra,Solapur,2024-09-12,0.316,0.281,-0.01,Stressed / Sparse Vegetation
+FLD-TAM-160,Tamil Nadu,Salem,2024-07-04,0.32,0.285,0.255,Stressed / Sparse Vegetation
+FLD-GUJ-161,Gujarat,Vadodara,2024-08-18,0.256,0.221,0.254,Fallow / Bare Soil
+FLD-WES-162,West Bengal,Birbhum,2024-06-16,0.31,0.287,-0.147,Stressed / Sparse Vegetation
+FLD-UTT-163,Uttar Pradesh,Varanasi,2024-05-28,0.32,0.272,-0.183,Stressed / Sparse Vegetation
+FLD-WES-164,West Bengal,Hooghly,2024-12-24,0.796,0.747,0.053,Excellent / Dense Canopy
+FLD-WES-165,West Bengal,Murshidabad,2024-07-19,0.295,0.267,0.202,Fallow / Bare Soil
+FLD-HAR-166,Haryana,Hisar,2024-04-03,0.729,0.623,0.257,Excellent / Dense Canopy
+FLD-AND-167,Andhra Pradesh,Chittoor,2024-08-25,0.705,0.62,0.002,Excellent / Dense Canopy
+FLD-UTT-168,Uttar Pradesh,Agra,2024-08-04,0.539,0.497,0.223,Healthy / Moderate Canopy
+FLD-TAM-169,Tamil Nadu,Thanjavur,2024-07-14,0.21,0.183,0.047,Fallow / Bare Soil
+FLD-UTT-170,Uttar Pradesh,Agra,2024-10-18,0.185,0.172,0.171,Fallow / Bare Soil
+FLD-PUN-171,Punjab,Bathinda,2024-03-25,0.372,0.309,0.121,Stressed / Sparse Vegetation
+FLD-PUN-172,Punjab,Jalandhar,2024-11-03,0.49,0.421,0.066,Healthy / Moderate Canopy
+FLD-KAR-173,Karnataka,Mandya,2024-03-05,0.442,0.397,0.317,Stressed / Sparse Vegetation
+FLD-MAD-174,Madhya Pradesh,Jabalpur,2024-03-12,0.186,0.171,0.028,Fallow / Bare Soil
+FLD-GUJ-175,Gujarat,Mehsana,2024-06-21,0.437,0.377,0.052,Stressed / Sparse Vegetation
+FLD-KAR-176,Karnataka,Belagavi,2024-07-31,0.733,0.604,0.205,Excellent / Dense Canopy
+FLD-MAH-177,Maharashtra,Solapur,2024-04-11,0.799,0.681,-0.011,Excellent / Dense Canopy
+FLD-AND-178,Andhra Pradesh,Krishna,2024-09-07,0.454,0.43,0.112,Healthy / Moderate Canopy
+FLD-PUN-179,Punjab,Jalandhar,2024-11-18,0.456,0.431,-0.015,Healthy / Moderate Canopy
+FLD-MAD-180,Madhya Pradesh,Ujjain,2024-11-16,0.607,0.555,0.204,Healthy / Moderate Canopy
+FLD-UTT-181,Uttar Pradesh,Prayagraj,2024-10-22,0.275,0.259,0.329,Fallow / Bare Soil
+FLD-PUN-182,Punjab,Bathinda,2024-09-27,0.243,0.211,0.04,Fallow / Bare Soil
+FLD-TAM-183,Tamil Nadu,Madurai,2024-01-20,0.323,0.285,0.329,Stressed / Sparse Vegetation
+FLD-UTT-184,Uttar Pradesh,Meerut,2024-10-06,0.591,0.536,-0.036,Healthy / Moderate Canopy
+FLD-MAH-185,Maharashtra,Aurangabad,2024-11-13,0.662,0.562,-0.171,Excellent / Dense Canopy
+FLD-MAD-186,Madhya Pradesh,Ujjain,2024-01-21,0.434,0.401,0.239,Stressed / Sparse Vegetation
+FLD-MAH-187,Maharashtra,Nagpur,2024-10-03,0.218,0.204,-0.11,Fallow / Bare Soil
+FLD-GUJ-188,Gujarat,Mehsana,2024-12-06,0.766,0.724,0.141,Excellent / Dense Canopy
+FLD-MAH-189,Maharashtra,Nagpur,2024-05-17,0.395,0.364,-0.065,Stressed / Sparse Vegetation
+FLD-MAH-190,Maharashtra,Aurangabad,2024-10-18,0.768,0.702,0.023,Excellent / Dense Canopy
+FLD-AND-191,Andhra Pradesh,Guntur,2024-10-13,0.744,0.652,0.205,Excellent / Dense Canopy
+FLD-PUN-192,Punjab,Patiala,2024-01-23,0.345,0.296,-0.065,Stressed / Sparse Vegetation
+FLD-PUN-193,Punjab,Jalandhar,2024-01-16,0.75,0.71,0.36,Excellent / Dense Canopy
+FLD-TAM-194,Tamil Nadu,Thanjavur,2024-07-17,0.512,0.43,-0.232,Healthy / Moderate Canopy
+FLD-AND-195,Andhra Pradesh,Chittoor,2024-11-28,0.252,0.237,-0.197,Fallow / Bare Soil
+FLD-WES-196,West Bengal,Burdwan,2024-02-12,0.341,0.285,-0.095,Stressed / Sparse Vegetation
+FLD-MAH-197,Maharashtra,Nashik,2024-09-22,0.232,0.203,-0.137,Fallow / Bare Soil
+FLD-UTT-198,Uttar Pradesh,Prayagraj,2024-05-29,0.569,0.473,0.361,Healthy / Moderate Canopy
+FLD-TAM-199,Tamil Nadu,Tiruchirappalli,2024-07-09,0.702,0.647,0.353,Excellent / Dense Canopy
+FLD-KAR-200,Karnataka,Shimoga,2024-08-09,0.582,0.516,0.25,Healthy / Moderate Canopy
+FLD-WES-201,West Bengal,Hooghly,2024-05-26,0.468,0.402,0.397,Healthy / Moderate Canopy
+FLD-GUJ-202,Gujarat,Surat,2024-06-13,0.467,0.421,-0.128,Healthy / Moderate Canopy
+FLD-MAD-203,Madhya Pradesh,Jabalpur,2024-09-17,0.303,0.262,-0.145,Stressed / Sparse Vegetation
+FLD-UTT-204,Uttar Pradesh,Agra,2024-11-15,0.755,0.703,0.222,Excellent / Dense Canopy
+FLD-TAM-205,Tamil Nadu,Madurai,2024-02-24,0.585,0.549,0.334,Healthy / Moderate Canopy
+FLD-UTT-206,Uttar Pradesh,Agra,2024-06-23,0.182,0.156,0.269,Fallow / Bare Soil
+FLD-MAD-207,Madhya Pradesh,Ujjain,2024-04-03,0.27,0.227,-0.105,Fallow / Bare Soil
+FLD-UTT-208,Uttar Pradesh,Prayagraj,2024-01-13,0.293,0.255,-0.078,Fallow / Bare Soil
+FLD-AND-209,Andhra Pradesh,Guntur,2024-12-07,0.415,0.352,0.084,Stressed / Sparse Vegetation
+FLD-AND-210,Andhra Pradesh,West Godavari,2024-10-02,0.717,0.632,-0.055,Excellent / Dense Canopy
+FLD-HAR-211,Haryana,Rohtak,2024-03-13,0.563,0.466,0.436,Healthy / Moderate Canopy
+FLD-PUN-212,Punjab,Patiala,2024-11-19,0.341,0.287,-0.081,Stressed / Sparse Vegetation
+FLD-AND-213,Andhra Pradesh,Kurnool,2024-08-12,0.288,0.26,-0.115,Fallow / Bare Soil
+FLD-WES-214,West Bengal,Burdwan,2024-05-24,0.68,0.596,-0.101,Excellent / Dense Canopy
+FLD-UTT-215,Uttar Pradesh,Kanpur,2024-11-18,0.525,0.453,0.373,Healthy / Moderate Canopy
+FLD-MAH-216,Maharashtra,Nagpur,2024-03-29,0.25,0.213,0.025,Fallow / Bare Soil
+FLD-MAD-217,Madhya Pradesh,Gwalior,2024-07-31,0.786,0.726,0.3,Excellent / Dense Canopy
+FLD-UTT-218,Uttar Pradesh,Prayagraj,2024-09-24,0.582,0.517,0.19,Healthy / Moderate Canopy
+FLD-MAD-219,Madhya Pradesh,Jabalpur,2024-05-17,0.324,0.268,0.021,Stressed / Sparse Vegetation
+FLD-AND-220,Andhra Pradesh,Kurnool,2024-02-03,0.403,0.364,0.249,Stressed / Sparse Vegetation
+FLD-UTT-221,Uttar Pradesh,Kanpur,2024-10-02,0.435,0.36,0.2,Stressed / Sparse Vegetation
+FLD-PUN-222,Punjab,Bathinda,2024-08-03,0.585,0.508,0.119,Healthy / Moderate Canopy
+FLD-MAD-223,Madhya Pradesh,Ujjain,2024-06-16,0.366,0.303,0.44,Stressed / Sparse Vegetation
+FLD-AND-224,Andhra Pradesh,West Godavari,2024-02-08,0.794,0.687,0.004,Excellent / Dense Canopy
+FLD-MAD-225,Madhya Pradesh,Gwalior,2024-09-08,0.554,0.487,0.269,Healthy / Moderate Canopy
+FLD-TAM-226,Tamil Nadu,Tiruchirappalli,2024-12-03,0.574,0.499,-0.003,Healthy / Moderate Canopy
+FLD-HAR-227,Haryana,Hisar,2024-09-03,0.623,0.573,0.202,Healthy / Moderate Canopy
+FLD-HAR-228,Haryana,Karnal,2024-10-06,0.516,0.462,-0.02,Healthy / Moderate Canopy
+FLD-WES-229,West Bengal,Birbhum,2024-01-04,0.683,0.64,0.121,Excellent / Dense Canopy
+FLD-WES-230,West Bengal,Murshidabad,2024-01-19,0.641,0.556,0.446,Healthy / Moderate Canopy
+FLD-MAD-231,Madhya Pradesh,Gwalior,2024-05-07,0.33,0.305,0.138,Stressed / Sparse Vegetation
+FLD-KAR-232,Karnataka,Dharwad,2024-08-07,0.462,0.395,0.224,Healthy / Moderate Canopy
+FLD-PUN-233,Punjab,Patiala,2024-08-03,0.18,0.163,-0.192,Fallow / Bare Soil
+FLD-GUJ-234,Gujarat,Rajkot,2024-08-04,0.54,0.503,0.173,Healthy / Moderate Canopy
+FLD-GUJ-235,Gujarat,Rajkot,2024-09-19,0.651,0.612,0.147,Excellent / Dense Canopy
+FLD-GUJ-236,Gujarat,Rajkot,2024-08-23,0.433,0.395,0.328,Stressed / Sparse Vegetation
+FLD-HAR-237,Haryana,Hisar,2024-04-06,0.715,0.678,0.286,Excellent / Dense Canopy
+FLD-PUN-238,Punjab,Amritsar,2024-03-01,0.502,0.427,0.151,Healthy / Moderate Canopy
+FLD-MAH-239,Maharashtra,Nagpur,2024-05-23,0.224,0.184,0.129,Fallow / Bare Soil
+FLD-AND-240,Andhra Pradesh,Krishna,2024-07-22,0.546,0.465,-0.149,Healthy / Moderate Canopy
+FLD-UTT-241,Uttar Pradesh,Prayagraj,2024-02-08,0.203,0.169,0.273,Fallow / Bare Soil
+FLD-UTT-242,Uttar Pradesh,Agra,2024-12-11,0.361,0.333,-0.127,Stressed / Sparse Vegetation
+FLD-MAH-243,Maharashtra,Nashik,2024-09-05,0.548,0.516,0.308,Healthy / Moderate Canopy
+FLD-PUN-244,Punjab,Bathinda,2024-02-01,0.304,0.25,0.394,Stressed / Sparse Vegetation
+FLD-HAR-245,Haryana,Ambala,2024-11-12,0.529,0.465,0.022,Healthy / Moderate Canopy
+FLD-GUJ-246,Gujarat,Rajkot,2024-12-23,0.799,0.713,-0.062,Excellent / Dense Canopy
+FLD-HAR-247,Haryana,Ambala,2024-04-09,0.738,0.647,0.198,Excellent / Dense Canopy
+FLD-HAR-248,Haryana,Sirsa,2024-10-29,0.603,0.542,-0.155,Healthy / Moderate Canopy
+FLD-HAR-249,Haryana,Rohtak,2024-01-04,0.845,0.786,-0.04,Excellent / Dense Canopy
+FLD-WES-250,West Bengal,Hooghly,2024-04-05,0.491,0.43,0.158,Healthy / Moderate Canopy
+FLD-UTT-251,Uttar Pradesh,Meerut,2024-05-06,0.538,0.501,0.206,Healthy / Moderate Canopy
+FLD-PUN-252,Punjab,Jalandhar,2024-07-15,0.312,0.281,0.145,Stressed / Sparse Vegetation
+FLD-PUN-253,Punjab,Patiala,2024-01-04,0.212,0.194,-0.165,Fallow / Bare Soil
+FLD-AND-254,Andhra Pradesh,Krishna,2024-03-14,0.714,0.676,-0.107,Excellent / Dense Canopy
+FLD-GUJ-255,Gujarat,Ahmedabad,2024-12-01,0.594,0.562,0.44,Healthy / Moderate Canopy
+FLD-UTT-256,Uttar Pradesh,Varanasi,2024-05-23,0.513,0.471,-0.171,Healthy / Moderate Canopy
+FLD-UTT-257,Uttar Pradesh,Agra,2024-02-01,0.6,0.502,0.437,Healthy / Moderate Canopy
+FLD-HAR-258,Haryana,Hisar,2024-05-18,0.334,0.276,0.388,Stressed / Sparse Vegetation
+FLD-MAH-259,Maharashtra,Pune,2024-06-13,0.403,0.35,0.003,Stressed / Sparse Vegetation
+FLD-HAR-260,Haryana,Hisar,2024-04-20,0.461,0.432,0.407,Healthy / Moderate Canopy
+FLD-WES-261,West Bengal,Birbhum,2024-02-08,0.773,0.653,0.185,Excellent / Dense Canopy
+FLD-KAR-262,Karnataka,Shimoga,2024-11-14,0.555,0.471,0.411,Healthy / Moderate Canopy
+FLD-WES-263,West Bengal,Birbhum,2024-08-01,0.433,0.357,0.098,Stressed / Sparse Vegetation
+FLD-PUN-264,Punjab,Bathinda,2024-03-26,0.441,0.383,0.444,Stressed / Sparse Vegetation
+FLD-MAD-265,Madhya Pradesh,Gwalior,2024-02-27,0.733,0.665,-0.085,Excellent / Dense Canopy
+FLD-PUN-266,Punjab,Amritsar,2024-11-26,0.84,0.778,0.312,Excellent / Dense Canopy
+FLD-MAD-267,Madhya Pradesh,Indore,2024-12-04,0.247,0.214,0.064,Fallow / Bare Soil
+FLD-TAM-268,Tamil Nadu,Salem,2024-10-10,0.763,0.69,0.101,Excellent / Dense Canopy
+FLD-MAH-269,Maharashtra,Solapur,2024-02-12,0.398,0.328,0.404,Stressed / Sparse Vegetation
+FLD-MAH-270,Maharashtra,Solapur,2024-11-02,0.479,0.407,-0.02,Healthy / Moderate Canopy
+FLD-HAR-271,Haryana,Karnal,2024-11-07,0.472,0.402,0.041,Healthy / Moderate Canopy
+FLD-AND-272,Andhra Pradesh,West Godavari,2024-08-29,0.588,0.512,-0.042,Healthy / Moderate Canopy
+FLD-KAR-273,Karnataka,Belagavi,2024-12-09,0.606,0.515,-0.219,Healthy / Moderate Canopy
+FLD-MAD-274,Madhya Pradesh,Bhopal,2024-12-24,0.292,0.254,0.097,Fallow / Bare Soil
+FLD-UTT-275,Uttar Pradesh,Kanpur,2024-11-12,0.46,0.379,-0.094,Healthy / Moderate Canopy
+FLD-PUN-276,Punjab,Jalandhar,2024-01-21,0.649,0.611,0.131,Healthy / Moderate Canopy
+FLD-TAM-277,Tamil Nadu,Thanjavur,2024-04-12,0.375,0.315,-0.009,Stressed / Sparse Vegetation
+FLD-MAD-278,Madhya Pradesh,Gwalior,2024-10-23,0.265,0.235,-0.041,Fallow / Bare Soil
+FLD-MAH-279,Maharashtra,Pune,2024-02-17,0.184,0.17,0.248,Fallow / Bare Soil
+FLD-TAM-280,Tamil Nadu,Thanjavur,2024-03-26,0.217,0.182,0.386,Fallow / Bare Soil
+FLD-KAR-281,Karnataka,Dharwad,2024-08-12,0.596,0.556,-0.053,Healthy / Moderate Canopy
+FLD-MAH-282,Maharashtra,Nagpur,2024-01-20,0.634,0.553,0.316,Healthy / Moderate Canopy
+FLD-TAM-283,Tamil Nadu,Thanjavur,2024-09-27,0.385,0.321,-0.213,Stressed / Sparse Vegetation
+FLD-TAM-284,Tamil Nadu,Tiruchirappalli,2024-04-30,0.394,0.344,0.125,Stressed / Sparse Vegetation
+FLD-MAD-285,Madhya Pradesh,Jabalpur,2024-05-04,0.249,0.22,0.211,Fallow / Bare Soil
+FLD-MAD-286,Madhya Pradesh,Ujjain,2024-12-03,0.29,0.253,0.186,Fallow / Bare Soil
+FLD-WES-287,West Bengal,Burdwan,2024-12-11,0.666,0.564,0.235,Excellent / Dense Canopy
+FLD-MAH-288,Maharashtra,Pune,2024-11-04,0.684,0.594,-0.099,Excellent / Dense Canopy
+FLD-KAR-289,Karnataka,Dharwad,2024-06-01,0.308,0.27,0.339,Stressed / Sparse Vegetation
+FLD-WES-290,West Bengal,Burdwan,2024-02-05,0.736,0.606,-0.165,Excellent / Dense Canopy
+FLD-PUN-291,Punjab,Jalandhar,2024-04-03,0.631,0.525,0.047,Healthy / Moderate Canopy
+FLD-MAH-292,Maharashtra,Pune,2024-09-15,0.829,0.683,0.331,Excellent / Dense Canopy
+FLD-MAD-293,Madhya Pradesh,Jabalpur,2024-05-13,0.432,0.358,0.357,Stressed / Sparse Vegetation
+FLD-PUN-294,Punjab,Amritsar,2024-08-25,0.714,0.6,0.39,Excellent / Dense Canopy
+FLD-PUN-295,Punjab,Jalandhar,2024-06-17,0.289,0.261,0.078,Fallow / Bare Soil
+FLD-GUJ-296,Gujarat,Ahmedabad,2024-09-28,0.706,0.628,0.354,Excellent / Dense Canopy
+FLD-HAR-297,Haryana,Karnal,2024-08-21,0.413,0.351,0.43,Stressed / Sparse Vegetation
+FLD-PUN-298,Punjab,Ludhiana,2024-01-04,0.606,0.537,0.042,Healthy / Moderate Canopy
+FLD-UTT-299,Uttar Pradesh,Agra,2024-01-16,0.214,0.195,-0.238,Fallow / Bare Soil
+FLD-MAH-300,Maharashtra,Aurangabad,2024-01-26,0.318,0.294,0.33,Stressed / Sparse Vegetation
+FLD-PUN-301,Punjab,Ludhiana,2024-08-16,0.588,0.538,0.309,Healthy / Moderate Canopy
+FLD-WES-302,West Bengal,Hooghly,2024-02-22,0.532,0.482,0.153,Healthy / Moderate Canopy
+FLD-GUJ-303,Gujarat,Ahmedabad,2024-01-02,0.684,0.617,0.151,Excellent / Dense Canopy
+FLD-UTT-304,Uttar Pradesh,Prayagraj,2024-03-07,0.609,0.561,-0.073,Healthy / Moderate Canopy
+FLD-TAM-305,Tamil Nadu,Salem,2024-09-13,0.298,0.281,-0.163,Fallow / Bare Soil
+FLD-WES-306,West Bengal,Birbhum,2024-09-13,0.473,0.408,-0.175,Healthy / Moderate Canopy
+FLD-TAM-307,Tamil Nadu,Thanjavur,2024-01-02,0.461,0.385,0.263,Healthy / Moderate Canopy
+FLD-MAD-308,Madhya Pradesh,Gwalior,2024-09-23,0.505,0.462,0.034,Healthy / Moderate Canopy
+FLD-UTT-309,Uttar Pradesh,Kanpur,2024-04-19,0.46,0.393,0.241,Healthy / Moderate Canopy
+FLD-WES-310,West Bengal,Murshidabad,2024-09-12,0.32,0.295,0.157,Stressed / Sparse Vegetation
+FLD-UTT-311,Uttar Pradesh,Varanasi,2024-07-29,0.455,0.421,0.351,Healthy / Moderate Canopy
+FLD-AND-312,Andhra Pradesh,Guntur,2024-08-02,0.49,0.455,0.37,Healthy / Moderate Canopy
+FLD-GUJ-313,Gujarat,Ahmedabad,2024-06-20,0.378,0.32,0.132,Stressed / Sparse Vegetation
+FLD-UTT-314,Uttar Pradesh,Meerut,2024-03-04,0.789,0.708,0.245,Excellent / Dense Canopy
+FLD-AND-315,Andhra Pradesh,West Godavari,2024-07-22,0.318,0.263,-0.216,Stressed / Sparse Vegetation
+FLD-HAR-316,Haryana,Karnal,2024-09-21,0.821,0.771,-0.039,Excellent / Dense Canopy
+FLD-HAR-317,Haryana,Hisar,2024-07-04,0.201,0.182,-0.156,Fallow / Bare Soil
+FLD-PUN-318,Punjab,Jalandhar,2024-04-08,0.485,0.412,-0.129,Healthy / Moderate Canopy
+FLD-MAD-319,Madhya Pradesh,Ujjain,2024-10-10,0.691,0.568,-0.079,Excellent / Dense Canopy
+FLD-UTT-320,Uttar Pradesh,Meerut,2024-11-17,0.223,0.191,-0.056,Fallow / Bare Soil
+FLD-AND-321,Andhra Pradesh,Guntur,2024-06-04,0.291,0.276,0.141,Fallow / Bare Soil
+FLD-HAR-322,Haryana,Sirsa,2024-08-03,0.21,0.198,0.39,Fallow / Bare Soil
+FLD-KAR-323,Karnataka,Mysuru,2024-09-01,0.202,0.168,-0.063,Fallow / Bare Soil
+FLD-WES-324,West Bengal,Burdwan,2024-11-21,0.581,0.488,-0.004,Healthy / Moderate Canopy
+FLD-MAH-325,Maharashtra,Solapur,2024-07-16,0.504,0.447,-0.17,Healthy / Moderate Canopy
+FLD-AND-326,Andhra Pradesh,Chittoor,2024-03-30,0.33,0.272,0.39,Stressed / Sparse Vegetation
+FLD-TAM-327,Tamil Nadu,Thanjavur,2024-07-27,0.602,0.513,0.391,Healthy / Moderate Canopy
+FLD-GUJ-328,Gujarat,Rajkot,2024-01-03,0.527,0.49,0.352,Healthy / Moderate Canopy
+FLD-WES-329,West Bengal,Burdwan,2024-12-21,0.642,0.599,0.301,Healthy / Moderate Canopy
+FLD-UTT-330,Uttar Pradesh,Prayagraj,2024-07-23,0.76,0.649,0.369,Excellent / Dense Canopy
+FLD-WES-331,West Bengal,Murshidabad,2024-09-14,0.425,0.398,0.089,Stressed / Sparse Vegetation
+FLD-UTT-332,Uttar Pradesh,Varanasi,2024-12-01,0.646,0.542,-0.178,Healthy / Moderate Canopy
+FLD-AND-333,Andhra Pradesh,Guntur,2024-11-17,0.315,0.27,0.215,Stressed / Sparse Vegetation
+FLD-GUJ-334,Gujarat,Ahmedabad,2024-06-28,0.662,0.588,-0.173,Excellent / Dense Canopy
+FLD-MAD-335,Madhya Pradesh,Bhopal,2024-08-22,0.182,0.157,0.432,Fallow / Bare Soil
+FLD-AND-336,Andhra Pradesh,Chittoor,2024-12-04,0.456,0.395,-0.237,Healthy / Moderate Canopy
+FLD-TAM-337,Tamil Nadu,Coimbatore,2024-08-17,0.747,0.653,0.112,Excellent / Dense Canopy
+FLD-MAH-338,Maharashtra,Solapur,2024-11-15,0.23,0.215,-0.081,Fallow / Bare Soil
+FLD-UTT-339,Uttar Pradesh,Prayagraj,2024-02-28,0.696,0.633,0.416,Excellent / Dense Canopy
+FLD-KAR-340,Karnataka,Mysuru,2024-09-20,0.814,0.768,-0.146,Excellent / Dense Canopy
+FLD-UTT-341,Uttar Pradesh,Meerut,2024-03-22,0.206,0.177,0.029,Fallow / Bare Soil
+FLD-PUN-342,Punjab,Patiala,2024-02-14,0.698,0.6,0.267,Excellent / Dense Canopy
+FLD-PUN-343,Punjab,Jalandhar,2024-11-23,0.637,0.565,0.261,Healthy / Moderate Canopy
+FLD-UTT-344,Uttar Pradesh,Meerut,2024-10-19,0.52,0.443,-0.153,Healthy / Moderate Canopy
+FLD-MAD-345,Madhya Pradesh,Indore,2024-04-22,0.443,0.372,0.157,Stressed / Sparse Vegetation
+FLD-PUN-346,Punjab,Patiala,2024-05-19,0.667,0.583,0.231,Excellent / Dense Canopy
+FLD-WES-347,West Bengal,Hooghly,2024-05-12,0.231,0.2,0.233,Fallow / Bare Soil
+FLD-PUN-348,Punjab,Ludhiana,2024-12-12,0.574,0.492,0.109,Healthy / Moderate Canopy
+FLD-GUJ-349,Gujarat,Rajkot,2024-04-03,0.514,0.466,-0.216,Healthy / Moderate Canopy
+FLD-TAM-350,Tamil Nadu,Madurai,2024-12-16,0.586,0.508,-0.203,Healthy / Moderate Canopy
+FLD-TAM-351,Tamil Nadu,Salem,2024-09-27,0.465,0.417,-0.023,Healthy / Moderate Canopy
+FLD-KAR-352,Karnataka,Mysuru,2024-12-13,0.399,0.336,0.329,Stressed / Sparse Vegetation
+FLD-TAM-353,Tamil Nadu,Madurai,2024-11-30,0.259,0.219,-0.2,Fallow / Bare Soil
+FLD-HAR-354,Haryana,Hisar,2024-06-06,0.355,0.308,0.025,Stressed / Sparse Vegetation
+FLD-MAD-355,Madhya Pradesh,Jabalpur,2024-07-09,0.742,0.614,0.018,Excellent / Dense Canopy
+FLD-WES-356,West Bengal,Hooghly,2024-08-03,0.663,0.578,0.213,Excellent / Dense Canopy
+FLD-HAR-357,Haryana,Ambala,2024-11-01,0.777,0.65,0.063,Excellent / Dense Canopy
+FLD-MAD-358,Madhya Pradesh,Jabalpur,2024-01-05,0.732,0.607,0.304,Excellent / Dense Canopy
+FLD-GUJ-359,Gujarat,Surat,2024-03-28,0.285,0.266,0.01,Fallow / Bare Soil
+FLD-WES-360,West Bengal,Hooghly,2024-07-08,0.257,0.233,0.331,Fallow / Bare Soil
+FLD-WES-361,West Bengal,Nadia,2024-11-20,0.307,0.273,0.269,Stressed / Sparse Vegetation
+FLD-AND-362,Andhra Pradesh,Kurnool,2024-11-27,0.426,0.362,-0.149,Stressed / Sparse Vegetation
+FLD-MAD-363,Madhya Pradesh,Gwalior,2024-02-11,0.32,0.282,-0.08,Stressed / Sparse Vegetation
+FLD-MAH-364,Maharashtra,Nashik,2024-03-26,0.488,0.425,-0.041,Healthy / Moderate Canopy
+FLD-UTT-365,Uttar Pradesh,Meerut,2024-04-17,0.378,0.349,0.435,Stressed / Sparse Vegetation
+FLD-MAD-366,Madhya Pradesh,Jabalpur,2024-01-19,0.807,0.764,0.071,Excellent / Dense Canopy
+FLD-GUJ-367,Gujarat,Rajkot,2024-03-23,0.769,0.7,0.279,Excellent / Dense Canopy
+FLD-HAR-368,Haryana,Sirsa,2024-05-09,0.269,0.245,0.438,Fallow / Bare Soil
+FLD-UTT-369,Uttar Pradesh,Kanpur,2024-07-27,0.601,0.569,0.235,Healthy / Moderate Canopy
+FLD-MAD-370,Madhya Pradesh,Ujjain,2024-03-10,0.356,0.319,-0.053,Stressed / Sparse Vegetation
+FLD-MAH-371,Maharashtra,Solapur,2024-02-26,0.488,0.426,-0.211,Healthy / Moderate Canopy
+FLD-PUN-372,Punjab,Ludhiana,2024-12-11,0.431,0.391,0.177,Stressed / Sparse Vegetation
+FLD-HAR-373,Haryana,Rohtak,2024-07-07,0.652,0.585,-0.145,Excellent / Dense Canopy
+FLD-MAD-374,Madhya Pradesh,Gwalior,2024-10-13,0.783,0.71,0.106,Excellent / Dense Canopy
+FLD-AND-375,Andhra Pradesh,Krishna,2024-09-26,0.53,0.445,0.328,Healthy / Moderate Canopy
+FLD-PUN-376,Punjab,Ludhiana,2024-03-10,0.683,0.638,0.246,Excellent / Dense Canopy
+FLD-TAM-377,Tamil Nadu,Tiruchirappalli,2024-09-25,0.437,0.39,0.151,Stressed / Sparse Vegetation
+FLD-AND-378,Andhra Pradesh,Krishna,2024-09-09,0.789,0.686,0.036,Excellent / Dense Canopy
+FLD-UTT-379,Uttar Pradesh,Prayagraj,2024-10-15,0.752,0.712,-0.07,Excellent / Dense Canopy
+FLD-MAD-380,Madhya Pradesh,Gwalior,2024-04-20,0.643,0.566,0.313,Healthy / Moderate Canopy
+FLD-PUN-381,Punjab,Bathinda,2024-11-14,0.372,0.337,0.255,Stressed / Sparse Vegetation
+FLD-UTT-382,Uttar Pradesh,Varanasi,2024-04-04,0.715,0.656,-0.012,Excellent / Dense Canopy
+FLD-MAH-383,Maharashtra,Nagpur,2024-02-21,0.194,0.182,0.112,Fallow / Bare Soil
+FLD-HAR-384,Haryana,Karnal,2024-07-28,0.431,0.402,0.284,Stressed / Sparse Vegetation
+FLD-HAR-385,Haryana,Rohtak,2024-11-22,0.748,0.644,-0.009,Excellent / Dense Canopy
+FLD-TAM-386,Tamil Nadu,Salem,2024-04-14,0.398,0.351,-0.242,Stressed / Sparse Vegetation
+FLD-KAR-387,Karnataka,Dharwad,2024-10-09,0.397,0.335,-0.023,Stressed / Sparse Vegetation
+FLD-HAR-388,Haryana,Ambala,2024-08-14,0.712,0.618,0.321,Excellent / Dense Canopy
+FLD-PUN-389,Punjab,Patiala,2024-02-07,0.593,0.511,0.432,Healthy / Moderate Canopy
+FLD-AND-390,Andhra Pradesh,Krishna,2024-08-02,0.709,0.621,0.279,Excellent / Dense Canopy
+FLD-WES-391,West Bengal,Murshidabad,2024-09-10,0.412,0.357,-0.014,Stressed / Sparse Vegetation
+FLD-KAR-392,Karnataka,Belagavi,2024-07-14,0.442,0.412,0.411,Stressed / Sparse Vegetation
+FLD-TAM-393,Tamil Nadu,Salem,2024-04-02,0.217,0.193,0.357,Fallow / Bare Soil
+FLD-KAR-394,Karnataka,Dharwad,2024-10-31,0.221,0.189,-0.134,Fallow / Bare Soil
+FLD-GUJ-395,Gujarat,Surat,2024-01-21,0.757,0.635,0.404,Excellent / Dense Canopy
+FLD-HAR-396,Haryana,Karnal,2024-05-18,0.545,0.5,0.385,Healthy / Moderate Canopy
+FLD-TAM-397,Tamil Nadu,Salem,2024-02-16,0.234,0.211,0.098,Fallow / Bare Soil
+FLD-PUN-398,Punjab,Bathinda,2024-06-25,0.307,0.264,-0.216,Stressed / Sparse Vegetation
+FLD-MAD-399,Madhya Pradesh,Ujjain,2024-01-29,0.489,0.439,-0.233,Healthy / Moderate Canopy
+FLD-AND-400,Andhra Pradesh,Guntur,2024-07-30,0.188,0.155,0.059,Fallow / Bare Soil
+FLD-KAR-401,Karnataka,Belagavi,2024-07-10,0.33,0.29,-0.089,Stressed / Sparse Vegetation
+FLD-KAR-402,Karnataka,Mysuru,2024-07-14,0.34,0.309,-0.247,Stressed / Sparse Vegetation
+FLD-UTT-403,Uttar Pradesh,Agra,2024-10-10,0.355,0.302,0.354,Stressed / Sparse Vegetation
+FLD-UTT-404,Uttar Pradesh,Kanpur,2024-06-06,0.205,0.178,0.247,Fallow / Bare Soil
+FLD-GUJ-405,Gujarat,Surat,2024-01-29,0.804,0.749,-0.026,Excellent / Dense Canopy
+FLD-TAM-406,Tamil Nadu,Salem,2024-01-20,0.5,0.42,0.143,Healthy / Moderate Canopy
+FLD-WES-407,West Bengal,Birbhum,2024-11-26,0.407,0.368,0.233,Stressed / Sparse Vegetation
+FLD-UTT-408,Uttar Pradesh,Prayagraj,2024-06-28,0.75,0.66,-0.192,Excellent / Dense Canopy
+FLD-PUN-409,Punjab,Bathinda,2024-04-28,0.809,0.682,0.444,Excellent / Dense Canopy
+FLD-PUN-410,Punjab,Amritsar,2024-05-24,0.758,0.63,0.318,Excellent / Dense Canopy
+FLD-MAD-411,Madhya Pradesh,Bhopal,2024-01-29,0.204,0.17,0.253,Fallow / Bare Soil
+FLD-AND-412,Andhra Pradesh,Kurnool,2024-01-07,0.288,0.238,0.43,Fallow / Bare Soil
+FLD-MAH-413,Maharashtra,Aurangabad,2024-07-28,0.682,0.6,0.334,Excellent / Dense Canopy
+FLD-HAR-414,Haryana,Ambala,2024-07-18,0.704,0.618,0.076,Excellent / Dense Canopy
+FLD-KAR-415,Karnataka,Mandya,2024-11-21,0.52,0.473,0.422,Healthy / Moderate Canopy
+FLD-GUJ-416,Gujarat,Vadodara,2024-08-13,0.516,0.48,0.282,Healthy / Moderate Canopy
+FLD-MAD-417,Madhya Pradesh,Ujjain,2024-07-19,0.783,0.671,-0.203,Excellent / Dense Canopy
+FLD-WES-418,West Bengal,Nadia,2024-04-02,0.815,0.752,0.217,Excellent / Dense Canopy
+FLD-UTT-419,Uttar Pradesh,Meerut,2024-05-14,0.41,0.378,0.141,Stressed / Sparse Vegetation
+FLD-KAR-420,Karnataka,Belagavi,2024-06-25,0.524,0.493,-0.195,Healthy / Moderate Canopy
+FLD-AND-421,Andhra Pradesh,West Godavari,2024-02-14,0.679,0.62,0.178,Excellent / Dense Canopy
+FLD-TAM-422,Tamil Nadu,Madurai,2024-05-10,0.412,0.373,0.179,Stressed / Sparse Vegetation
+FLD-PUN-423,Punjab,Bathinda,2024-06-20,0.84,0.75,0.425,Excellent / Dense Canopy
+FLD-MAH-424,Maharashtra,Pune,2024-10-08,0.239,0.211,0.184,Fallow / Bare Soil
+FLD-HAR-425,Haryana,Karnal,2024-05-03,0.372,0.322,-0.08,Stressed / Sparse Vegetation
+FLD-MAD-426,Madhya Pradesh,Ujjain,2024-09-01,0.628,0.539,-0.028,Healthy / Moderate Canopy
+FLD-MAD-427,Madhya Pradesh,Bhopal,2024-11-03,0.579,0.49,-0.062,Healthy / Moderate Canopy
+FLD-MAD-428,Madhya Pradesh,Indore,2024-03-12,0.319,0.265,-0.127,Stressed / Sparse Vegetation
+FLD-WES-429,West Bengal,Birbhum,2024-08-24,0.771,0.665,0.197,Excellent / Dense Canopy
+FLD-TAM-430,Tamil Nadu,Coimbatore,2024-04-03,0.621,0.578,-0.124,Healthy / Moderate Canopy
+FLD-HAR-431,Haryana,Ambala,2024-03-28,0.341,0.292,0.227,Stressed / Sparse Vegetation
+FLD-KAR-432,Karnataka,Shimoga,2024-12-10,0.225,0.201,0.067,Fallow / Bare Soil
+FLD-AND-433,Andhra Pradesh,Kurnool,2024-07-13,0.197,0.169,-0.069,Fallow / Bare Soil
+FLD-PUN-434,Punjab,Patiala,2024-10-13,0.765,0.72,0.152,Excellent / Dense Canopy
+FLD-PUN-435,Punjab,Ludhiana,2024-03-08,0.33,0.307,0.279,Stressed / Sparse Vegetation
+FLD-TAM-436,Tamil Nadu,Thanjavur,2024-04-20,0.502,0.421,-0.032,Healthy / Moderate Canopy
+FLD-KAR-437,Karnataka,Dharwad,2024-02-17,0.469,0.389,0.254,Healthy / Moderate Canopy
+FLD-HAR-438,Haryana,Sirsa,2024-02-10,0.359,0.294,0.344,Stressed / Sparse Vegetation
+FLD-MAH-439,Maharashtra,Aurangabad,2024-03-07,0.488,0.437,0.448,Healthy / Moderate Canopy
+FLD-MAH-440,Maharashtra,Nashik,2024-01-23,0.761,0.649,0.053,Excellent / Dense Canopy
+FLD-MAD-441,Madhya Pradesh,Ujjain,2024-05-24,0.463,0.413,0.068,Healthy / Moderate Canopy
+FLD-PUN-442,Punjab,Amritsar,2024-04-17,0.494,0.417,0.275,Healthy / Moderate Canopy
+FLD-HAR-443,Haryana,Hisar,2024-04-24,0.67,0.564,0.389,Excellent / Dense Canopy
+FLD-MAD-444,Madhya Pradesh,Ujjain,2024-07-19,0.441,0.375,-0.248,Stressed / Sparse Vegetation
+FLD-MAD-445,Madhya Pradesh,Gwalior,2024-09-29,0.629,0.588,-0.106,Healthy / Moderate Canopy
+FLD-GUJ-446,Gujarat,Vadodara,2024-02-25,0.259,0.22,-0.083,Fallow / Bare Soil
+FLD-WES-447,West Bengal,Hooghly,2024-01-17,0.34,0.304,0.085,Stressed / Sparse Vegetation
+FLD-MAH-448,Maharashtra,Pune,2024-01-16,0.672,0.583,-0.202,Excellent / Dense Canopy
+FLD-AND-449,Andhra Pradesh,Guntur,2024-01-14,0.654,0.537,-0.233,Excellent / Dense Canopy
+FLD-MAH-450,Maharashtra,Aurangabad,2024-08-17,0.296,0.252,0.378,Fallow / Bare Soil
+FLD-MAD-451,Madhya Pradesh,Bhopal,2024-01-25,0.685,0.603,0.129,Excellent / Dense Canopy
+FLD-WES-452,West Bengal,Hooghly,2024-06-18,0.548,0.466,-0.144,Healthy / Moderate Canopy
+FLD-MAH-453,Maharashtra,Nagpur,2024-09-24,0.611,0.561,-0.231,Healthy / Moderate Canopy
+FLD-PUN-454,Punjab,Jalandhar,2024-04-11,0.221,0.202,-0.167,Fallow / Bare Soil
+FLD-HAR-455,Haryana,Sirsa,2024-07-07,0.214,0.201,-0.187,Fallow / Bare Soil
+FLD-AND-456,Andhra Pradesh,Guntur,2024-09-06,0.267,0.245,0.298,Fallow / Bare Soil
+FLD-MAH-457,Maharashtra,Aurangabad,2024-04-05,0.586,0.523,0.049,Healthy / Moderate Canopy
+FLD-MAH-458,Maharashtra,Nagpur,2024-02-29,0.194,0.181,0.117,Fallow / Bare Soil
+FLD-UTT-459,Uttar Pradesh,Varanasi,2024-12-08,0.244,0.231,0.196,Fallow / Bare Soil
+FLD-HAR-460,Haryana,Hisar,2024-02-03,0.706,0.594,-0.204,Excellent / Dense Canopy
+FLD-WES-461,West Bengal,Nadia,2024-02-10,0.491,0.432,-0.093,Healthy / Moderate Canopy
+FLD-HAR-462,Haryana,Sirsa,2024-06-15,0.569,0.516,0.327,Healthy / Moderate Canopy
+FLD-MAH-463,Maharashtra,Pune,2024-04-12,0.837,0.772,0.185,Excellent / Dense Canopy
+FLD-WES-464,West Bengal,Burdwan,2024-08-08,0.5,0.442,-0.235,Healthy / Moderate Canopy
+FLD-AND-465,Andhra Pradesh,Kurnool,2024-12-24,0.514,0.466,0.148,Healthy / Moderate Canopy
+FLD-AND-466,Andhra Pradesh,West Godavari,2024-06-12,0.338,0.301,0.233,Stressed / Sparse Vegetation
+FLD-TAM-467,Tamil Nadu,Salem,2024-11-11,0.726,0.634,0.439,Excellent / Dense Canopy
+FLD-HAR-468,Haryana,Rohtak,2024-11-15,0.319,0.282,-0.122,Stressed / Sparse Vegetation
+FLD-MAD-469,Madhya Pradesh,Indore,2024-09-17,0.734,0.695,0.103,Excellent / Dense Canopy
+FLD-AND-470,Andhra Pradesh,Chittoor,2024-05-25,0.337,0.312,0.401,Stressed / Sparse Vegetation
+FLD-HAR-471,Haryana,Hisar,2024-08-25,0.751,0.678,-0.032,Excellent / Dense Canopy
+FLD-PUN-472,Punjab,Amritsar,2024-08-09,0.741,0.668,0.175,Excellent / Dense Canopy
+FLD-MAH-473,Maharashtra,Nashik,2024-06-30,0.182,0.153,0.028,Fallow / Bare Soil
+FLD-MAH-474,Maharashtra,Nagpur,2024-08-28,0.296,0.246,0.052,Fallow / Bare Soil
+FLD-GUJ-475,Gujarat,Vadodara,2024-02-07,0.604,0.536,-0.096,Healthy / Moderate Canopy
+FLD-HAR-476,Haryana,Sirsa,2024-04-03,0.639,0.548,-0.087,Healthy / Moderate Canopy
+FLD-UTT-477,Uttar Pradesh,Kanpur,2024-12-08,0.636,0.572,-0.061,Healthy / Moderate Canopy
+FLD-UTT-478,Uttar Pradesh,Prayagraj,2024-03-27,0.325,0.305,0.217,Stressed / Sparse Vegetation
+FLD-KAR-479,Karnataka,Mysuru,2024-05-15,0.285,0.27,0.219,Fallow / Bare Soil
+FLD-UTT-480,Uttar Pradesh,Prayagraj,2024-12-21,0.841,0.733,-0.085,Excellent / Dense Canopy
+FLD-GUJ-481,Gujarat,Surat,2024-11-23,0.58,0.536,0.347,Healthy / Moderate Canopy
+FLD-MAD-482,Madhya Pradesh,Indore,2024-02-21,0.265,0.248,0.036,Fallow / Bare Soil
+FLD-UTT-483,Uttar Pradesh,Agra,2024-01-01,0.766,0.669,-0.237,Excellent / Dense Canopy
+FLD-TAM-484,Tamil Nadu,Tiruchirappalli,2024-04-03,0.497,0.437,0.237,Healthy / Moderate Canopy
+FLD-MAH-485,Maharashtra,Aurangabad,2024-03-05,0.562,0.501,-0.131,Healthy / Moderate Canopy
+FLD-AND-486,Andhra Pradesh,Krishna,2024-02-11,0.363,0.305,0.125,Stressed / Sparse Vegetation
+FLD-UTT-487,Uttar Pradesh,Agra,2024-07-30,0.403,0.356,-0.185,Stressed / Sparse Vegetation
+FLD-AND-488,Andhra Pradesh,Guntur,2024-10-01,0.74,0.638,-0.179,Excellent / Dense Canopy
+FLD-WES-489,West Bengal,Burdwan,2024-05-13,0.524,0.447,0.427,Healthy / Moderate Canopy
+FLD-PUN-490,Punjab,Patiala,2024-01-07,0.27,0.234,-0.019,Fallow / Bare Soil
+FLD-MAD-491,Madhya Pradesh,Jabalpur,2024-11-29,0.367,0.326,0.184,Stressed / Sparse Vegetation
+FLD-MAH-492,Maharashtra,Nagpur,2024-06-30,0.559,0.492,-0.195,Healthy / Moderate Canopy
+FLD-HAR-493,Haryana,Ambala,2024-02-16,0.688,0.62,-0.24,Excellent / Dense Canopy
+FLD-PUN-494,Punjab,Jalandhar,2024-07-31,0.476,0.401,0.129,Healthy / Moderate Canopy
+FLD-GUJ-495,Gujarat,Vadodara,2024-11-26,0.684,0.645,0.05,Excellent / Dense Canopy
+FLD-MAH-496,Maharashtra,Nashik,2024-02-23,0.486,0.426,0.118,Healthy / Moderate Canopy
+FLD-AND-497,Andhra Pradesh,Chittoor,2024-01-03,0.694,0.624,-0.086,Excellent / Dense Canopy
+FLD-AND-498,Andhra Pradesh,Kurnool,2024-04-29,0.744,0.622,0.393,Excellent / Dense Canopy
+FLD-TAM-499,Tamil Nadu,Salem,2024-05-11,0.262,0.24,0.334,Fallow / Bare Soil
+FLD-MAD-500,Madhya Pradesh,Ujjain,2024-11-11,0.752,0.649,0.357,Excellent / Dense Canopy
+FLD-UTT-501,Uttar Pradesh,Meerut,2024-02-20,0.529,0.464,-0.176,Healthy / Moderate Canopy
+FLD-GUJ-502,Gujarat,Mehsana,2024-06-25,0.475,0.444,0.029,Healthy / Moderate Canopy
+FLD-WES-503,West Bengal,Hooghly,2024-01-14,0.624,0.588,0.151,Healthy / Moderate Canopy
+FLD-MAD-504,Madhya Pradesh,Jabalpur,2024-10-24,0.572,0.526,0.055,Healthy / Moderate Canopy
+FLD-WES-505,West Bengal,Birbhum,2024-06-14,0.32,0.287,0.261,Stressed / Sparse Vegetation
+FLD-MAH-506,Maharashtra,Solapur,2024-06-19,0.651,0.555,-0.026,Excellent / Dense Canopy
+FLD-UTT-507,Uttar Pradesh,Meerut,2024-04-19,0.514,0.481,0.067,Healthy / Moderate Canopy
+FLD-WES-508,West Bengal,Murshidabad,2024-06-13,0.319,0.267,0.345,Stressed / Sparse Vegetation
+FLD-GUJ-509,Gujarat,Ahmedabad,2024-01-14,0.729,0.662,0.327,Excellent / Dense Canopy
+FLD-PUN-510,Punjab,Patiala,2024-08-13,0.655,0.583,0.115,Excellent / Dense Canopy
+FLD-GUJ-511,Gujarat,Rajkot,2024-05-08,0.801,0.698,-0.068,Excellent / Dense Canopy
+FLD-PUN-512,Punjab,Jalandhar,2024-08-02,0.296,0.266,-0.154,Fallow / Bare Soil
+FLD-TAM-513,Tamil Nadu,Tiruchirappalli,2024-01-13,0.679,0.572,0.193,Excellent / Dense Canopy
+FLD-KAR-514,Karnataka,Mysuru,2024-06-06,0.609,0.5,0.323,Healthy / Moderate Canopy
+FLD-MAH-515,Maharashtra,Nagpur,2024-06-21,0.358,0.324,-0.139,Stressed / Sparse Vegetation
+FLD-GUJ-516,Gujarat,Vadodara,2024-09-16,0.374,0.325,-0.238,Stressed / Sparse Vegetation
+FLD-GUJ-517,Gujarat,Surat,2024-11-06,0.786,0.663,0.4,Excellent / Dense Canopy
+FLD-UTT-518,Uttar Pradesh,Agra,2024-01-17,0.394,0.328,0.086,Stressed / Sparse Vegetation
+FLD-GUJ-519,Gujarat,Mehsana,2024-06-14,0.691,0.649,-0.19,Excellent / Dense Canopy
+FLD-WES-520,West Bengal,Hooghly,2024-11-21,0.716,0.653,0.038,Excellent / Dense Canopy
+FLD-WES-521,West Bengal,Birbhum,2024-08-19,0.608,0.565,0.116,Healthy / Moderate Canopy
+FLD-HAR-522,Haryana,Ambala,2024-02-18,0.418,0.362,-0.066,Stressed / Sparse Vegetation
+FLD-PUN-523,Punjab,Jalandhar,2024-12-10,0.79,0.67,-0.198,Excellent / Dense Canopy
+FLD-HAR-524,Haryana,Karnal,2024-11-23,0.655,0.549,-0.197,Excellent / Dense Canopy
+FLD-MAD-525,Madhya Pradesh,Jabalpur,2024-11-11,0.364,0.314,0.208,Stressed / Sparse Vegetation
+FLD-WES-526,West Bengal,Nadia,2024-02-09,0.183,0.154,0.185,Fallow / Bare Soil
+FLD-HAR-527,Haryana,Ambala,2024-12-21,0.784,0.743,0.171,Excellent / Dense Canopy
+FLD-UTT-528,Uttar Pradesh,Varanasi,2024-07-27,0.614,0.527,0.263,Healthy / Moderate Canopy
+FLD-HAR-529,Haryana,Rohtak,2024-09-25,0.64,0.547,-0.032,Healthy / Moderate Canopy
+FLD-AND-530,Andhra Pradesh,Kurnool,2024-12-20,0.546,0.514,0.302,Healthy / Moderate Canopy
+FLD-UTT-531,Uttar Pradesh,Agra,2024-10-12,0.715,0.587,-0.028,Excellent / Dense Canopy
+FLD-MAD-532,Madhya Pradesh,Gwalior,2024-08-05,0.529,0.447,-0.137,Healthy / Moderate Canopy
+FLD-MAH-533,Maharashtra,Solapur,2024-12-07,0.514,0.481,-0.112,Healthy / Moderate Canopy
+FLD-PUN-534,Punjab,Bathinda,2024-01-06,0.596,0.527,0.199,Healthy / Moderate Canopy
+FLD-KAR-535,Karnataka,Shimoga,2024-03-11,0.567,0.488,0.411,Healthy / Moderate Canopy
+FLD-TAM-536,Tamil Nadu,Tiruchirappalli,2024-02-12,0.347,0.286,0.015,Stressed / Sparse Vegetation
+FLD-PUN-537,Punjab,Jalandhar,2024-10-30,0.587,0.545,0.222,Healthy / Moderate Canopy
+FLD-KAR-538,Karnataka,Shimoga,2024-04-22,0.366,0.32,0.025,Stressed / Sparse Vegetation
+FLD-GUJ-539,Gujarat,Surat,2024-10-26,0.524,0.446,0.415,Healthy / Moderate Canopy
+FLD-UTT-540,Uttar Pradesh,Kanpur,2024-07-08,0.327,0.285,-0.173,Stressed / Sparse Vegetation
+FLD-KAR-541,Karnataka,Dharwad,2024-09-06,0.317,0.272,-0.22,Stressed / Sparse Vegetation
+FLD-GUJ-542,Gujarat,Mehsana,2024-03-23,0.296,0.274,0.23,Fallow / Bare Soil
+FLD-HAR-543,Haryana,Karnal,2024-09-05,0.385,0.344,-0.026,Stressed / Sparse Vegetation
+FLD-KAR-544,Karnataka,Mysuru,2024-12-24,0.685,0.603,0.076,Excellent / Dense Canopy
+FLD-WES-545,West Bengal,Burdwan,2024-11-13,0.326,0.297,0.002,Stressed / Sparse Vegetation
+FLD-GUJ-546,Gujarat,Surat,2024-06-01,0.235,0.214,0.416,Fallow / Bare Soil
+FLD-AND-547,Andhra Pradesh,Kurnool,2024-01-27,0.51,0.466,-0.048,Healthy / Moderate Canopy
+FLD-HAR-548,Haryana,Sirsa,2024-10-15,0.84,0.735,-0.028,Excellent / Dense Canopy
+FLD-AND-549,Andhra Pradesh,West Godavari,2024-02-22,0.479,0.414,0.232,Healthy / Moderate Canopy
+FLD-UTT-550,Uttar Pradesh,Varanasi,2024-05-12,0.688,0.605,0.328,Excellent / Dense Canopy
+FLD-GUJ-551,Gujarat,Rajkot,2024-10-17,0.564,0.531,0.419,Healthy / Moderate Canopy
+FLD-AND-552,Andhra Pradesh,Krishna,2024-02-12,0.29,0.243,0.378,Fallow / Bare Soil
+FLD-PUN-553,Punjab,Patiala,2024-09-03,0.648,0.575,0.033,Healthy / Moderate Canopy
+FLD-HAR-554,Haryana,Hisar,2024-03-15,0.32,0.295,0.445,Stressed / Sparse Vegetation
+FLD-MAD-555,Madhya Pradesh,Jabalpur,2024-01-03,0.437,0.373,0.431,Stressed / Sparse Vegetation
+FLD-KAR-556,Karnataka,Mysuru,2024-09-08,0.811,0.737,0.147,Excellent / Dense Canopy
+FLD-UTT-557,Uttar Pradesh,Agra,2024-05-17,0.752,0.679,0.16,Excellent / Dense Canopy
+FLD-TAM-558,Tamil Nadu,Thanjavur,2024-08-13,0.841,0.767,-0.145,Excellent / Dense Canopy
+FLD-KAR-559,Karnataka,Dharwad,2024-01-06,0.606,0.512,0.143,Healthy / Moderate Canopy
+FLD-HAR-560,Haryana,Karnal,2024-03-07,0.602,0.518,-0.026,Healthy / Moderate Canopy
+FLD-HAR-561,Haryana,Hisar,2024-06-23,0.376,0.32,-0.058,Stressed / Sparse Vegetation
+FLD-AND-562,Andhra Pradesh,Chittoor,2024-12-11,0.837,0.739,0.344,Excellent / Dense Canopy
+FLD-TAM-563,Tamil Nadu,Madurai,2024-08-25,0.446,0.409,0.421,Stressed / Sparse Vegetation
+FLD-WES-564,West Bengal,Birbhum,2024-07-05,0.814,0.675,0.189,Excellent / Dense Canopy
+FLD-TAM-565,Tamil Nadu,Salem,2024-11-25,0.7,0.62,0.008,Excellent / Dense Canopy
+FLD-TAM-566,Tamil Nadu,Madurai,2024-06-17,0.594,0.513,-0.104,Healthy / Moderate Canopy
+FLD-GUJ-567,Gujarat,Vadodara,2024-04-08,0.338,0.294,0.074,Stressed / Sparse Vegetation
+FLD-HAR-568,Haryana,Karnal,2024-01-18,0.409,0.357,0.21,Stressed / Sparse Vegetation
+FLD-PUN-569,Punjab,Jalandhar,2024-08-11,0.264,0.236,0.163,Fallow / Bare Soil
+FLD-UTT-570,Uttar Pradesh,Meerut,2024-04-11,0.421,0.348,0.326,Stressed / Sparse Vegetation
+FLD-MAD-571,Madhya Pradesh,Indore,2024-05-22,0.415,0.362,-0.107,Stressed / Sparse Vegetation
+FLD-WES-572,West Bengal,Hooghly,2024-01-14,0.502,0.423,0.187,Healthy / Moderate Canopy
+FLD-PUN-573,Punjab,Ludhiana,2024-01-15,0.462,0.415,0.067,Healthy / Moderate Canopy
+FLD-WES-574,West Bengal,Hooghly,2024-09-20,0.321,0.281,0.366,Stressed / Sparse Vegetation
+FLD-AND-575,Andhra Pradesh,West Godavari,2024-03-21,0.267,0.235,0.021,Fallow / Bare Soil
+FLD-KAR-576,Karnataka,Dharwad,2024-07-27,0.717,0.596,0.201,Excellent / Dense Canopy
+FLD-MAD-577,Madhya Pradesh,Bhopal,2024-06-29,0.597,0.528,-0.05,Healthy / Moderate Canopy
+FLD-MAH-578,Maharashtra,Pune,2024-12-02,0.41,0.366,-0.006,Stressed / Sparse Vegetation
+FLD-UTT-579,Uttar Pradesh,Varanasi,2024-07-11,0.484,0.451,-0.073,Healthy / Moderate Canopy
+FLD-AND-580,Andhra Pradesh,West Godavari,2024-05-11,0.247,0.227,-0.059,Fallow / Bare Soil
+FLD-MAD-581,Madhya Pradesh,Indore,2024-04-04,0.466,0.418,-0.168,Healthy / Moderate Canopy
+FLD-MAD-582,Madhya Pradesh,Gwalior,2024-11-24,0.812,0.685,0.418,Excellent / Dense Canopy
+FLD-GUJ-583,Gujarat,Mehsana,2024-09-08,0.832,0.749,-0.204,Excellent / Dense Canopy
+FLD-MAD-584,Madhya Pradesh,Ujjain,2024-02-27,0.348,0.305,0.274,Stressed / Sparse Vegetation
+FLD-KAR-585,Karnataka,Mandya,2024-10-31,0.183,0.16,0.186,Fallow / Bare Soil
+FLD-MAD-586,Madhya Pradesh,Gwalior,2024-08-23,0.711,0.669,-0.249,Excellent / Dense Canopy
+FLD-PUN-587,Punjab,Bathinda,2024-01-09,0.226,0.192,0.041,Fallow / Bare Soil
+FLD-UTT-588,Uttar Pradesh,Meerut,2024-03-25,0.548,0.506,0.175,Healthy / Moderate Canopy
+FLD-MAD-589,Madhya Pradesh,Gwalior,2024-08-17,0.288,0.273,0.196,Fallow / Bare Soil
+FLD-PUN-590,Punjab,Amritsar,2024-03-05,0.255,0.231,0.337,Fallow / Bare Soil
+FLD-AND-591,Andhra Pradesh,Guntur,2024-04-09,0.429,0.394,-0.019,Stressed / Sparse Vegetation
+FLD-PUN-592,Punjab,Patiala,2024-03-07,0.231,0.198,0.316,Fallow / Bare Soil
+FLD-GUJ-593,Gujarat,Mehsana,2024-05-18,0.65,0.604,0.076,Excellent / Dense Canopy
+FLD-GUJ-594,Gujarat,Vadodara,2024-07-10,0.504,0.429,-0.017,Healthy / Moderate Canopy
+FLD-MAH-595,Maharashtra,Aurangabad,2024-05-30,0.248,0.21,-0.09,Fallow / Bare Soil
+FLD-AND-596,Andhra Pradesh,Guntur,2024-09-27,0.242,0.213,0.319,Fallow / Bare Soil
+FLD-WES-597,West Bengal,Nadia,2024-03-24,0.401,0.355,0.41,Stressed / Sparse Vegetation
+FLD-MAD-598,Madhya Pradesh,Indore,2024-04-16,0.605,0.536,0.419,Healthy / Moderate Canopy
+FLD-HAR-599,Haryana,Karnal,2024-07-21,0.65,0.547,0.32,Excellent / Dense Canopy
+FLD-HAR-600,Haryana,Sirsa,2024-07-08,0.337,0.316,0.014,Stressed / Sparse Vegetation
+FLD-KAR-601,Karnataka,Belagavi,2024-10-19,0.473,0.416,0.092,Healthy / Moderate Canopy
+FLD-AND-602,Andhra Pradesh,Krishna,2024-03-05,0.326,0.305,-0.007,Stressed / Sparse Vegetation
+FLD-UTT-603,Uttar Pradesh,Varanasi,2024-11-19,0.514,0.477,-0.052,Healthy / Moderate Canopy
+FLD-PUN-604,Punjab,Amritsar,2024-06-15,0.398,0.35,0.159,Stressed / Sparse Vegetation
+FLD-MAH-605,Maharashtra,Nashik,2024-03-17,0.564,0.521,0.398,Healthy / Moderate Canopy
+FLD-WES-606,West Bengal,Burdwan,2024-01-30,0.493,0.423,-0.162,Healthy / Moderate Canopy
+FLD-MAH-607,Maharashtra,Nashik,2024-06-02,0.665,0.583,0.097,Excellent / Dense Canopy
+FLD-WES-608,West Bengal,Burdwan,2024-01-28,0.688,0.65,0.036,Excellent / Dense Canopy
+FLD-GUJ-609,Gujarat,Mehsana,2024-03-27,0.372,0.311,0.085,Stressed / Sparse Vegetation
+FLD-KAR-610,Karnataka,Shimoga,2024-01-31,0.578,0.509,0.082,Healthy / Moderate Canopy
+FLD-AND-611,Andhra Pradesh,West Godavari,2024-10-16,0.557,0.52,0.438,Healthy / Moderate Canopy
+FLD-GUJ-612,Gujarat,Mehsana,2024-06-02,0.846,0.711,0.396,Excellent / Dense Canopy
+FLD-MAD-613,Madhya Pradesh,Ujjain,2024-04-13,0.726,0.677,0.449,Excellent / Dense Canopy
+FLD-MAD-614,Madhya Pradesh,Jabalpur,2024-07-25,0.84,0.723,0.289,Excellent / Dense Canopy
+FLD-MAD-615,Madhya Pradesh,Bhopal,2024-06-23,0.56,0.515,0.251,Healthy / Moderate Canopy
+FLD-HAR-616,Haryana,Rohtak,2024-05-20,0.294,0.272,0.418,Fallow / Bare Soil
+FLD-KAR-617,Karnataka,Mandya,2024-04-18,0.813,0.731,-0.172,Excellent / Dense Canopy
+FLD-KAR-618,Karnataka,Dharwad,2024-03-23,0.381,0.353,-0.183,Stressed / Sparse Vegetation
+FLD-KAR-619,Karnataka,Mandya,2024-11-10,0.319,0.287,-0.201,Stressed / Sparse Vegetation
+FLD-UTT-620,Uttar Pradesh,Agra,2024-01-10,0.68,0.644,0.293,Excellent / Dense Canopy
+FLD-MAD-621,Madhya Pradesh,Jabalpur,2024-11-18,0.361,0.302,0.344,Stressed / Sparse Vegetation
+FLD-HAR-622,Haryana,Rohtak,2024-04-25,0.246,0.231,-0.205,Fallow / Bare Soil
+FLD-GUJ-623,Gujarat,Rajkot,2024-02-14,0.191,0.18,-0.194,Fallow / Bare Soil
+FLD-MAH-624,Maharashtra,Pune,2024-10-25,0.732,0.633,-0.209,Excellent / Dense Canopy
+FLD-GUJ-625,Gujarat,Vadodara,2024-01-31,0.591,0.56,0.105,Healthy / Moderate Canopy
+FLD-WES-626,West Bengal,Nadia,2024-11-20,0.343,0.317,-0.035,Stressed / Sparse Vegetation
+FLD-PUN-627,Punjab,Ludhiana,2024-12-17,0.403,0.351,0.337,Stressed / Sparse Vegetation
+FLD-MAD-628,Madhya Pradesh,Gwalior,2024-09-01,0.425,0.375,0.126,Stressed / Sparse Vegetation
+FLD-TAM-629,Tamil Nadu,Coimbatore,2024-06-16,0.526,0.499,0.399,Healthy / Moderate Canopy
+FLD-MAH-630,Maharashtra,Nagpur,2024-07-03,0.454,0.381,0.253,Healthy / Moderate Canopy
+FLD-PUN-631,Punjab,Amritsar,2024-10-15,0.722,0.628,0.395,Excellent / Dense Canopy
+FLD-KAR-632,Karnataka,Shimoga,2024-10-27,0.317,0.295,-0.186,Stressed / Sparse Vegetation
+FLD-AND-633,Andhra Pradesh,Guntur,2024-07-24,0.748,0.681,-0.03,Excellent / Dense Canopy
+FLD-HAR-634,Haryana,Sirsa,2024-12-07,0.708,0.6,0.06,Excellent / Dense Canopy
+FLD-WES-635,West Bengal,Hooghly,2024-01-01,0.646,0.597,0.287,Healthy / Moderate Canopy
+FLD-PUN-636,Punjab,Amritsar,2024-10-06,0.205,0.171,-0.113,Fallow / Bare Soil
+FLD-WES-637,West Bengal,Birbhum,2024-07-18,0.337,0.306,-0.126,Stressed / Sparse Vegetation
+FLD-PUN-638,Punjab,Ludhiana,2024-08-30,0.321,0.281,0.1,Stressed / Sparse Vegetation
+FLD-AND-639,Andhra Pradesh,Chittoor,2024-02-27,0.483,0.408,-0.189,Healthy / Moderate Canopy
+FLD-HAR-640,Haryana,Hisar,2024-02-12,0.211,0.187,0.163,Fallow / Bare Soil
+FLD-AND-641,Andhra Pradesh,Krishna,2024-07-02,0.522,0.49,0.133,Healthy / Moderate Canopy
+FLD-WES-642,West Bengal,Birbhum,2024-03-30,0.217,0.199,-0.204,Fallow / Bare Soil
+FLD-MAD-643,Madhya Pradesh,Bhopal,2024-04-08,0.44,0.397,-0.232,Stressed / Sparse Vegetation
+FLD-HAR-644,Haryana,Hisar,2024-01-12,0.353,0.303,0.328,Stressed / Sparse Vegetation
+FLD-WES-645,West Bengal,Nadia,2024-02-16,0.464,0.408,0.296,Healthy / Moderate Canopy
+FLD-WES-646,West Bengal,Hooghly,2024-04-28,0.484,0.403,-0.24,Healthy / Moderate Canopy
+FLD-WES-647,West Bengal,Birbhum,2024-07-07,0.485,0.44,0.02,Healthy / Moderate Canopy
+FLD-MAD-648,Madhya Pradesh,Jabalpur,2024-05-12,0.666,0.597,0.151,Excellent / Dense Canopy
+FLD-AND-649,Andhra Pradesh,West Godavari,2024-11-17,0.534,0.466,-0.244,Healthy / Moderate Canopy
+FLD-PUN-650,Punjab,Jalandhar,2024-10-17,0.725,0.673,-0.062,Excellent / Dense Canopy
+FLD-HAR-651,Haryana,Karnal,2024-12-17,0.796,0.67,0.368,Excellent / Dense Canopy
+FLD-UTT-652,Uttar Pradesh,Prayagraj,2024-09-05,0.815,0.749,0.357,Excellent / Dense Canopy
+FLD-PUN-653,Punjab,Patiala,2024-07-10,0.384,0.362,0.406,Stressed / Sparse Vegetation
+FLD-HAR-654,Haryana,Rohtak,2024-02-15,0.376,0.324,-0.029,Stressed / Sparse Vegetation
+FLD-TAM-655,Tamil Nadu,Coimbatore,2024-11-11,0.849,0.752,-0.101,Excellent / Dense Canopy
+FLD-UTT-656,Uttar Pradesh,Varanasi,2024-04-30,0.708,0.663,-0.202,Excellent / Dense Canopy
+FLD-PUN-657,Punjab,Ludhiana,2024-10-15,0.37,0.334,0.219,Stressed / Sparse Vegetation
+FLD-MAH-658,Maharashtra,Nagpur,2024-02-05,0.489,0.424,0.336,Healthy / Moderate Canopy
+FLD-KAR-659,Karnataka,Dharwad,2024-04-09,0.229,0.215,0.414,Fallow / Bare Soil
+FLD-PUN-660,Punjab,Amritsar,2024-06-02,0.786,0.725,0.143,Excellent / Dense Canopy
+FLD-HAR-661,Haryana,Karnal,2024-05-08,0.64,0.538,-0.071,Healthy / Moderate Canopy
+FLD-MAH-662,Maharashtra,Aurangabad,2024-11-22,0.236,0.205,-0.234,Fallow / Bare Soil
+FLD-MAD-663,Madhya Pradesh,Bhopal,2024-02-03,0.281,0.236,0.334,Fallow / Bare Soil
+FLD-KAR-664,Karnataka,Mysuru,2024-09-16,0.651,0.612,-0.223,Excellent / Dense Canopy
+FLD-TAM-665,Tamil Nadu,Thanjavur,2024-02-16,0.829,0.689,0.042,Excellent / Dense Canopy
+FLD-UTT-666,Uttar Pradesh,Meerut,2024-04-24,0.226,0.21,0.254,Fallow / Bare Soil
+FLD-MAD-667,Madhya Pradesh,Bhopal,2024-01-16,0.259,0.223,0.302,Fallow / Bare Soil
+FLD-AND-668,Andhra Pradesh,Krishna,2024-02-01,0.585,0.499,-0.223,Healthy / Moderate Canopy
+FLD-HAR-669,Haryana,Hisar,2024-09-23,0.83,0.788,-0.19,Excellent / Dense Canopy
+FLD-HAR-670,Haryana,Ambala,2024-06-18,0.401,0.362,0.24,Stressed / Sparse Vegetation
+FLD-MAD-671,Madhya Pradesh,Indore,2024-06-27,0.607,0.512,0.4,Healthy / Moderate Canopy
+FLD-WES-672,West Bengal,Burdwan,2024-06-01,0.72,0.615,-0.048,Excellent / Dense Canopy
+FLD-HAR-673,Haryana,Karnal,2024-06-14,0.393,0.325,-0.109,Stressed / Sparse Vegetation
+FLD-PUN-674,Punjab,Patiala,2024-01-02,0.39,0.32,0.23,Stressed / Sparse Vegetation
+FLD-WES-675,West Bengal,Hooghly,2024-07-09,0.51,0.453,-0.066,Healthy / Moderate Canopy
+FLD-WES-676,West Bengal,Murshidabad,2024-01-02,0.197,0.165,0.013,Fallow / Bare Soil
+FLD-AND-677,Andhra Pradesh,Krishna,2024-07-04,0.331,0.307,0.354,Stressed / Sparse Vegetation
+FLD-MAD-678,Madhya Pradesh,Jabalpur,2024-08-27,0.468,0.401,0.323,Healthy / Moderate Canopy
+FLD-AND-679,Andhra Pradesh,Guntur,2024-09-22,0.512,0.439,0.055,Healthy / Moderate Canopy
+FLD-GUJ-680,Gujarat,Vadodara,2024-01-15,0.195,0.168,0.197,Fallow / Bare Soil
+FLD-GUJ-681,Gujarat,Mehsana,2024-11-08,0.634,0.578,-0.196,Healthy / Moderate Canopy
+FLD-TAM-682,Tamil Nadu,Tiruchirappalli,2024-05-19,0.7,0.589,0.282,Excellent / Dense Canopy
+FLD-HAR-683,Haryana,Ambala,2024-08-08,0.685,0.648,0.359,Excellent / Dense Canopy
+FLD-TAM-684,Tamil Nadu,Coimbatore,2024-05-10,0.763,0.663,-0.163,Excellent / Dense Canopy
+FLD-PUN-685,Punjab,Amritsar,2024-01-30,0.548,0.475,0.251,Healthy / Moderate Canopy
+FLD-WES-686,West Bengal,Hooghly,2024-02-01,0.498,0.455,0.064,Healthy / Moderate Canopy
+FLD-PUN-687,Punjab,Jalandhar,2024-08-27,0.546,0.501,-0.138,Healthy / Moderate Canopy
+FLD-WES-688,West Bengal,Nadia,2024-07-23,0.554,0.517,0.366,Healthy / Moderate Canopy
+FLD-MAH-689,Maharashtra,Nashik,2024-05-14,0.291,0.242,0.317,Fallow / Bare Soil
+FLD-WES-690,West Bengal,Hooghly,2024-10-20,0.837,0.78,0.127,Excellent / Dense Canopy
+FLD-AND-691,Andhra Pradesh,Chittoor,2024-10-21,0.298,0.26,0.404,Fallow / Bare Soil
+FLD-TAM-692,Tamil Nadu,Madurai,2024-09-14,0.743,0.657,-0.214,Excellent / Dense Canopy
+FLD-TAM-693,Tamil Nadu,Coimbatore,2024-07-18,0.261,0.237,0.406,Fallow / Bare Soil
+FLD-MAH-694,Maharashtra,Solapur,2024-03-20,0.551,0.511,0.379,Healthy / Moderate Canopy
+FLD-MAD-695,Madhya Pradesh,Jabalpur,2024-03-24,0.78,0.645,0.149,Excellent / Dense Canopy
+FLD-AND-696,Andhra Pradesh,Kurnool,2024-12-14,0.577,0.514,0.231,Healthy / Moderate Canopy
+FLD-TAM-697,Tamil Nadu,Madurai,2024-07-28,0.592,0.499,-0.074,Healthy / Moderate Canopy
+FLD-WES-698,West Bengal,Murshidabad,2024-11-10,0.557,0.482,0.313,Healthy / Moderate Canopy
+FLD-PUN-699,Punjab,Jalandhar,2024-03-15,0.188,0.16,0.186,Fallow / Bare Soil
+FLD-UTT-700,Uttar Pradesh,Prayagraj,2024-03-27,0.255,0.241,0.17,Fallow / Bare Soil
+FLD-GUJ-701,Gujarat,Mehsana,2024-07-05,0.317,0.263,0.352,Stressed / Sparse Vegetation
+FLD-TAM-702,Tamil Nadu,Tiruchirappalli,2024-05-17,0.653,0.573,0.353,Excellent / Dense Canopy
+FLD-UTT-703,Uttar Pradesh,Agra,2024-05-29,0.281,0.245,-0.2,Fallow / Bare Soil
+FLD-TAM-704,Tamil Nadu,Tiruchirappalli,2024-12-07,0.419,0.345,0.107,Stressed / Sparse Vegetation
+FLD-MAD-705,Madhya Pradesh,Jabalpur,2024-10-29,0.54,0.495,-0.002,Healthy / Moderate Canopy
+FLD-UTT-706,Uttar Pradesh,Agra,2024-06-26,0.712,0.668,0.179,Excellent / Dense Canopy
+FLD-PUN-707,Punjab,Jalandhar,2024-09-27,0.687,0.617,-0.073,Excellent / Dense Canopy
+FLD-TAM-708,Tamil Nadu,Salem,2024-02-22,0.525,0.442,0.382,Healthy / Moderate Canopy
+FLD-AND-709,Andhra Pradesh,Kurnool,2024-01-17,0.374,0.308,0.257,Stressed / Sparse Vegetation
+FLD-MAD-710,Madhya Pradesh,Jabalpur,2024-04-13,0.799,0.737,0.232,Excellent / Dense Canopy
+FLD-AND-711,Andhra Pradesh,Kurnool,2024-07-18,0.667,0.624,-0.225,Excellent / Dense Canopy
+FLD-MAH-712,Maharashtra,Nagpur,2024-10-25,0.356,0.332,0.006,Stressed / Sparse Vegetation
+FLD-MAD-713,Madhya Pradesh,Gwalior,2024-11-09,0.63,0.594,0.398,Healthy / Moderate Canopy
+FLD-PUN-714,Punjab,Jalandhar,2024-12-16,0.209,0.188,0.426,Fallow / Bare Soil
+FLD-HAR-715,Haryana,Ambala,2024-06-10,0.355,0.323,0.434,Stressed / Sparse Vegetation
+FLD-UTT-716,Uttar Pradesh,Varanasi,2024-09-08,0.607,0.536,-0.082,Healthy / Moderate Canopy
+FLD-MAH-717,Maharashtra,Solapur,2024-04-12,0.787,0.669,-0.218,Excellent / Dense Canopy
+FLD-TAM-718,Tamil Nadu,Coimbatore,2024-07-23,0.504,0.456,-0.032,Healthy / Moderate Canopy
+FLD-GUJ-719,Gujarat,Mehsana,2024-12-13,0.793,0.727,0.17,Excellent / Dense Canopy
+FLD-TAM-720,Tamil Nadu,Madurai,2024-11-06,0.602,0.498,0.17,Healthy / Moderate Canopy
+FLD-KAR-721,Karnataka,Shimoga,2024-07-29,0.85,0.767,-0.172,Excellent / Dense Canopy
+FLD-TAM-722,Tamil Nadu,Thanjavur,2024-05-04,0.308,0.284,0.179,Stressed / Sparse Vegetation
+FLD-UTT-723,Uttar Pradesh,Kanpur,2024-06-16,0.81,0.674,0.203,Excellent / Dense Canopy
+FLD-KAR-724,Karnataka,Shimoga,2024-09-04,0.379,0.345,0.417,Stressed / Sparse Vegetation
+FLD-KAR-725,Karnataka,Mandya,2024-03-23,0.46,0.413,-0.112,Healthy / Moderate Canopy
+FLD-PUN-726,Punjab,Patiala,2024-08-17,0.727,0.679,-0.166,Excellent / Dense Canopy
+FLD-TAM-727,Tamil Nadu,Madurai,2024-10-25,0.847,0.753,0.297,Excellent / Dense Canopy
+FLD-WES-728,West Bengal,Burdwan,2024-11-09,0.642,0.586,0.161,Healthy / Moderate Canopy
+FLD-MAH-729,Maharashtra,Solapur,2024-09-14,0.52,0.481,0.091,Healthy / Moderate Canopy
+FLD-AND-730,Andhra Pradesh,Chittoor,2024-11-05,0.498,0.462,0.236,Healthy / Moderate Canopy
+FLD-KAR-731,Karnataka,Mandya,2024-02-18,0.603,0.562,-0.171,Healthy / Moderate Canopy
+FLD-WES-732,West Bengal,Murshidabad,2024-07-18,0.304,0.26,0.314,Stressed / Sparse Vegetation
+FLD-MAD-733,Madhya Pradesh,Bhopal,2024-11-27,0.254,0.228,-0.088,Fallow / Bare Soil
+FLD-GUJ-734,Gujarat,Mehsana,2024-10-09,0.803,0.678,-0.042,Excellent / Dense Canopy
+FLD-PUN-735,Punjab,Jalandhar,2024-09-24,0.435,0.367,0.281,Stressed / Sparse Vegetation
+FLD-WES-736,West Bengal,Nadia,2024-10-13,0.226,0.208,-0.065,Fallow / Bare Soil
+FLD-PUN-737,Punjab,Bathinda,2024-01-24,0.728,0.676,0.193,Excellent / Dense Canopy
+FLD-KAR-738,Karnataka,Shimoga,2024-05-07,0.261,0.243,0.062,Fallow / Bare Soil
+FLD-GUJ-739,Gujarat,Mehsana,2024-07-07,0.844,0.78,0.17,Excellent / Dense Canopy
+FLD-HAR-740,Haryana,Rohtak,2024-03-28,0.74,0.683,0.302,Excellent / Dense Canopy
+FLD-UTT-741,Uttar Pradesh,Prayagraj,2024-01-08,0.196,0.173,0.05,Fallow / Bare Soil
+FLD-TAM-742,Tamil Nadu,Thanjavur,2024-10-15,0.749,0.688,0.177,Excellent / Dense Canopy
+FLD-MAH-743,Maharashtra,Solapur,2024-04-20,0.844,0.718,0.345,Excellent / Dense Canopy
+FLD-KAR-744,Karnataka,Belagavi,2024-04-15,0.316,0.293,-0.02,Stressed / Sparse Vegetation
+FLD-HAR-745,Haryana,Sirsa,2024-07-28,0.636,0.558,0.41,Healthy / Moderate Canopy
+FLD-AND-746,Andhra Pradesh,West Godavari,2024-09-26,0.722,0.633,0.383,Excellent / Dense Canopy
+FLD-MAD-747,Madhya Pradesh,Indore,2024-11-10,0.468,0.428,-0.113,Healthy / Moderate Canopy
+FLD-AND-748,Andhra Pradesh,Krishna,2024-03-19,0.505,0.43,0.069,Healthy / Moderate Canopy
+FLD-TAM-749,Tamil Nadu,Salem,2024-05-29,0.79,0.656,0.149,Excellent / Dense Canopy
+FLD-KAR-750,Karnataka,Mysuru,2024-08-07,0.253,0.223,-0.175,Fallow / Bare Soil
+FLD-AND-751,Andhra Pradesh,Krishna,2024-07-11,0.222,0.2,-0.07,Fallow / Bare Soil
+FLD-MAD-752,Madhya Pradesh,Indore,2024-06-14,0.608,0.554,0.226,Healthy / Moderate Canopy
+FLD-GUJ-753,Gujarat,Mehsana,2024-06-20,0.635,0.543,0.367,Healthy / Moderate Canopy
+FLD-UTT-754,Uttar Pradesh,Kanpur,2024-03-04,0.803,0.667,0.312,Excellent / Dense Canopy
+FLD-HAR-755,Haryana,Karnal,2024-10-12,0.302,0.262,-0.184,Stressed / Sparse Vegetation
+FLD-MAD-756,Madhya Pradesh,Jabalpur,2024-09-22,0.473,0.41,0.28,Healthy / Moderate Canopy
+FLD-MAD-757,Madhya Pradesh,Bhopal,2024-02-08,0.41,0.379,-0.047,Stressed / Sparse Vegetation
+FLD-UTT-758,Uttar Pradesh,Prayagraj,2024-11-07,0.186,0.156,0.222,Fallow / Bare Soil
+FLD-KAR-759,Karnataka,Shimoga,2024-04-12,0.823,0.743,0.008,Excellent / Dense Canopy
+FLD-GUJ-760,Gujarat,Rajkot,2024-08-07,0.497,0.46,0.064,Healthy / Moderate Canopy
+FLD-PUN-761,Punjab,Jalandhar,2024-08-11,0.449,0.42,-0.126,Stressed / Sparse Vegetation
+FLD-MAH-762,Maharashtra,Nagpur,2024-12-13,0.743,0.651,0.399,Excellent / Dense Canopy
+FLD-MAD-763,Madhya Pradesh,Bhopal,2024-10-18,0.422,0.361,-0.086,Stressed / Sparse Vegetation
+FLD-WES-764,West Bengal,Hooghly,2024-06-03,0.268,0.238,0.13,Fallow / Bare Soil
+FLD-TAM-765,Tamil Nadu,Tiruchirappalli,2024-08-24,0.241,0.211,-0.216,Fallow / Bare Soil
+FLD-MAH-766,Maharashtra,Pune,2024-08-17,0.47,0.437,0.266,Healthy / Moderate Canopy
+FLD-MAD-767,Madhya Pradesh,Bhopal,2024-01-07,0.57,0.525,-0.054,Healthy / Moderate Canopy
+FLD-MAH-768,Maharashtra,Nagpur,2024-01-05,0.695,0.573,-0.207,Excellent / Dense Canopy
+FLD-GUJ-769,Gujarat,Ahmedabad,2024-10-28,0.611,0.507,-0.144,Healthy / Moderate Canopy
+FLD-MAD-770,Madhya Pradesh,Ujjain,2024-09-13,0.536,0.506,0.276,Healthy / Moderate Canopy
+FLD-PUN-771,Punjab,Patiala,2024-06-06,0.622,0.534,0.144,Healthy / Moderate Canopy
+FLD-MAD-772,Madhya Pradesh,Ujjain,2024-01-31,0.644,0.583,0.36,Healthy / Moderate Canopy
+FLD-TAM-773,Tamil Nadu,Tiruchirappalli,2024-07-28,0.189,0.166,0.212,Fallow / Bare Soil
+FLD-MAH-774,Maharashtra,Pune,2024-08-03,0.671,0.577,0.265,Excellent / Dense Canopy
+FLD-GUJ-775,Gujarat,Surat,2024-12-24,0.224,0.206,0.028,Fallow / Bare Soil
+FLD-MAD-776,Madhya Pradesh,Indore,2024-09-22,0.486,0.431,0.202,Healthy / Moderate Canopy
+FLD-PUN-777,Punjab,Ludhiana,2024-10-13,0.654,0.592,0.407,Excellent / Dense Canopy
+FLD-PUN-778,Punjab,Bathinda,2024-02-26,0.768,0.635,0.322,Excellent / Dense Canopy
+FLD-GUJ-779,Gujarat,Rajkot,2024-07-11,0.544,0.45,0.167,Healthy / Moderate Canopy
+FLD-WES-780,West Bengal,Murshidabad,2024-09-23,0.213,0.194,0.414,Fallow / Bare Soil
+FLD-PUN-781,Punjab,Ludhiana,2024-11-08,0.761,0.699,0.304,Excellent / Dense Canopy
+FLD-PUN-782,Punjab,Patiala,2024-09-03,0.31,0.292,0.139,Stressed / Sparse Vegetation
+FLD-MAH-783,Maharashtra,Solapur,2024-08-11,0.718,0.66,0.361,Excellent / Dense Canopy
+FLD-PUN-784,Punjab,Amritsar,2024-09-17,0.225,0.185,-0.213,Fallow / Bare Soil
+FLD-MAD-785,Madhya Pradesh,Ujjain,2024-08-21,0.491,0.41,0.012,Healthy / Moderate Canopy
+FLD-HAR-786,Haryana,Sirsa,2024-10-29,0.27,0.229,-0.223,Fallow / Bare Soil
+FLD-MAD-787,Madhya Pradesh,Indore,2024-10-22,0.775,0.709,-0.236,Excellent / Dense Canopy
+FLD-PUN-788,Punjab,Amritsar,2024-04-20,0.423,0.383,-0.127,Stressed / Sparse Vegetation
+FLD-KAR-789,Karnataka,Mysuru,2024-03-17,0.41,0.359,0.016,Stressed / Sparse Vegetation
+FLD-AND-790,Andhra Pradesh,Chittoor,2024-03-25,0.763,0.683,-0.08,Excellent / Dense Canopy
+FLD-AND-791,Andhra Pradesh,West Godavari,2024-11-12,0.389,0.327,0.446,Stressed / Sparse Vegetation
+FLD-AND-792,Andhra Pradesh,Krishna,2024-01-21,0.232,0.217,-0.218,Fallow / Bare Soil
+FLD-GUJ-793,Gujarat,Mehsana,2024-04-15,0.562,0.482,-0.227,Healthy / Moderate Canopy
+FLD-GUJ-794,Gujarat,Mehsana,2024-10-07,0.737,0.645,0.176,Excellent / Dense Canopy
+FLD-TAM-795,Tamil Nadu,Salem,2024-09-25,0.631,0.57,-0.194,Healthy / Moderate Canopy
+FLD-PUN-796,Punjab,Bathinda,2024-03-23,0.494,0.466,-0.095,Healthy / Moderate Canopy
+FLD-AND-797,Andhra Pradesh,Guntur,2024-01-21,0.276,0.245,0.253,Fallow / Bare Soil
+FLD-PUN-798,Punjab,Amritsar,2024-06-07,0.482,0.444,0.449,Healthy / Moderate Canopy
+FLD-GUJ-799,Gujarat,Mehsana,2024-04-27,0.4,0.352,0.329,Stressed / Sparse Vegetation
+FLD-GUJ-800,Gujarat,Ahmedabad,2024-10-04,0.679,0.57,0.22,Excellent / Dense Canopy
+FLD-AND-801,Andhra Pradesh,Kurnool,2024-08-10,0.275,0.243,0.396,Fallow / Bare Soil
+FLD-TAM-802,Tamil Nadu,Coimbatore,2024-05-29,0.48,0.438,-0.213,Healthy / Moderate Canopy
+FLD-PUN-803,Punjab,Jalandhar,2024-06-08,0.294,0.273,0.149,Fallow / Bare Soil
+FLD-HAR-804,Haryana,Rohtak,2024-12-11,0.512,0.474,0.313,Healthy / Moderate Canopy
+FLD-MAD-805,Madhya Pradesh,Gwalior,2024-01-28,0.605,0.508,-0.045,Healthy / Moderate Canopy
+FLD-KAR-806,Karnataka,Mandya,2024-01-29,0.613,0.547,0.403,Healthy / Moderate Canopy
+FLD-MAH-807,Maharashtra,Nagpur,2024-09-27,0.629,0.533,0.299,Healthy / Moderate Canopy
+FLD-WES-808,West Bengal,Hooghly,2024-07-02,0.536,0.491,-0.028,Healthy / Moderate Canopy
+FLD-TAM-809,Tamil Nadu,Tiruchirappalli,2024-02-14,0.669,0.587,0.31,Excellent / Dense Canopy
+FLD-TAM-810,Tamil Nadu,Coimbatore,2024-08-18,0.26,0.236,0.435,Fallow / Bare Soil
+FLD-MAH-811,Maharashtra,Pune,2024-03-02,0.719,0.603,-0.024,Excellent / Dense Canopy
+FLD-MAD-812,Madhya Pradesh,Jabalpur,2024-01-25,0.233,0.196,-0.045,Fallow / Bare Soil
+FLD-PUN-813,Punjab,Patiala,2024-08-03,0.564,0.505,-0.241,Healthy / Moderate Canopy
+FLD-WES-814,West Bengal,Birbhum,2024-02-29,0.191,0.165,0.183,Fallow / Bare Soil
+FLD-AND-815,Andhra Pradesh,Krishna,2024-05-16,0.239,0.208,-0.019,Fallow / Bare Soil
+FLD-UTT-816,Uttar Pradesh,Agra,2024-09-15,0.64,0.556,0.004,Healthy / Moderate Canopy
+FLD-WES-817,West Bengal,Murshidabad,2024-03-11,0.788,0.717,-0.112,Excellent / Dense Canopy
+FLD-GUJ-818,Gujarat,Surat,2024-12-21,0.683,0.606,0.443,Excellent / Dense Canopy
+FLD-KAR-819,Karnataka,Dharwad,2024-11-08,0.82,0.77,0.051,Excellent / Dense Canopy
+FLD-MAH-820,Maharashtra,Solapur,2024-04-16,0.742,0.658,0.434,Excellent / Dense Canopy
+FLD-UTT-821,Uttar Pradesh,Varanasi,2024-11-15,0.241,0.199,-0.128,Fallow / Bare Soil
+FLD-UTT-822,Uttar Pradesh,Meerut,2024-05-04,0.541,0.49,0.026,Healthy / Moderate Canopy
+FLD-AND-823,Andhra Pradesh,Kurnool,2024-06-23,0.762,0.653,-0.022,Excellent / Dense Canopy
+FLD-WES-824,West Bengal,Nadia,2024-11-08,0.323,0.3,0.068,Stressed / Sparse Vegetation
+FLD-WES-825,West Bengal,Burdwan,2024-08-02,0.341,0.322,0.111,Stressed / Sparse Vegetation
+FLD-UTT-826,Uttar Pradesh,Kanpur,2024-06-30,0.328,0.291,-0.159,Stressed / Sparse Vegetation
+FLD-GUJ-827,Gujarat,Surat,2024-06-10,0.465,0.425,0.14,Healthy / Moderate Canopy
+FLD-PUN-828,Punjab,Jalandhar,2024-12-14,0.358,0.295,0.124,Stressed / Sparse Vegetation
+FLD-UTT-829,Uttar Pradesh,Varanasi,2024-03-24,0.24,0.211,-0.011,Fallow / Bare Soil
+FLD-PUN-830,Punjab,Patiala,2024-05-15,0.425,0.393,0.432,Stressed / Sparse Vegetation
+FLD-TAM-831,Tamil Nadu,Salem,2024-05-15,0.219,0.182,0.07,Fallow / Bare Soil
+FLD-TAM-832,Tamil Nadu,Madurai,2024-02-08,0.216,0.183,-0.117,Fallow / Bare Soil
+FLD-MAH-833,Maharashtra,Pune,2024-08-23,0.579,0.494,0.015,Healthy / Moderate Canopy
+FLD-TAM-834,Tamil Nadu,Tiruchirappalli,2024-01-10,0.245,0.204,0.198,Fallow / Bare Soil
+FLD-WES-835,West Bengal,Birbhum,2024-05-24,0.475,0.428,0.054,Healthy / Moderate Canopy
+FLD-KAR-836,Karnataka,Belagavi,2024-03-13,0.271,0.249,0.246,Fallow / Bare Soil
+FLD-HAR-837,Haryana,Hisar,2024-04-20,0.411,0.38,0.393,Stressed / Sparse Vegetation
+FLD-KAR-838,Karnataka,Belagavi,2024-02-09,0.576,0.531,0.398,Healthy / Moderate Canopy
+FLD-AND-839,Andhra Pradesh,Krishna,2024-06-29,0.359,0.306,0.198,Stressed / Sparse Vegetation
+FLD-HAR-840,Haryana,Hisar,2024-12-15,0.546,0.509,0.017,Healthy / Moderate Canopy
+FLD-AND-841,Andhra Pradesh,Krishna,2024-04-19,0.594,0.523,0.062,Healthy / Moderate Canopy
+FLD-UTT-842,Uttar Pradesh,Agra,2024-01-22,0.425,0.394,-0.091,Stressed / Sparse Vegetation
+FLD-TAM-843,Tamil Nadu,Madurai,2024-04-20,0.37,0.34,0.108,Stressed / Sparse Vegetation
+FLD-WES-844,West Bengal,Hooghly,2024-07-07,0.455,0.407,-0.076,Healthy / Moderate Canopy
+FLD-MAH-845,Maharashtra,Solapur,2024-10-06,0.22,0.206,0.205,Fallow / Bare Soil
+FLD-KAR-846,Karnataka,Mandya,2024-07-08,0.42,0.383,0.321,Stressed / Sparse Vegetation
+FLD-HAR-847,Haryana,Karnal,2024-03-18,0.306,0.251,0.408,Stressed / Sparse Vegetation
+FLD-KAR-848,Karnataka,Dharwad,2024-01-07,0.799,0.737,0.343,Excellent / Dense Canopy
+FLD-KAR-849,Karnataka,Belagavi,2024-09-14,0.422,0.378,-0.23,Stressed / Sparse Vegetation
+FLD-MAD-850,Madhya Pradesh,Gwalior,2024-11-14,0.302,0.278,0.243,Stressed / Sparse Vegetation
+FLD-GUJ-851,Gujarat,Rajkot,2024-04-17,0.569,0.508,-0.21,Healthy / Moderate Canopy
+FLD-MAH-852,Maharashtra,Pune,2024-10-01,0.513,0.45,0.233,Healthy / Moderate Canopy
+FLD-UTT-853,Uttar Pradesh,Agra,2024-09-07,0.699,0.647,0.061,Excellent / Dense Canopy
+FLD-TAM-854,Tamil Nadu,Madurai,2024-12-12,0.613,0.567,-0.154,Healthy / Moderate Canopy
+FLD-UTT-855,Uttar Pradesh,Agra,2024-12-09,0.577,0.505,0.244,Healthy / Moderate Canopy
+FLD-TAM-856,Tamil Nadu,Madurai,2024-10-23,0.217,0.192,0.41,Fallow / Bare Soil
+FLD-UTT-857,Uttar Pradesh,Agra,2024-08-23,0.829,0.781,-0.095,Excellent / Dense Canopy
+FLD-PUN-858,Punjab,Amritsar,2024-05-03,0.676,0.582,0.35,Excellent / Dense Canopy
+FLD-UTT-859,Uttar Pradesh,Agra,2024-03-29,0.294,0.271,-0.012,Fallow / Bare Soil
+FLD-UTT-860,Uttar Pradesh,Varanasi,2024-07-20,0.678,0.61,0.39,Excellent / Dense Canopy
+FLD-MAH-861,Maharashtra,Aurangabad,2024-02-02,0.695,0.578,0.189,Excellent / Dense Canopy
+FLD-UTT-862,Uttar Pradesh,Agra,2024-03-12,0.56,0.508,-0.016,Healthy / Moderate Canopy
+FLD-HAR-863,Haryana,Sirsa,2024-09-22,0.282,0.243,0.113,Fallow / Bare Soil
+FLD-KAR-864,Karnataka,Mysuru,2024-02-15,0.189,0.166,0.431,Fallow / Bare Soil
+FLD-AND-865,Andhra Pradesh,Chittoor,2024-07-06,0.748,0.662,0.15,Excellent / Dense Canopy
+FLD-MAD-866,Madhya Pradesh,Bhopal,2024-05-10,0.546,0.48,-0.026,Healthy / Moderate Canopy
+FLD-WES-867,West Bengal,Murshidabad,2024-02-19,0.289,0.253,-0.029,Fallow / Bare Soil
+FLD-MAD-868,Madhya Pradesh,Gwalior,2024-07-12,0.38,0.332,0.22,Stressed / Sparse Vegetation
+FLD-WES-869,West Bengal,Hooghly,2024-03-10,0.512,0.463,0.439,Healthy / Moderate Canopy
+FLD-UTT-870,Uttar Pradesh,Meerut,2024-04-07,0.728,0.6,0.225,Excellent / Dense Canopy
+FLD-GUJ-871,Gujarat,Rajkot,2024-09-05,0.438,0.413,-0.192,Stressed / Sparse Vegetation
+FLD-GUJ-872,Gujarat,Surat,2024-04-02,0.5,0.423,0.397,Healthy / Moderate Canopy
+FLD-AND-873,Andhra Pradesh,Chittoor,2024-02-23,0.373,0.323,0.26,Stressed / Sparse Vegetation
+FLD-MAH-874,Maharashtra,Nashik,2024-02-01,0.425,0.396,-0.07,Stressed / Sparse Vegetation
+FLD-TAM-875,Tamil Nadu,Tiruchirappalli,2024-04-26,0.365,0.321,0.366,Stressed / Sparse Vegetation
+FLD-KAR-876,Karnataka,Belagavi,2024-12-11,0.844,0.795,-0.088,Excellent / Dense Canopy
+FLD-MAD-877,Madhya Pradesh,Ujjain,2024-12-14,0.309,0.289,-0.105,Stressed / Sparse Vegetation
+FLD-MAH-878,Maharashtra,Nagpur,2024-06-22,0.548,0.465,-0.223,Healthy / Moderate Canopy
+FLD-WES-879,West Bengal,Birbhum,2024-11-20,0.3,0.282,0.287,Stressed / Sparse Vegetation
+FLD-PUN-880,Punjab,Ludhiana,2024-06-20,0.233,0.209,0.236,Fallow / Bare Soil
+FLD-PUN-881,Punjab,Ludhiana,2024-01-31,0.837,0.687,0.317,Excellent / Dense Canopy
+FLD-WES-882,West Bengal,Nadia,2024-02-11,0.454,0.394,0.371,Healthy / Moderate Canopy
+FLD-MAH-883,Maharashtra,Pune,2024-09-25,0.41,0.377,-0.189,Stressed / Sparse Vegetation
+FLD-PUN-884,Punjab,Patiala,2024-03-12,0.39,0.357,0.249,Stressed / Sparse Vegetation
+FLD-AND-885,Andhra Pradesh,Krishna,2024-12-25,0.844,0.76,0.298,Excellent / Dense Canopy
+FLD-HAR-886,Haryana,Rohtak,2024-03-04,0.19,0.176,-0.153,Fallow / Bare Soil
+FLD-PUN-887,Punjab,Ludhiana,2024-01-28,0.74,0.668,-0.199,Excellent / Dense Canopy
+FLD-PUN-888,Punjab,Jalandhar,2024-04-16,0.287,0.272,-0.084,Fallow / Bare Soil
+FLD-AND-889,Andhra Pradesh,Guntur,2024-09-06,0.5,0.474,0.427,Healthy / Moderate Canopy
+FLD-PUN-890,Punjab,Jalandhar,2024-01-28,0.343,0.285,-0.014,Stressed / Sparse Vegetation
+FLD-AND-891,Andhra Pradesh,West Godavari,2024-08-18,0.484,0.415,0.135,Healthy / Moderate Canopy
+FLD-AND-892,Andhra Pradesh,Kurnool,2024-12-23,0.235,0.213,-0.133,Fallow / Bare Soil
+FLD-MAH-893,Maharashtra,Solapur,2024-06-02,0.535,0.504,0.384,Healthy / Moderate Canopy
+FLD-TAM-894,Tamil Nadu,Tiruchirappalli,2024-10-08,0.781,0.713,0.426,Excellent / Dense Canopy
+FLD-KAR-895,Karnataka,Mandya,2024-05-13,0.381,0.356,0.057,Stressed / Sparse Vegetation
+FLD-GUJ-896,Gujarat,Rajkot,2024-12-23,0.681,0.607,-0.171,Excellent / Dense Canopy
+FLD-WES-897,West Bengal,Hooghly,2024-05-21,0.652,0.57,-0.136,Excellent / Dense Canopy
+FLD-GUJ-898,Gujarat,Rajkot,2024-04-02,0.379,0.348,-0.157,Stressed / Sparse Vegetation
+FLD-WES-899,West Bengal,Nadia,2024-04-17,0.623,0.591,0.341,Healthy / Moderate Canopy
+FLD-UTT-900,Uttar Pradesh,Meerut,2024-10-28,0.838,0.709,0.291,Excellent / Dense Canopy
+FLD-AND-901,Andhra Pradesh,Krishna,2024-04-26,0.328,0.31,-0.015,Stressed / Sparse Vegetation
+FLD-HAR-902,Haryana,Karnal,2024-11-28,0.325,0.271,-0.073,Stressed / Sparse Vegetation
+FLD-UTT-903,Uttar Pradesh,Kanpur,2024-11-27,0.301,0.251,-0.213,Stressed / Sparse Vegetation
+FLD-HAR-904,Haryana,Ambala,2024-02-10,0.431,0.376,-0.223,Stressed / Sparse Vegetation
+FLD-TAM-905,Tamil Nadu,Tiruchirappalli,2024-02-04,0.496,0.44,-0.014,Healthy / Moderate Canopy
+FLD-UTT-906,Uttar Pradesh,Meerut,2024-01-28,0.261,0.229,0.098,Fallow / Bare Soil
+FLD-AND-907,Andhra Pradesh,Kurnool,2024-08-13,0.6,0.56,0.346,Healthy / Moderate Canopy
+FLD-MAD-908,Madhya Pradesh,Indore,2024-06-08,0.697,0.634,-0.155,Excellent / Dense Canopy
+FLD-MAD-909,Madhya Pradesh,Indore,2024-04-07,0.799,0.74,0.39,Excellent / Dense Canopy
+FLD-MAD-910,Madhya Pradesh,Bhopal,2024-05-12,0.204,0.179,0.182,Fallow / Bare Soil
+FLD-TAM-911,Tamil Nadu,Coimbatore,2024-10-06,0.228,0.211,-0.115,Fallow / Bare Soil
+FLD-KAR-912,Karnataka,Dharwad,2024-03-07,0.642,0.564,0.304,Healthy / Moderate Canopy
+FLD-WES-913,West Bengal,Nadia,2024-05-12,0.783,0.743,-0.047,Excellent / Dense Canopy
+FLD-MAH-914,Maharashtra,Solapur,2024-01-11,0.556,0.521,-0.195,Healthy / Moderate Canopy
+FLD-UTT-915,Uttar Pradesh,Agra,2024-08-04,0.248,0.226,0.156,Fallow / Bare Soil
+FLD-MAH-916,Maharashtra,Aurangabad,2024-09-23,0.229,0.215,0.341,Fallow / Bare Soil
+FLD-KAR-917,Karnataka,Dharwad,2024-05-13,0.312,0.256,0.127,Stressed / Sparse Vegetation
+FLD-MAD-918,Madhya Pradesh,Ujjain,2024-01-10,0.258,0.242,-0.179,Fallow / Bare Soil
+FLD-GUJ-919,Gujarat,Surat,2024-07-29,0.613,0.526,0.289,Healthy / Moderate Canopy
+FLD-HAR-920,Haryana,Ambala,2024-09-10,0.712,0.623,0.287,Excellent / Dense Canopy
+FLD-AND-921,Andhra Pradesh,West Godavari,2024-08-07,0.497,0.466,0.4,Healthy / Moderate Canopy
+FLD-TAM-922,Tamil Nadu,Coimbatore,2024-06-28,0.406,0.335,-0.016,Stressed / Sparse Vegetation
+FLD-TAM-923,Tamil Nadu,Thanjavur,2024-07-26,0.324,0.273,0.297,Stressed / Sparse Vegetation
+FLD-AND-924,Andhra Pradesh,West Godavari,2024-01-06,0.719,0.636,0.282,Excellent / Dense Canopy
+FLD-HAR-925,Haryana,Sirsa,2024-09-16,0.586,0.501,0.222,Healthy / Moderate Canopy
+FLD-GUJ-926,Gujarat,Ahmedabad,2024-11-20,0.263,0.236,-0.02,Fallow / Bare Soil
+FLD-GUJ-927,Gujarat,Mehsana,2024-09-12,0.388,0.332,0.313,Stressed / Sparse Vegetation
+FLD-PUN-928,Punjab,Amritsar,2024-06-04,0.794,0.719,0.286,Excellent / Dense Canopy
+FLD-MAH-929,Maharashtra,Solapur,2024-02-09,0.349,0.315,0.337,Stressed / Sparse Vegetation
+FLD-WES-930,West Bengal,Hooghly,2024-10-31,0.386,0.33,-0.232,Stressed / Sparse Vegetation
+FLD-WES-931,West Bengal,Hooghly,2024-12-04,0.386,0.34,-0.078,Stressed / Sparse Vegetation
+FLD-PUN-932,Punjab,Amritsar,2024-05-02,0.536,0.488,-0.056,Healthy / Moderate Canopy
+FLD-GUJ-933,Gujarat,Rajkot,2024-10-27,0.771,0.727,0.305,Excellent / Dense Canopy
+FLD-HAR-934,Haryana,Ambala,2024-01-12,0.574,0.517,-0.197,Healthy / Moderate Canopy
+FLD-PUN-935,Punjab,Bathinda,2024-06-26,0.739,0.609,0.209,Excellent / Dense Canopy
+FLD-MAD-936,Madhya Pradesh,Ujjain,2024-04-16,0.807,0.71,0.155,Excellent / Dense Canopy
+FLD-HAR-937,Haryana,Sirsa,2024-07-03,0.674,0.558,0.338,Excellent / Dense Canopy
+FLD-GUJ-938,Gujarat,Vadodara,2024-06-24,0.677,0.57,0.047,Excellent / Dense Canopy
+FLD-GUJ-939,Gujarat,Surat,2024-06-23,0.262,0.23,0.431,Fallow / Bare Soil
+FLD-PUN-940,Punjab,Ludhiana,2024-04-21,0.383,0.328,0.393,Stressed / Sparse Vegetation
+FLD-HAR-941,Haryana,Ambala,2024-05-25,0.584,0.537,0.195,Healthy / Moderate Canopy
+FLD-HAR-942,Haryana,Sirsa,2024-11-21,0.8,0.68,0.093,Excellent / Dense Canopy
+FLD-MAH-943,Maharashtra,Pune,2024-10-09,0.718,0.594,0.342,Excellent / Dense Canopy
+FLD-TAM-944,Tamil Nadu,Coimbatore,2024-05-11,0.665,0.601,-0.218,Excellent / Dense Canopy
+FLD-AND-945,Andhra Pradesh,Krishna,2024-05-02,0.725,0.659,0.205,Excellent / Dense Canopy
+FLD-WES-946,West Bengal,Hooghly,2024-03-31,0.668,0.597,0.05,Excellent / Dense Canopy
+FLD-MAH-947,Maharashtra,Pune,2024-05-13,0.748,0.666,-0.236,Excellent / Dense Canopy
+FLD-KAR-948,Karnataka,Mysuru,2024-01-05,0.813,0.697,-0.228,Excellent / Dense Canopy
+FLD-UTT-949,Uttar Pradesh,Agra,2024-10-01,0.797,0.654,0.104,Excellent / Dense Canopy
+FLD-WES-950,West Bengal,Murshidabad,2024-07-08,0.758,0.624,0.097,Excellent / Dense Canopy
+FLD-TAM-951,Tamil Nadu,Tiruchirappalli,2024-07-16,0.558,0.525,-0.196,Healthy / Moderate Canopy
+FLD-AND-952,Andhra Pradesh,West Godavari,2024-01-15,0.585,0.52,-0.054,Healthy / Moderate Canopy
+FLD-GUJ-953,Gujarat,Surat,2024-05-07,0.657,0.572,-0.058,Excellent / Dense Canopy
+FLD-PUN-954,Punjab,Patiala,2024-07-03,0.817,0.742,-0.043,Excellent / Dense Canopy
+FLD-MAD-955,Madhya Pradesh,Ujjain,2024-02-28,0.547,0.47,0.043,Healthy / Moderate Canopy
+FLD-UTT-956,Uttar Pradesh,Agra,2024-02-08,0.46,0.413,-0.146,Healthy / Moderate Canopy
+FLD-TAM-957,Tamil Nadu,Thanjavur,2024-03-27,0.355,0.294,0.063,Stressed / Sparse Vegetation
+FLD-PUN-958,Punjab,Ludhiana,2024-02-23,0.297,0.268,0.101,Fallow / Bare Soil
+FLD-TAM-959,Tamil Nadu,Madurai,2024-06-07,0.482,0.444,0.11,Healthy / Moderate Canopy
+FLD-MAD-960,Madhya Pradesh,Gwalior,2024-08-02,0.239,0.207,0.209,Fallow / Bare Soil
+FLD-GUJ-961,Gujarat,Ahmedabad,2024-10-01,0.232,0.211,0.433,Fallow / Bare Soil
+FLD-HAR-962,Haryana,Rohtak,2024-12-05,0.477,0.452,0.329,Healthy / Moderate Canopy
+FLD-MAD-963,Madhya Pradesh,Bhopal,2024-03-21,0.806,0.761,0.245,Excellent / Dense Canopy
+FLD-MAH-964,Maharashtra,Pune,2024-03-26,0.338,0.301,-0.192,Stressed / Sparse Vegetation
+FLD-WES-965,West Bengal,Birbhum,2024-06-09,0.41,0.377,0.182,Stressed / Sparse Vegetation
+FLD-AND-966,Andhra Pradesh,Chittoor,2024-12-15,0.416,0.377,-0.067,Stressed / Sparse Vegetation
+FLD-KAR-967,Karnataka,Mandya,2024-03-04,0.626,0.587,-0.214,Healthy / Moderate Canopy
+FLD-TAM-968,Tamil Nadu,Salem,2024-09-05,0.324,0.291,0.062,Stressed / Sparse Vegetation
+FLD-AND-969,Andhra Pradesh,Chittoor,2024-06-02,0.575,0.508,0.286,Healthy / Moderate Canopy
+FLD-KAR-970,Karnataka,Shimoga,2024-01-28,0.733,0.631,0.326,Excellent / Dense Canopy
+FLD-PUN-971,Punjab,Amritsar,2024-02-06,0.6,0.568,0.09,Healthy / Moderate Canopy
+FLD-WES-972,West Bengal,Birbhum,2024-04-12,0.518,0.446,-0.071,Healthy / Moderate Canopy
+FLD-HAR-973,Haryana,Sirsa,2024-05-20,0.242,0.218,-0.048,Fallow / Bare Soil
+FLD-GUJ-974,Gujarat,Surat,2024-07-08,0.27,0.227,-0.135,Fallow / Bare Soil
+FLD-KAR-975,Karnataka,Mysuru,2024-03-28,0.352,0.333,-0.007,Stressed / Sparse Vegetation
+FLD-GUJ-976,Gujarat,Mehsana,2024-09-14,0.497,0.457,0.446,Healthy / Moderate Canopy
+FLD-WES-977,West Bengal,Birbhum,2024-02-14,0.696,0.595,0.114,Excellent / Dense Canopy
+FLD-WES-978,West Bengal,Hooghly,2024-09-10,0.541,0.495,0.39,Healthy / Moderate Canopy
+FLD-PUN-979,Punjab,Jalandhar,2024-06-06,0.689,0.594,0.118,Excellent / Dense Canopy
+FLD-AND-980,Andhra Pradesh,Guntur,2024-03-03,0.273,0.237,0.315,Fallow / Bare Soil
+FLD-WES-981,West Bengal,Burdwan,2024-02-06,0.363,0.313,-0.126,Stressed / Sparse Vegetation
+FLD-MAD-982,Madhya Pradesh,Bhopal,2024-12-16,0.287,0.251,0.161,Fallow / Bare Soil
+FLD-KAR-983,Karnataka,Mysuru,2024-08-13,0.798,0.687,0.262,Excellent / Dense Canopy
+FLD-KAR-984,Karnataka,Shimoga,2024-08-25,0.728,0.633,0.365,Excellent / Dense Canopy
+FLD-MAD-985,Madhya Pradesh,Bhopal,2024-09-30,0.723,0.64,0.149,Excellent / Dense Canopy
+FLD-HAR-986,Haryana,Ambala,2024-09-01,0.471,0.399,0.361,Healthy / Moderate Canopy
+FLD-UTT-987,Uttar Pradesh,Meerut,2024-05-07,0.351,0.302,-0.175,Stressed / Sparse Vegetation
+FLD-KAR-988,Karnataka,Mandya,2024-05-26,0.515,0.487,0.283,Healthy / Moderate Canopy
+FLD-UTT-989,Uttar Pradesh,Varanasi,2024-09-12,0.751,0.62,0.391,Excellent / Dense Canopy
+FLD-KAR-990,Karnataka,Shimoga,2024-04-21,0.455,0.376,0.122,Healthy / Moderate Canopy
+FLD-PUN-991,Punjab,Jalandhar,2024-07-06,0.304,0.282,-0.211,Stressed / Sparse Vegetation
+FLD-UTT-992,Uttar Pradesh,Meerut,2024-12-07,0.235,0.202,0.117,Fallow / Bare Soil
+FLD-WES-993,West Bengal,Birbhum,2024-05-07,0.735,0.649,0.336,Excellent / Dense Canopy
+FLD-TAM-994,Tamil Nadu,Tiruchirappalli,2024-03-31,0.785,0.654,0.145,Excellent / Dense Canopy
+FLD-PUN-995,Punjab,Amritsar,2024-04-24,0.689,0.647,0.005,Excellent / Dense Canopy
+FLD-AND-996,Andhra Pradesh,Krishna,2024-01-10,0.672,0.562,0.269,Excellent / Dense Canopy
+FLD-WES-997,West Bengal,Birbhum,2024-08-20,0.296,0.249,-0.102,Fallow / Bare Soil
+FLD-PUN-998,Punjab,Bathinda,2024-12-16,0.273,0.238,-0.115,Fallow / Bare Soil
+FLD-PUN-999,Punjab,Jalandhar,2024-10-16,0.494,0.406,0.049,Healthy / Moderate Canopy
+FLD-AND-1000,Andhra Pradesh,Krishna,2024-02-01,0.33,0.277,0.156,Stressed / Sparse Vegetation
+FLD-PUN-1001,Punjab,Amritsar,2024-03-05,0.233,0.208,0.414,Fallow / Bare Soil
+FLD-GUJ-1002,Gujarat,Ahmedabad,2024-03-30,0.344,0.304,0.073,Stressed / Sparse Vegetation
+FLD-PUN-1003,Punjab,Bathinda,2024-06-30,0.633,0.57,-0.249,Healthy / Moderate Canopy
+FLD-GUJ-1004,Gujarat,Surat,2024-12-17,0.696,0.592,0.238,Excellent / Dense Canopy
+FLD-TAM-1005,Tamil Nadu,Salem,2024-02-22,0.269,0.242,0.002,Fallow / Bare Soil
+FLD-UTT-1006,Uttar Pradesh,Varanasi,2024-08-16,0.483,0.442,0.404,Healthy / Moderate Canopy
+FLD-PUN-1007,Punjab,Ludhiana,2024-07-30,0.362,0.33,0.24,Stressed / Sparse Vegetation
+FLD-WES-1008,West Bengal,Birbhum,2024-06-18,0.39,0.368,-0.085,Stressed / Sparse Vegetation
+FLD-KAR-1009,Karnataka,Mysuru,2024-09-15,0.613,0.532,0.438,Healthy / Moderate Canopy
+FLD-UTT-1010,Uttar Pradesh,Meerut,2024-02-24,0.199,0.164,-0.163,Fallow / Bare Soil
+FLD-KAR-1011,Karnataka,Shimoga,2024-08-17,0.724,0.613,0.295,Excellent / Dense Canopy
+FLD-GUJ-1012,Gujarat,Surat,2024-07-15,0.669,0.624,-0.231,Excellent / Dense Canopy
+FLD-HAR-1013,Haryana,Ambala,2024-11-14,0.568,0.502,0.118,Healthy / Moderate Canopy
+FLD-KAR-1014,Karnataka,Dharwad,2024-10-04,0.5,0.437,-0.145,Healthy / Moderate Canopy
+FLD-GUJ-1015,Gujarat,Vadodara,2024-02-20,0.604,0.498,0.163,Healthy / Moderate Canopy
+FLD-MAD-1016,Madhya Pradesh,Jabalpur,2024-04-10,0.835,0.733,0.421,Excellent / Dense Canopy
+FLD-GUJ-1017,Gujarat,Rajkot,2024-06-17,0.272,0.257,0.21,Fallow / Bare Soil
+FLD-MAD-1018,Madhya Pradesh,Jabalpur,2024-07-16,0.465,0.421,0.075,Healthy / Moderate Canopy
+FLD-AND-1019,Andhra Pradesh,Kurnool,2024-08-31,0.733,0.637,0.371,Excellent / Dense Canopy
+FLD-HAR-1020,Haryana,Karnal,2024-01-02,0.195,0.162,0.306,Fallow / Bare Soil
+FLD-UTT-1021,Uttar Pradesh,Varanasi,2024-09-24,0.774,0.702,0.113,Excellent / Dense Canopy
+FLD-HAR-1022,Haryana,Sirsa,2024-04-01,0.291,0.251,0.445,Fallow / Bare Soil
+FLD-KAR-1023,Karnataka,Shimoga,2024-09-11,0.745,0.708,0.384,Excellent / Dense Canopy
+FLD-UTT-1024,Uttar Pradesh,Meerut,2024-03-23,0.18,0.16,0.333,Fallow / Bare Soil
+FLD-WES-1025,West Bengal,Nadia,2024-03-08,0.848,0.771,0.332,Excellent / Dense Canopy
+FLD-TAM-1026,Tamil Nadu,Tiruchirappalli,2024-08-23,0.535,0.487,0.374,Healthy / Moderate Canopy
+FLD-PUN-1027,Punjab,Jalandhar,2024-01-10,0.183,0.166,-0.057,Fallow / Bare Soil
+FLD-UTT-1028,Uttar Pradesh,Prayagraj,2024-04-04,0.205,0.169,0.061,Fallow / Bare Soil
+FLD-UTT-1029,Uttar Pradesh,Kanpur,2024-01-10,0.649,0.555,-0.049,Healthy / Moderate Canopy
+FLD-UTT-1030,Uttar Pradesh,Meerut,2024-03-03,0.751,0.685,-0.014,Excellent / Dense Canopy
+FLD-GUJ-1031,Gujarat,Rajkot,2024-02-26,0.664,0.559,0.427,Excellent / Dense Canopy
+FLD-TAM-1032,Tamil Nadu,Coimbatore,2024-12-17,0.496,0.441,-0.075,Healthy / Moderate Canopy
+FLD-TAM-1033,Tamil Nadu,Madurai,2024-10-10,0.752,0.625,0.103,Excellent / Dense Canopy
+FLD-HAR-1034,Haryana,Karnal,2024-05-04,0.569,0.534,0.128,Healthy / Moderate Canopy
+FLD-AND-1035,Andhra Pradesh,West Godavari,2024-12-04,0.207,0.194,0.321,Fallow / Bare Soil
+FLD-AND-1036,Andhra Pradesh,Kurnool,2024-11-09,0.253,0.236,0.356,Fallow / Bare Soil
+FLD-TAM-1037,Tamil Nadu,Thanjavur,2024-05-09,0.816,0.712,0.406,Excellent / Dense Canopy
+FLD-HAR-1038,Haryana,Ambala,2024-03-27,0.525,0.464,0.151,Healthy / Moderate Canopy
+FLD-KAR-1039,Karnataka,Mysuru,2024-04-06,0.728,0.69,0.41,Excellent / Dense Canopy
+FLD-MAH-1040,Maharashtra,Aurangabad,2024-10-21,0.183,0.163,-0.247,Fallow / Bare Soil
+FLD-UTT-1041,Uttar Pradesh,Meerut,2024-05-05,0.261,0.224,-0.005,Fallow / Bare Soil
+FLD-UTT-1042,Uttar Pradesh,Prayagraj,2024-09-14,0.259,0.238,0.134,Fallow / Bare Soil
+FLD-KAR-1043,Karnataka,Mandya,2024-05-06,0.229,0.216,0.093,Fallow / Bare Soil
+FLD-MAD-1044,Madhya Pradesh,Ujjain,2024-04-23,0.377,0.353,0.079,Stressed / Sparse Vegetation
+FLD-AND-1045,Andhra Pradesh,Krishna,2024-11-06,0.264,0.223,0.364,Fallow / Bare Soil
+FLD-MAH-1046,Maharashtra,Nagpur,2024-04-19,0.829,0.701,-0.006,Excellent / Dense Canopy
+FLD-GUJ-1047,Gujarat,Surat,2024-05-14,0.331,0.307,-0.189,Stressed / Sparse Vegetation
+FLD-PUN-1048,Punjab,Jalandhar,2024-05-12,0.236,0.209,-0.22,Fallow / Bare Soil
+FLD-UTT-1049,Uttar Pradesh,Meerut,2024-01-01,0.472,0.425,-0.168,Healthy / Moderate Canopy
+FLD-WES-1050,West Bengal,Hooghly,2024-05-28,0.649,0.555,0.067,Healthy / Moderate Canopy
+FLD-AND-1051,Andhra Pradesh,Krishna,2024-06-09,0.373,0.309,0.369,Stressed / Sparse Vegetation
+FLD-WES-1052,West Bengal,Burdwan,2024-11-23,0.389,0.367,-0.047,Stressed / Sparse Vegetation
+FLD-MAD-1053,Madhya Pradesh,Ujjain,2024-09-28,0.797,0.708,-0.157,Excellent / Dense Canopy
+FLD-WES-1054,West Bengal,Nadia,2024-11-11,0.737,0.633,-0.232,Excellent / Dense Canopy
+FLD-MAH-1055,Maharashtra,Aurangabad,2024-04-10,0.5,0.431,0.247,Healthy / Moderate Canopy
+FLD-MAH-1056,Maharashtra,Nashik,2024-02-12,0.565,0.517,-0.235,Healthy / Moderate Canopy
+FLD-MAH-1057,Maharashtra,Nagpur,2024-11-06,0.523,0.433,-0.192,Healthy / Moderate Canopy
+FLD-TAM-1058,Tamil Nadu,Salem,2024-01-14,0.829,0.685,0.177,Excellent / Dense Canopy
+FLD-WES-1059,West Bengal,Birbhum,2024-04-05,0.477,0.406,-0.248,Healthy / Moderate Canopy
+FLD-AND-1060,Andhra Pradesh,Guntur,2024-08-14,0.687,0.616,0.337,Excellent / Dense Canopy
+FLD-WES-1061,West Bengal,Nadia,2024-09-26,0.408,0.371,0.024,Stressed / Sparse Vegetation
+FLD-AND-1062,Andhra Pradesh,Guntur,2024-09-10,0.532,0.458,0.397,Healthy / Moderate Canopy
+FLD-KAR-1063,Karnataka,Mysuru,2024-10-04,0.337,0.287,0.105,Stressed / Sparse Vegetation
+FLD-MAH-1064,Maharashtra,Nashik,2024-02-17,0.217,0.191,0.423,Fallow / Bare Soil
+FLD-KAR-1065,Karnataka,Shimoga,2024-08-08,0.604,0.552,0.366,Healthy / Moderate Canopy
+FLD-TAM-1066,Tamil Nadu,Salem,2024-10-30,0.818,0.713,0.311,Excellent / Dense Canopy
+FLD-MAD-1067,Madhya Pradesh,Ujjain,2024-03-23,0.37,0.323,-0.111,Stressed / Sparse Vegetation
+FLD-HAR-1068,Haryana,Hisar,2024-09-03,0.52,0.469,0.262,Healthy / Moderate Canopy
+FLD-GUJ-1069,Gujarat,Surat,2024-04-14,0.221,0.183,0.323,Fallow / Bare Soil
+FLD-MAH-1070,Maharashtra,Nagpur,2024-12-18,0.847,0.748,0.387,Excellent / Dense Canopy
+FLD-MAD-1071,Madhya Pradesh,Ujjain,2024-01-21,0.52,0.485,0.412,Healthy / Moderate Canopy
+FLD-MAH-1072,Maharashtra,Nagpur,2024-01-23,0.657,0.592,-0.063,Excellent / Dense Canopy
+FLD-HAR-1073,Haryana,Sirsa,2024-05-03,0.191,0.161,0.258,Fallow / Bare Soil
+FLD-TAM-1074,Tamil Nadu,Salem,2024-03-25,0.8,0.672,0.093,Excellent / Dense Canopy
+FLD-WES-1075,West Bengal,Burdwan,2024-06-03,0.193,0.17,-0.088,Fallow / Bare Soil
+FLD-TAM-1076,Tamil Nadu,Coimbatore,2024-01-29,0.659,0.603,-0.067,Excellent / Dense Canopy
+FLD-TAM-1077,Tamil Nadu,Madurai,2024-01-07,0.722,0.632,-0.051,Excellent / Dense Canopy
+FLD-TAM-1078,Tamil Nadu,Salem,2024-01-24,0.629,0.595,-0.053,Healthy / Moderate Canopy
+FLD-TAM-1079,Tamil Nadu,Thanjavur,2024-02-13,0.638,0.593,0.084,Healthy / Moderate Canopy
+FLD-PUN-1080,Punjab,Patiala,2024-08-22,0.676,0.568,0.392,Excellent / Dense Canopy
+FLD-MAD-1081,Madhya Pradesh,Jabalpur,2024-08-01,0.391,0.332,0.026,Stressed / Sparse Vegetation
+FLD-UTT-1082,Uttar Pradesh,Meerut,2024-06-30,0.767,0.64,-0.01,Excellent / Dense Canopy
+FLD-KAR-1083,Karnataka,Mysuru,2024-03-25,0.741,0.639,-0.039,Excellent / Dense Canopy
+FLD-KAR-1084,Karnataka,Belagavi,2024-08-21,0.186,0.161,-0.136,Fallow / Bare Soil
+FLD-HAR-1085,Haryana,Hisar,2024-08-30,0.531,0.499,0.175,Healthy / Moderate Canopy
+FLD-UTT-1086,Uttar Pradesh,Meerut,2024-07-11,0.444,0.406,0.429,Stressed / Sparse Vegetation
+FLD-GUJ-1087,Gujarat,Rajkot,2024-11-25,0.63,0.568,0.022,Healthy / Moderate Canopy
+FLD-TAM-1088,Tamil Nadu,Tiruchirappalli,2024-08-09,0.649,0.562,-0.15,Healthy / Moderate Canopy
+FLD-UTT-1089,Uttar Pradesh,Agra,2024-03-16,0.716,0.615,-0.208,Excellent / Dense Canopy
+FLD-PUN-1090,Punjab,Patiala,2024-11-03,0.609,0.554,0.279,Healthy / Moderate Canopy
+FLD-MAH-1091,Maharashtra,Pune,2024-10-30,0.844,0.784,0.221,Excellent / Dense Canopy
+FLD-TAM-1092,Tamil Nadu,Salem,2024-10-17,0.251,0.215,0.062,Fallow / Bare Soil
+FLD-MAH-1093,Maharashtra,Nashik,2024-09-07,0.849,0.805,0.306,Excellent / Dense Canopy
+FLD-MAH-1094,Maharashtra,Solapur,2024-06-14,0.693,0.588,-0.001,Excellent / Dense Canopy
+FLD-GUJ-1095,Gujarat,Vadodara,2024-11-22,0.848,0.717,0.097,Excellent / Dense Canopy
+FLD-WES-1096,West Bengal,Hooghly,2024-09-07,0.307,0.283,0.36,Stressed / Sparse Vegetation
+FLD-AND-1097,Andhra Pradesh,Kurnool,2024-05-06,0.774,0.654,0.111,Excellent / Dense Canopy
+FLD-MAD-1098,Madhya Pradesh,Indore,2024-07-02,0.754,0.687,0.188,Excellent / Dense Canopy
+FLD-HAR-1099,Haryana,Ambala,2024-11-06,0.751,0.649,0.345,Excellent / Dense Canopy
+FLD-HAR-1100,Haryana,Karnal,2024-09-26,0.634,0.57,-0.217,Healthy / Moderate Canopy
+FLD-UTT-1101,Uttar Pradesh,Prayagraj,2024-05-22,0.617,0.543,0.355,Healthy / Moderate Canopy
+FLD-HAR-1102,Haryana,Ambala,2024-02-12,0.52,0.483,0.292,Healthy / Moderate Canopy
+FLD-WES-1103,West Bengal,Murshidabad,2024-06-15,0.331,0.309,-0.235,Stressed / Sparse Vegetation
+FLD-MAH-1104,Maharashtra,Solapur,2024-09-16,0.224,0.188,0.02,Fallow / Bare Soil
+FLD-AND-1105,Andhra Pradesh,Kurnool,2024-06-11,0.358,0.325,0.028,Stressed / Sparse Vegetation
+FLD-MAH-1106,Maharashtra,Nagpur,2024-07-17,0.825,0.69,0.369,Excellent / Dense Canopy
+FLD-TAM-1107,Tamil Nadu,Thanjavur,2024-07-30,0.49,0.453,0.393,Healthy / Moderate Canopy
+FLD-MAD-1108,Madhya Pradesh,Bhopal,2024-05-16,0.33,0.312,-0.02,Stressed / Sparse Vegetation
+FLD-KAR-1109,Karnataka,Shimoga,2024-09-14,0.354,0.321,0.052,Stressed / Sparse Vegetation
+FLD-WES-1110,West Bengal,Burdwan,2024-10-02,0.79,0.656,-0.11,Excellent / Dense Canopy
+FLD-AND-1111,Andhra Pradesh,Krishna,2024-09-02,0.758,0.67,0.077,Excellent / Dense Canopy
+FLD-PUN-1112,Punjab,Jalandhar,2024-07-06,0.325,0.281,0.436,Stressed / Sparse Vegetation
+FLD-GUJ-1113,Gujarat,Surat,2024-01-16,0.474,0.424,0.319,Healthy / Moderate Canopy
+FLD-AND-1114,Andhra Pradesh,Chittoor,2024-12-13,0.291,0.27,-0.172,Fallow / Bare Soil
+FLD-MAD-1115,Madhya Pradesh,Gwalior,2024-10-11,0.646,0.534,-0.239,Healthy / Moderate Canopy
+FLD-UTT-1116,Uttar Pradesh,Kanpur,2024-08-11,0.283,0.26,0.242,Fallow / Bare Soil
+FLD-TAM-1117,Tamil Nadu,Coimbatore,2024-06-01,0.749,0.664,-0.205,Excellent / Dense Canopy
+FLD-GUJ-1118,Gujarat,Ahmedabad,2024-03-25,0.642,0.57,0.362,Healthy / Moderate Canopy
+FLD-UTT-1119,Uttar Pradesh,Meerut,2024-07-24,0.363,0.321,0.426,Stressed / Sparse Vegetation
+FLD-MAD-1120,Madhya Pradesh,Indore,2024-08-06,0.302,0.276,-0.072,Stressed / Sparse Vegetation
+FLD-TAM-1121,Tamil Nadu,Coimbatore,2024-10-20,0.268,0.23,0.408,Fallow / Bare Soil
+FLD-PUN-1122,Punjab,Patiala,2024-07-29,0.549,0.504,0.112,Healthy / Moderate Canopy
+FLD-MAD-1123,Madhya Pradesh,Ujjain,2024-06-07,0.354,0.295,0.289,Stressed / Sparse Vegetation
+FLD-TAM-1124,Tamil Nadu,Madurai,2024-02-17,0.652,0.551,0.306,Excellent / Dense Canopy
+FLD-WES-1125,West Bengal,Hooghly,2024-07-20,0.576,0.537,0.022,Healthy / Moderate Canopy
+FLD-UTT-1126,Uttar Pradesh,Kanpur,2024-03-02,0.405,0.375,0.066,Stressed / Sparse Vegetation
+FLD-GUJ-1127,Gujarat,Vadodara,2024-02-19,0.675,0.584,0.401,Excellent / Dense Canopy
+FLD-GUJ-1128,Gujarat,Surat,2024-01-19,0.847,0.768,0.011,Excellent / Dense Canopy
+FLD-MAD-1129,Madhya Pradesh,Gwalior,2024-02-05,0.245,0.227,0.325,Fallow / Bare Soil
+FLD-MAD-1130,Madhya Pradesh,Ujjain,2024-12-12,0.344,0.303,0.078,Stressed / Sparse Vegetation
+FLD-WES-1131,West Bengal,Hooghly,2024-12-06,0.829,0.734,-0.222,Excellent / Dense Canopy
+FLD-KAR-1132,Karnataka,Shimoga,2024-06-20,0.54,0.499,0.32,Healthy / Moderate Canopy
+FLD-WES-1133,West Bengal,Burdwan,2024-04-13,0.334,0.283,0.243,Stressed / Sparse Vegetation
+FLD-UTT-1134,Uttar Pradesh,Prayagraj,2024-10-07,0.756,0.628,0.137,Excellent / Dense Canopy
+FLD-WES-1135,West Bengal,Birbhum,2024-09-09,0.602,0.515,0.443,Healthy / Moderate Canopy
+FLD-WES-1136,West Bengal,Murshidabad,2024-11-22,0.382,0.35,0.413,Stressed / Sparse Vegetation
+FLD-KAR-1137,Karnataka,Mysuru,2024-05-09,0.642,0.608,0.118,Healthy / Moderate Canopy
+FLD-KAR-1138,Karnataka,Mandya,2024-03-06,0.753,0.692,-0.078,Excellent / Dense Canopy
+FLD-WES-1139,West Bengal,Burdwan,2024-09-12,0.535,0.45,0.008,Healthy / Moderate Canopy
+FLD-WES-1140,West Bengal,Burdwan,2024-01-18,0.505,0.417,-0.14,Healthy / Moderate Canopy
+FLD-GUJ-1141,Gujarat,Surat,2024-04-16,0.488,0.455,0.089,Healthy / Moderate Canopy
+FLD-PUN-1142,Punjab,Jalandhar,2024-02-02,0.337,0.298,0.021,Stressed / Sparse Vegetation
+FLD-WES-1143,West Bengal,Birbhum,2024-03-03,0.547,0.463,0.277,Healthy / Moderate Canopy
+FLD-KAR-1144,Karnataka,Belagavi,2024-01-18,0.594,0.503,0.236,Healthy / Moderate Canopy
+FLD-WES-1145,West Bengal,Hooghly,2024-05-30,0.659,0.625,-0.064,Excellent / Dense Canopy
+FLD-AND-1146,Andhra Pradesh,Kurnool,2024-08-21,0.414,0.342,0.212,Stressed / Sparse Vegetation
+FLD-MAD-1147,Madhya Pradesh,Indore,2024-11-17,0.797,0.73,0.103,Excellent / Dense Canopy
+FLD-AND-1148,Andhra Pradesh,Chittoor,2024-02-29,0.42,0.388,0.236,Stressed / Sparse Vegetation
+FLD-PUN-1149,Punjab,Bathinda,2024-07-31,0.519,0.453,0.382,Healthy / Moderate Canopy
+FLD-KAR-1150,Karnataka,Belagavi,2024-12-24,0.34,0.311,-0.114,Stressed / Sparse Vegetation
+FLD-GUJ-1151,Gujarat,Surat,2024-01-03,0.461,0.421,-0.199,Healthy / Moderate Canopy
+FLD-WES-1152,West Bengal,Burdwan,2024-08-05,0.567,0.466,-0.143,Healthy / Moderate Canopy
+FLD-MAH-1153,Maharashtra,Nagpur,2024-01-27,0.815,0.698,-0.05,Excellent / Dense Canopy
+FLD-WES-1154,West Bengal,Murshidabad,2024-03-07,0.385,0.338,-0.117,Stressed / Sparse Vegetation
+FLD-KAR-1155,Karnataka,Mysuru,2024-10-23,0.311,0.262,0.192,Stressed / Sparse Vegetation
+FLD-PUN-1156,Punjab,Bathinda,2024-05-17,0.848,0.732,-0.167,Excellent / Dense Canopy
+FLD-UTT-1157,Uttar Pradesh,Meerut,2024-02-15,0.353,0.316,0.213,Stressed / Sparse Vegetation
+FLD-MAH-1158,Maharashtra,Pune,2024-07-24,0.786,0.653,0.438,Excellent / Dense Canopy
+FLD-MAH-1159,Maharashtra,Nagpur,2024-12-19,0.802,0.676,-0.125,Excellent / Dense Canopy
+FLD-TAM-1160,Tamil Nadu,Salem,2024-03-15,0.272,0.224,0.272,Fallow / Bare Soil
+FLD-WES-1161,West Bengal,Hooghly,2024-01-09,0.452,0.385,0.247,Healthy / Moderate Canopy
+FLD-AND-1162,Andhra Pradesh,Chittoor,2024-04-08,0.566,0.518,0.423,Healthy / Moderate Canopy
+FLD-MAD-1163,Madhya Pradesh,Indore,2024-02-17,0.766,0.724,0.107,Excellent / Dense Canopy
+FLD-MAD-1164,Madhya Pradesh,Gwalior,2024-03-06,0.5,0.436,0.393,Healthy / Moderate Canopy
+FLD-TAM-1165,Tamil Nadu,Coimbatore,2024-11-29,0.189,0.179,0.377,Fallow / Bare Soil
+FLD-WES-1166,West Bengal,Hooghly,2024-03-31,0.84,0.749,0.187,Excellent / Dense Canopy
+FLD-UTT-1167,Uttar Pradesh,Meerut,2024-08-02,0.436,0.378,-0.052,Stressed / Sparse Vegetation
+FLD-KAR-1168,Karnataka,Shimoga,2024-11-20,0.469,0.436,0.193,Healthy / Moderate Canopy
+FLD-MAD-1169,Madhya Pradesh,Gwalior,2024-03-08,0.324,0.293,0.152,Stressed / Sparse Vegetation
+FLD-KAR-1170,Karnataka,Dharwad,2024-05-03,0.424,0.386,0.197,Stressed / Sparse Vegetation
+FLD-TAM-1171,Tamil Nadu,Madurai,2024-11-07,0.62,0.516,-0.071,Healthy / Moderate Canopy
+FLD-TAM-1172,Tamil Nadu,Thanjavur,2024-11-16,0.263,0.248,-0.177,Fallow / Bare Soil
+FLD-MAD-1173,Madhya Pradesh,Bhopal,2024-06-16,0.39,0.353,-0.078,Stressed / Sparse Vegetation
+FLD-UTT-1174,Uttar Pradesh,Meerut,2024-11-02,0.644,0.6,0.231,Healthy / Moderate Canopy
+FLD-AND-1175,Andhra Pradesh,Krishna,2024-04-14,0.549,0.468,0.176,Healthy / Moderate Canopy
+FLD-KAR-1176,Karnataka,Shimoga,2024-09-11,0.35,0.3,0.406,Stressed / Sparse Vegetation
+FLD-MAH-1177,Maharashtra,Nashik,2024-07-01,0.638,0.565,0.019,Healthy / Moderate Canopy
+FLD-UTT-1178,Uttar Pradesh,Varanasi,2024-12-01,0.267,0.222,0.12,Fallow / Bare Soil
+FLD-MAH-1179,Maharashtra,Nashik,2024-06-08,0.448,0.397,0.358,Stressed / Sparse Vegetation
+FLD-PUN-1180,Punjab,Amritsar,2024-09-07,0.559,0.459,0.253,Healthy / Moderate Canopy
+FLD-MAD-1181,Madhya Pradesh,Bhopal,2024-12-16,0.674,0.624,0.389,Excellent / Dense Canopy
+FLD-MAH-1182,Maharashtra,Aurangabad,2024-06-24,0.816,0.755,0.171,Excellent / Dense Canopy
+FLD-WES-1183,West Bengal,Birbhum,2024-09-15,0.554,0.471,0.34,Healthy / Moderate Canopy
+FLD-WES-1184,West Bengal,Burdwan,2024-08-17,0.758,0.69,0.054,Excellent / Dense Canopy
+FLD-PUN-1185,Punjab,Bathinda,2024-05-05,0.245,0.232,0.437,Fallow / Bare Soil
+FLD-MAH-1186,Maharashtra,Solapur,2024-10-26,0.469,0.434,0.093,Healthy / Moderate Canopy
+FLD-PUN-1187,Punjab,Patiala,2024-02-16,0.628,0.555,-0.086,Healthy / Moderate Canopy
+FLD-MAD-1188,Madhya Pradesh,Bhopal,2024-01-07,0.83,0.729,0.195,Excellent / Dense Canopy
+FLD-TAM-1189,Tamil Nadu,Coimbatore,2024-07-01,0.502,0.42,0.428,Healthy / Moderate Canopy
+FLD-HAR-1190,Haryana,Rohtak,2024-07-16,0.634,0.556,-0.194,Healthy / Moderate Canopy
+FLD-MAD-1191,Madhya Pradesh,Bhopal,2024-07-14,0.255,0.213,-0.173,Fallow / Bare Soil
+FLD-MAD-1192,Madhya Pradesh,Indore,2024-10-31,0.595,0.538,0.2,Healthy / Moderate Canopy
+FLD-AND-1193,Andhra Pradesh,Guntur,2024-04-08,0.723,0.642,-0.054,Excellent / Dense Canopy
+FLD-AND-1194,Andhra Pradesh,Guntur,2024-10-22,0.656,0.594,0.072,Excellent / Dense Canopy
+FLD-KAR-1195,Karnataka,Mysuru,2024-01-16,0.807,0.687,-0.088,Excellent / Dense Canopy
+FLD-MAD-1196,Madhya Pradesh,Ujjain,2024-09-03,0.815,0.751,0.103,Excellent / Dense Canopy
+FLD-KAR-1197,Karnataka,Belagavi,2024-09-13,0.658,0.546,0.112,Excellent / Dense Canopy
+FLD-AND-1198,Andhra Pradesh,Chittoor,2024-06-30,0.746,0.686,0.447,Excellent / Dense Canopy
+FLD-HAR-1199,Haryana,Hisar,2024-04-12,0.571,0.505,0.277,Healthy / Moderate Canopy
+FLD-MAD-1200,Madhya Pradesh,Gwalior,2024-06-11,0.805,0.713,0.033,Excellent / Dense Canopy
+FLD-AND-1201,Andhra Pradesh,Chittoor,2024-12-18,0.742,0.703,0.186,Excellent / Dense Canopy
+FLD-TAM-1202,Tamil Nadu,Madurai,2024-01-30,0.743,0.704,0.355,Excellent / Dense Canopy
+FLD-GUJ-1203,Gujarat,Rajkot,2024-08-16,0.792,0.75,-0.069,Excellent / Dense Canopy
+FLD-HAR-1204,Haryana,Hisar,2024-10-19,0.196,0.186,0.275,Fallow / Bare Soil
+FLD-MAD-1205,Madhya Pradesh,Jabalpur,2024-01-10,0.687,0.578,-0.141,Excellent / Dense Canopy
+FLD-TAM-1206,Tamil Nadu,Coimbatore,2024-02-29,0.463,0.391,0.006,Healthy / Moderate Canopy
+FLD-MAD-1207,Madhya Pradesh,Indore,2024-01-04,0.809,0.726,0.141,Excellent / Dense Canopy
+FLD-HAR-1208,Haryana,Karnal,2024-05-20,0.198,0.183,0.13,Fallow / Bare Soil
+FLD-HAR-1209,Haryana,Sirsa,2024-02-24,0.751,0.616,0.144,Excellent / Dense Canopy
+FLD-GUJ-1210,Gujarat,Surat,2024-07-12,0.818,0.677,0.17,Excellent / Dense Canopy
+FLD-HAR-1211,Haryana,Ambala,2024-06-03,0.342,0.321,0.332,Stressed / Sparse Vegetation
+FLD-AND-1212,Andhra Pradesh,Krishna,2024-10-12,0.466,0.383,0.354,Healthy / Moderate Canopy
+FLD-KAR-1213,Karnataka,Mysuru,2024-07-18,0.823,0.678,0.38,Excellent / Dense Canopy
+FLD-HAR-1214,Haryana,Ambala,2024-01-18,0.228,0.197,-0.007,Fallow / Bare Soil
+FLD-KAR-1215,Karnataka,Shimoga,2024-03-29,0.411,0.389,0.234,Stressed / Sparse Vegetation
+FLD-TAM-1216,Tamil Nadu,Madurai,2024-12-20,0.384,0.326,0.171,Stressed / Sparse Vegetation
+FLD-TAM-1217,Tamil Nadu,Salem,2024-06-02,0.186,0.161,0.038,Fallow / Bare Soil
+FLD-TAM-1218,Tamil Nadu,Madurai,2024-04-02,0.237,0.215,0.106,Fallow / Bare Soil
+FLD-PUN-1219,Punjab,Amritsar,2024-03-14,0.778,0.722,-0.131,Excellent / Dense Canopy
+FLD-KAR-1220,Karnataka,Belagavi,2024-02-09,0.699,0.613,0.435,Excellent / Dense Canopy
+FLD-UTT-1221,Uttar Pradesh,Agra,2024-06-15,0.787,0.655,0.396,Excellent / Dense Canopy
+FLD-MAH-1222,Maharashtra,Solapur,2024-02-17,0.566,0.477,0.103,Healthy / Moderate Canopy
+FLD-MAD-1223,Madhya Pradesh,Bhopal,2024-07-03,0.263,0.247,0.302,Fallow / Bare Soil
+FLD-MAD-1224,Madhya Pradesh,Gwalior,2024-11-20,0.818,0.687,0.141,Excellent / Dense Canopy
+FLD-HAR-1225,Haryana,Hisar,2024-08-06,0.729,0.631,0.028,Excellent / Dense Canopy
+FLD-UTT-1226,Uttar Pradesh,Meerut,2024-02-25,0.258,0.218,0.145,Fallow / Bare Soil
+FLD-PUN-1227,Punjab,Bathinda,2024-06-14,0.609,0.53,-0.118,Healthy / Moderate Canopy
+FLD-MAD-1228,Madhya Pradesh,Bhopal,2024-09-30,0.55,0.504,0.131,Healthy / Moderate Canopy
+FLD-WES-1229,West Bengal,Burdwan,2024-03-23,0.585,0.554,0.285,Healthy / Moderate Canopy
+FLD-GUJ-1230,Gujarat,Ahmedabad,2024-01-01,0.531,0.489,0.041,Healthy / Moderate Canopy
+FLD-KAR-1231,Karnataka,Belagavi,2024-06-15,0.375,0.326,-0.047,Stressed / Sparse Vegetation
+FLD-TAM-1232,Tamil Nadu,Madurai,2024-08-04,0.649,0.581,0.262,Healthy / Moderate Canopy
+FLD-GUJ-1233,Gujarat,Mehsana,2024-06-09,0.726,0.622,0.342,Excellent / Dense Canopy
+FLD-TAM-1234,Tamil Nadu,Coimbatore,2024-09-02,0.427,0.367,-0.034,Stressed / Sparse Vegetation
+FLD-GUJ-1235,Gujarat,Rajkot,2024-05-28,0.651,0.554,0.356,Excellent / Dense Canopy
+FLD-MAD-1236,Madhya Pradesh,Bhopal,2024-07-21,0.396,0.346,0.434,Stressed / Sparse Vegetation
+FLD-WES-1237,West Bengal,Birbhum,2024-09-28,0.709,0.607,-0.16,Excellent / Dense Canopy
+FLD-TAM-1238,Tamil Nadu,Tiruchirappalli,2024-02-24,0.55,0.499,0.37,Healthy / Moderate Canopy
+FLD-GUJ-1239,Gujarat,Vadodara,2024-12-05,0.254,0.219,0.416,Fallow / Bare Soil
+FLD-MAH-1240,Maharashtra,Nagpur,2024-12-06,0.826,0.686,0.307,Excellent / Dense Canopy
+FLD-WES-1241,West Bengal,Murshidabad,2024-12-02,0.753,0.654,0.403,Excellent / Dense Canopy
+FLD-PUN-1242,Punjab,Bathinda,2024-04-20,0.427,0.405,0.125,Stressed / Sparse Vegetation
+FLD-TAM-1243,Tamil Nadu,Thanjavur,2024-06-22,0.377,0.353,-0.22,Stressed / Sparse Vegetation
+FLD-TAM-1244,Tamil Nadu,Tiruchirappalli,2024-10-21,0.726,0.648,0.263,Excellent / Dense Canopy
+FLD-PUN-1245,Punjab,Amritsar,2024-12-13,0.183,0.161,-0.066,Fallow / Bare Soil
+FLD-MAH-1246,Maharashtra,Nagpur,2024-05-02,0.36,0.324,0.169,Stressed / Sparse Vegetation
+FLD-MAD-1247,Madhya Pradesh,Ujjain,2024-10-27,0.425,0.39,0.285,Stressed / Sparse Vegetation
+FLD-GUJ-1248,Gujarat,Vadodara,2024-11-04,0.573,0.536,0.189,Healthy / Moderate Canopy
+FLD-GUJ-1249,Gujarat,Rajkot,2024-12-14,0.584,0.55,0.433,Healthy / Moderate Canopy
+FLD-TAM-1250,Tamil Nadu,Coimbatore,2024-07-20,0.599,0.559,0.384,Healthy / Moderate Canopy
+FLD-UTT-1251,Uttar Pradesh,Agra,2024-01-10,0.433,0.4,0.25,Stressed / Sparse Vegetation
+FLD-PUN-1252,Punjab,Patiala,2024-09-30,0.443,0.395,-0.231,Stressed / Sparse Vegetation
+FLD-WES-1253,West Bengal,Murshidabad,2024-02-23,0.531,0.484,0.429,Healthy / Moderate Canopy
+FLD-WES-1254,West Bengal,Nadia,2024-01-18,0.716,0.656,0.363,Excellent / Dense Canopy
+FLD-GUJ-1255,Gujarat,Mehsana,2024-04-05,0.463,0.394,0.235,Healthy / Moderate Canopy
+FLD-MAH-1256,Maharashtra,Nashik,2024-05-14,0.676,0.599,0.18,Excellent / Dense Canopy
+FLD-HAR-1257,Haryana,Hisar,2024-07-18,0.587,0.518,0.057,Healthy / Moderate Canopy
+FLD-UTT-1258,Uttar Pradesh,Varanasi,2024-05-11,0.825,0.736,-0.194,Excellent / Dense Canopy
+FLD-MAH-1259,Maharashtra,Nagpur,2024-01-22,0.633,0.549,0.058,Healthy / Moderate Canopy
+FLD-UTT-1260,Uttar Pradesh,Prayagraj,2024-03-20,0.395,0.337,0.427,Stressed / Sparse Vegetation
+FLD-TAM-1261,Tamil Nadu,Coimbatore,2024-11-05,0.723,0.594,-0.048,Excellent / Dense Canopy
+FLD-AND-1262,Andhra Pradesh,Krishna,2024-01-28,0.774,0.666,-0.181,Excellent / Dense Canopy
+FLD-AND-1263,Andhra Pradesh,West Godavari,2024-03-02,0.234,0.201,0.137,Fallow / Bare Soil
+FLD-PUN-1264,Punjab,Ludhiana,2024-08-05,0.182,0.163,-0.137,Fallow / Bare Soil
+FLD-UTT-1265,Uttar Pradesh,Prayagraj,2024-03-12,0.408,0.378,0.308,Stressed / Sparse Vegetation
+FLD-WES-1266,West Bengal,Nadia,2024-11-21,0.406,0.382,0.162,Stressed / Sparse Vegetation
+FLD-MAD-1267,Madhya Pradesh,Jabalpur,2024-01-20,0.419,0.345,0.174,Stressed / Sparse Vegetation
+FLD-PUN-1268,Punjab,Patiala,2024-05-08,0.385,0.332,0.193,Stressed / Sparse Vegetation
+FLD-WES-1269,West Bengal,Burdwan,2024-05-31,0.31,0.288,0.223,Stressed / Sparse Vegetation
+FLD-PUN-1270,Punjab,Bathinda,2024-06-10,0.64,0.603,-0.021,Healthy / Moderate Canopy
+FLD-GUJ-1271,Gujarat,Mehsana,2024-08-03,0.358,0.328,0.01,Stressed / Sparse Vegetation
+FLD-TAM-1272,Tamil Nadu,Tiruchirappalli,2024-09-07,0.84,0.785,0.354,Excellent / Dense Canopy
+FLD-KAR-1273,Karnataka,Shimoga,2024-11-02,0.518,0.479,-0.1,Healthy / Moderate Canopy
+FLD-HAR-1274,Haryana,Karnal,2024-05-29,0.378,0.32,0.02,Stressed / Sparse Vegetation
+FLD-MAH-1275,Maharashtra,Pune,2024-10-19,0.32,0.281,-0.019,Stressed / Sparse Vegetation
+FLD-TAM-1276,Tamil Nadu,Thanjavur,2024-03-27,0.658,0.603,-0.085,Excellent / Dense Canopy
+FLD-AND-1277,Andhra Pradesh,West Godavari,2024-07-19,0.641,0.56,0.416,Healthy / Moderate Canopy
+FLD-KAR-1278,Karnataka,Mysuru,2024-12-02,0.323,0.273,-0.081,Stressed / Sparse Vegetation
+FLD-AND-1279,Andhra Pradesh,West Godavari,2024-10-09,0.541,0.479,0.416,Healthy / Moderate Canopy
+FLD-TAM-1280,Tamil Nadu,Salem,2024-02-28,0.621,0.553,-0.186,Healthy / Moderate Canopy
+FLD-MAD-1281,Madhya Pradesh,Gwalior,2024-07-21,0.627,0.536,0.124,Healthy / Moderate Canopy
+FLD-TAM-1282,Tamil Nadu,Madurai,2024-10-24,0.326,0.296,-0.117,Stressed / Sparse Vegetation
+FLD-GUJ-1283,Gujarat,Mehsana,2024-11-30,0.77,0.727,0.045,Excellent / Dense Canopy
+FLD-MAH-1284,Maharashtra,Solapur,2024-08-01,0.527,0.481,-0.166,Healthy / Moderate Canopy
+FLD-WES-1285,West Bengal,Burdwan,2024-01-27,0.584,0.501,-0.004,Healthy / Moderate Canopy
+FLD-AND-1286,Andhra Pradesh,Chittoor,2024-10-01,0.299,0.275,-0.225,Fallow / Bare Soil
+FLD-MAH-1287,Maharashtra,Nagpur,2024-01-22,0.796,0.753,-0.133,Excellent / Dense Canopy
+FLD-HAR-1288,Haryana,Ambala,2024-03-27,0.835,0.686,-0.039,Excellent / Dense Canopy
+FLD-PUN-1289,Punjab,Ludhiana,2024-08-27,0.619,0.541,-0.072,Healthy / Moderate Canopy
+FLD-AND-1290,Andhra Pradesh,Guntur,2024-02-18,0.184,0.157,0.102,Fallow / Bare Soil
+FLD-MAH-1291,Maharashtra,Aurangabad,2024-12-05,0.38,0.347,-0.148,Stressed / Sparse Vegetation
+FLD-PUN-1292,Punjab,Jalandhar,2024-07-28,0.755,0.651,0.312,Excellent / Dense Canopy
+FLD-TAM-1293,Tamil Nadu,Salem,2024-03-17,0.738,0.698,0.137,Excellent / Dense Canopy
+FLD-UTT-1294,Uttar Pradesh,Kanpur,2024-02-21,0.754,0.65,0.241,Excellent / Dense Canopy
+FLD-MAD-1295,Madhya Pradesh,Jabalpur,2024-04-07,0.288,0.254,0.143,Fallow / Bare Soil
+FLD-MAD-1296,Madhya Pradesh,Gwalior,2024-11-04,0.356,0.31,-0.199,Stressed / Sparse Vegetation
+FLD-AND-1297,Andhra Pradesh,West Godavari,2024-08-12,0.255,0.21,-0.082,Fallow / Bare Soil
+FLD-HAR-1298,Haryana,Hisar,2024-06-03,0.82,0.673,0.087,Excellent / Dense Canopy
+FLD-HAR-1299,Haryana,Karnal,2024-03-19,0.77,0.656,-0.137,Excellent / Dense Canopy

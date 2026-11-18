@@ -1,0 +1,155 @@
+version: '3.8'
+
+services:
+  # 1. REACT FRONTEND
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: agrinova-frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: always
+
+  # 2. FASTAPI BACKEND & ML INFERENCE
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    container_name: agrinova-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - MONGODB_URI=mongodb://mongodb:27017
+      - DATABASE_NAME=agrinova_db
+      - HADOOP_NAMENODE_URL=http://namenode:9870
+      - KAFKA_BOOTSTRAP_SERVERS=kafka:9092
+      - JWT_SECRET_KEY=agrinova-production-secure-key-2026
+    depends_on:
+      - mongodb
+      - namenode
+      - kafka
+    restart: always
+
+  # 3. MONGODB OPERATIONAL DATABASE
+  mongodb:
+    image: mongo:6.0
+    container_name: agrinova-mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: always
+
+  # 4. HADOOP HDFS NAMENODE
+  namenode:
+    image: bde2020/hadoop-namenode:2.0.0-hadoop3.2.1-java8
+    container_name: agrinova-namenode
+    ports:
+      - "9870:9870"
+      - "9000:9000"
+    environment:
+      - CLUSTER_NAME=agrinova-cluster
+    env_file:
+      - ./docker/hadoop/hadoop.env
+    volumes:
+      - hadoop_namenode:/hadoop/dfs/name
+    restart: always
+
+  # 5. HADOOP HDFS DATANODE
+  datanode:
+    image: bde2020/hadoop-datanode:2.0.0-hadoop3.2.1-java8
+    container_name: agrinova-datanode
+    ports:
+      - "9864:9864"
+    environment:
+      - SERVICE_PRECONDITION=namenode:9870
+    env_file:
+      - ./docker/hadoop/hadoop.env
+    volumes:
+      - hadoop_datanode:/hadoop/dfs/data
+    depends_on:
+      - namenode
+    restart: always
+
+  # 6. APACHE SPARK MASTER
+  spark-master:
+    image: bde2020/spark-master:3.3.0-hadoop3.3
+    container_name: agrinova-spark-master
+    ports:
+      - "8080:8080"
+      - "7077:7077"
+    environment:
+      - INIT_DAEMON_STEP=setup_spark
+    restart: always
+
+  # 7. APACHE SPARK WORKER
+  spark-worker:
+    image: bde2020/spark-worker:3.3.0-hadoop3.3
+    container_name: agrinova-spark-worker
+    ports:
+      - "8081:8081"
+    environment:
+      - SPARK_MASTER=spark://spark-master:7077
+    depends_on:
+      - spark-master
+    restart: always
+
+  # 8. ZOOKEEPER FOR KAFKA
+  zookeeper:
+    image: confluentinc/cp-zookeeper:7.3.0
+    container_name: agrinova-zookeeper
+    ports:
+      - "2181:2181"
+    environment:
+      ZOOKEEPER_CLIENT_PORT: 2181
+      ZOOKEEPER_TICK_TIME: 2000
+
+  # 9. APACHE KAFKA MESSAGE BROKER
+  kafka:
+    image: confluentinc/cp-kafka:7.3.0
+    container_name: agrinova-kafka
+    ports:
+      - "9092:9092"
+    depends_on:
+      - zookeeper
+    environment:
+      KAFKA_BROKER_ID: 1
+      KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
+      KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://kafka:9092,PLAINTEXT_HOST://localhost:29092
+      KAFKA_LISTENER_SECURITY_PROTOCOL_MAP: PLAINTEXT:PLAINTEXT,PLAINTEXT_HOST:PLAINTEXT
+      KAFKA_INTER_BROKER_LISTENER_NAME: PLAINTEXT
+      KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+  # 10. PROMETHEUS METRICS MONITORING
+  prometheus:
+    image: prom/prometheus:v2.45.0
+    container_name: agrinova-prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./monitoring/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+    restart: always
+
+  # 11. GRAFANA OBSERVABILITY DASHBOARD
+  grafana:
+    image: grafana/grafana:10.0.0
+    container_name: agrinova-grafana
+    ports:
+      - "3001:3000"
+    environment:
+      - GF_SECURITY_ADMIN_USER=admin
+      - GF_SECURITY_ADMIN_PASSWORD=agrinova
+    volumes:
+      - grafana_data:/var/lib/grafana
+    depends_on:
+      - prometheus
+    restart: always
+
+volumes:
+  mongo_data:
+  hadoop_namenode:
+  hadoop_datanode:
+  grafana_data:

@@ -1,0 +1,23 @@
+[
+  {
+    "model_id": "MOD-CR-V1",
+    "name": "AgriNova Crop Recommendation Engine",
+    "algorithm": "RandomForestClassifier",
+    "accuracy": 0.9886,
+    "version": "1.0.0",
+    "status": "PRODUCTION",
+    "last_trained": "2026-11-18T23:01:40.653734",
+    "_id": "85ded28b-e30d-40ac-aab5-55bec1b9fc83"
+  },
+  {
+    "model_id": "MOD-CYP-V1",
+    "name": "AgriNova Crop Yield Predictor",
+    "algorithm": "GradientBoostingRegressor",
+    "r2_score": 0.9865,
+    "rmse": 2.5964,
+    "version": "1.0.0",
+    "status": "PRODUCTION",
+    "last_trained": "2026-11-18T23:01:40.653747",
+    "_id": "24e00963-6c86-48d5-8c3c-95c78f1885da"
+  }
+]

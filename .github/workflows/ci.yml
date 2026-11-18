@@ -1,0 +1,54 @@
+name: AgriNova CI/CD Pipeline
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  backend-and-ml-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate Datasets & Train ML Models
+        run: |
+          python scripts/generate_datasets.py
+          python scripts/train_ml_models.py
+          python scripts/seed_database.py
+          python bigdata/spark/spark_job_manager.py
+
+      - name: Run Automated Subsystem Verification Suite
+        run: |
+          python scripts/run_tests.py
+
+  frontend-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Node.js 20
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json
+
+      - name: Install Frontend Dependencies
+        working-directory: ./frontend
+        run: npm ci
+
+      - name: Build React Production Bundle
+        working-directory: ./frontend
+        run: npm run build

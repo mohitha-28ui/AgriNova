@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Rice",
+    "type": "Cereal",
+    "category": "Kharif",
+    "water_req_mm": "1200-1500",
+    "ideal_ph": "5.5-6.5",
+    "growing_days": 120,
+    "_id": "5401a515-5324-4596-9cb5-6cb0d05998de"
+  },
+  {
+    "name": "Wheat",
+    "type": "Cereal",
+    "category": "Rabi",
+    "water_req_mm": "450-650",
+    "ideal_ph": "6.0-7.0",
+    "growing_days": 140,
+    "_id": "be2e6ac9-9ca1-49b0-801d-2608bc9032e2"
+  },
+  {
+    "name": "Maize",
+    "type": "Cereal",
+    "category": "Kharif",
+    "water_req_mm": "500-800",
+    "ideal_ph": "5.8-7.2",
+    "growing_days": 100,
+    "_id": "77d2e818-4259-4d86-acb1-d773eefe66c8"
+  },
+  {
+    "name": "Cotton",
+    "type": "Fiber",
+    "category": "Kharif",
+    "water_req_mm": "700-1200",
+    "ideal_ph": "6.5-8.0",
+    "growing_days": 160,
+    "_id": "30b0192a-5f78-460b-a785-b12fe37fa74b"
+  },
+  {
+    "name": "Sugarcane",
+    "type": "Cash Crop",
+    "category": "Whole Year",
+    "water_req_mm": "1500-2500",
+    "ideal_ph": "6.0-7.5",
+    "growing_days": 360,
+    "_id": "cf2f81e8-9813-411e-ace0-2410afdcc161"
+  },
+  {
+    "name": "Soybean",
+    "type": "Oilseed / Pulse",
+    "category": "Kharif",
+    "water_req_mm": "450-700",
+    "ideal_ph": "6.0-7.0",
+    "growing_days": 95,
+    "_id": "a8aaaf24-dd99-4c7a-8079-3c18b3f0ebe7"
+  },
+  {
+    "name": "Mustard",
+    "type": "Oilseed",
+    "category": "Rabi",
+    "water_req_mm": "300-450",
+    "ideal_ph": "6.0-7.5",
+    "growing_days": 110,
+    "_id": "0038536a-baa3-430a-a58f-e7cb01d5bb6e"
+  },
+  {
+    "name": "Gram (Chickpea)",
+    "type": "Pulse",
+    "category": "Rabi",
+    "water_req_mm": "350-450",
+    "ideal_ph": "6.0-7.5",
+    "growing_days": 105,
+    "_id": "69dacb59-2285-46e1-a78b-99bb0b111692"
+  }
+]
