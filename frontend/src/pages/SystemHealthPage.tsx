@@ -39,7 +39,7 @@ export const SystemHealthPage: React.FC = () => {
       <div className="bg-slate-900 text-white p-8 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
           <span className="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 uppercase tracking-wider">
-            Diagnostic Health Check
+            AgriNova Health Check • Smart Farming, Better Tomorrow.
           </span>
           <h1 className="text-3xl font-extrabold tracking-tight mt-2">AgriNova System Diagnostics</h1>
           <p className="text-slate-400 text-sm mt-1 max-w-xl">
@@ -91,7 +91,7 @@ export const SystemHealthPage: React.FC = () => {
         {/* MongoDB */}
         <div className="bg-white p-6 rounded-3xl border border-slate-200 shadow-sm space-y-3">
           <div className="flex items-center justify-between">
-            <span className="font-bold text-sm text-slate-800">MongoDB (agrinova_db)</span>
+            <span className="font-bold text-sm text-slate-800">MongoDB (AgriNova Database)</span>
             <span className="px-2.5 py-0.5 rounded-full text-[10px] font-bold bg-emerald-100 text-emerald-800">
               {health?.components?.mongodb_database?.status || 'HEALTHY'}
             </span>

@@ -1,5 +1,6 @@
 """
-AgriNova Database Seeding Engine
+MYTHORA Database Seeding Engine
+Tagline: Turning Data into Growth
 Initializes agrinova_db with initial administrative accounts, farmer profiles,
 crop catalogues, benchmark soil records, and pre-computed pipeline metadata.
 """
@@ -28,7 +29,7 @@ def seed_users():
         admin_doc = {
             "email": "admin@agrinova.ai",
             "hashed_password": hash_password("Admin@12345"),
-            "full_name": "AgriNova System Administrator",
+            "full_name": "Sana Mohitha",
             "role": "admin",
             "phone": "+91-9876543210",
             "is_active": True,
@@ -114,7 +115,7 @@ def seed_sample_agricultural_records():
         model_versions_col.insert_many([
             {
                 "model_id": "MOD-CR-V1",
-                "name": "AgriNova Crop Recommendation Engine",
+                "name": "MYTHORA Crop Recommendation Engine",
                 "algorithm": "RandomForestClassifier",
                 "accuracy": 0.9886,
                 "version": "1.0.0",
@@ -123,7 +124,7 @@ def seed_sample_agricultural_records():
             },
             {
                 "model_id": "MOD-CYP-V1",
-                "name": "AgriNova Crop Yield Predictor",
+                "name": "MYTHORA Crop Yield Predictor",
                 "algorithm": "GradientBoostingRegressor",
                 "r2_score": 0.9865,
                 "rmse": 2.5964,
@@ -138,8 +139,8 @@ def seed_sample_agricultural_records():
     if notifications_col.count_documents() == 0:
         notifications_col.insert_many([
             {
-                "title": "Welcome to AgriNova",
-                "message": "AgriNova AI-Powered Big Data Smart Agriculture Platform is online and healthy.",
+                "title": "Welcome to MYTHORA",
+                "message": "MYTHORA – Turning Data into Growth. Smart Agriculture Platform is online and operational.",
                 "type": "INFO",
                 "timestamp": datetime.now().isoformat(),
                 "read": False

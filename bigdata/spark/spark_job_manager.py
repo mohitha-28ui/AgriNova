@@ -1,5 +1,6 @@
 """
 AgriNova PySpark Big Data Pipeline Manager & Orchestrator
+Smart Farming, Better Tomorrow.
 Executes distributed ETL, schema validation, data cleansing, Spark SQL transformations,
 Parquet generation, and writing application-ready aggregates to MongoDB.
 """

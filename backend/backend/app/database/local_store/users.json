@@ -2,7 +2,7 @@
   {
     "email": "admin@agrinova.ai",
     "hashed_password": "$2b$12$TUuTFnuTOyFl.3Ovqn4zLeTXf0yBaKN7QsEQklrSed/PRBd1NQ4we",
-    "full_name": "AgriNova System Administrator",
+    "full_name": "Sana Mohitha",
     "role": "admin",
     "phone": "+91-9876543210",
     "is_active": true,
@@ -18,5 +18,35 @@
     "is_active": true,
     "created_at": "2026-11-18T23:01:40.537129",
     "_id": "b523468b-5493-4893-9b58-e8205de7d200"
+  },
+  {
+    "email": "sanamohitha82@gmail.com",
+    "hashed_password": "$2b$12$wuNiRi6a.xR0LdRQ2sS2wOtkQP2hqJOqDrt2IrrcxunAecAgbPaTy",
+    "full_name": "sana",
+    "role": "farmer",
+    "phone": "+919160160950",
+    "is_active": true,
+    "created_at": "2026-11-19T18:58:00.426951",
+    "_id": "267340f5-e339-4b64-ae04-2c0a249f22c0"
+  },
+  {
+    "email": "smohitha82@gmail.com",
+    "hashed_password": "$2b$12$HRmzkfnHRLQE1zwPWM/qV.uLUPugDpuHpZ5hd6sTxeSr8z2/J2rPS",
+    "full_name": "sana",
+    "role": "farmer",
+    "phone": "+919160160950",
+    "is_active": true,
+    "created_at": "2026-11-20T22:28:41.470851",
+    "_id": "c997f215-2b63-4330-877d-9af0d778c957"
+  },
+  {
+    "email": "sanamohitha@gmail.com",
+    "hashed_password": "$2b$12$h1fjQxtgghgFBv9qH4MnG.jjZdeYaoE1lpTl4hz8hA5FC7HAENoli",
+    "full_name": "Sana Mohitha",
+    "role": "farmer",
+    "phone": "+919160160950",
+    "is_active": true,
+    "created_at": "2026-11-20T22:42:24.676222",
+    "_id": "45231bd5-734f-48bd-a6d7-4f34281e8a98"
   }
 ]

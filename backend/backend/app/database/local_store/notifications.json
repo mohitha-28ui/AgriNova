@@ -1,18 +1,35 @@
 [
   {
-    "title": "Welcome to AgriNova",
-    "message": "AgriNova AI-Powered Big Data Smart Agriculture Platform is online and healthy.",
-    "type": "INFO",
-    "timestamp": "2026-11-18T23:01:40.654873",
+    "title": "Database Latency Spike",
+    "event_name": "Database Latency Spike",
+    "status": "Critical",
+    "source": "US-East-1",
+    "timestamp": "Today, 10:42 AM",
+    "message": "Temporary latency anomaly observed on database telemetry stream.",
+    "type": "CRITICAL",
     "read": false,
     "_id": "739058cb-c5b4-4950-a287-5456ee69ba17"
   },
   {
-    "title": "Mandi Spot Alert",
-    "message": "Wheat arrivals in Ludhiana Mandi increased by 14% with modal price at \u20b92,420/Quintal.",
-    "type": "ALERT",
-    "timestamp": "2026-11-18T23:01:40.654886",
+    "title": "High Temperature Alert",
+    "event_name": "High Temperature Alert",
+    "status": "Warning",
+    "source": "Zone 3",
+    "timestamp": "Today, 09:20 AM",
+    "message": "Canopy temperature exceeded seasonal threshold in Zone 3 Wheat parcel.",
+    "type": "WARNING",
     "read": false,
     "_id": "e0dad3b4-f2b8-4bdf-a160-2e6857ca6672"
+  },
+  {
+    "title": "New Farmer Registered",
+    "event_name": "New Farmer Registered",
+    "status": "Info",
+    "source": "Web Portal",
+    "timestamp": "Today, 08:15 AM",
+    "message": "Farmer registered via self-service onboarding portal.",
+    "type": "INFO",
+    "read": true,
+    "_id": "f1cac4c5-f3c9-4cdf-b170-3e7868da7783"
   }
 ]

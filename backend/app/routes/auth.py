@@ -1,5 +1,5 @@
 """
-AgriNova Authentication & Profile Router
+MYTHORA Authentication & Profile Router
 """
 
 from fastapi import APIRouter, HTTPException, status, Depends

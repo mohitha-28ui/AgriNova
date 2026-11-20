@@ -134,5 +134,685 @@
     },
     "executed_at": "2026-11-18T23:04:29.365120",
     "_id": "1e230ca1-761e-4646-a16e-d391dd3274b7"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094925257",
+    "job_name": "Crop Production & Yield Analytics ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/yield/crop_production_processed.parquet",
+    "input_records": 2000,
+    "output_records": 2000,
+    "duration_seconds": 4.96,
+    "status": "COMPLETED",
+    "metrics": {
+      "aggregated_groups": 100
+    },
+    "executed_at": "2026-11-19T18:58:45.257651",
+    "_id": "8b7590b7-0e4c-4863-9fd9-9f37fc498bbc"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094925310",
+    "job_name": "Crop Yield Statistics & Variance Profiler",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / crop_yield_benchmark_summary",
+    "input_records": 2000,
+    "output_records": 10,
+    "duration_seconds": 0.05,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_analyzed": 10
+    },
+    "executed_at": "2026-11-19T18:58:45.311282",
+    "_id": "06cb232f-4624-4167-ba18-630e869ef5ba"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094929470",
+    "job_name": "Soil Health Quality & Chemistry Analysis",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/soil/soil_health_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/soil/soil_health_processed.parquet",
+    "input_records": 3500,
+    "output_records": 3500,
+    "duration_seconds": 4.16,
+    "status": "COMPLETED",
+    "metrics": {
+      "soil_types_profiled": 60
+    },
+    "executed_at": "2026-11-19T18:58:49.470267",
+    "_id": "95c9a19b-1a61-4f4c-b3c5-85e57bf25fa1"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094933595",
+    "job_name": "Meteorological Records & Rainfall ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/weather/weather_daily_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/weather/weather_trends_processed.parquet",
+    "input_records": 5840,
+    "output_records": 192,
+    "duration_seconds": 4.12,
+    "status": "COMPLETED",
+    "metrics": {
+      "monthly_intervals": 192
+    },
+    "executed_at": "2026-11-19T18:58:53.595195",
+    "_id": "b5679c7a-bc83-46aa-9de3-153134b3bd5a"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094937752",
+    "job_name": "Mandi APMC Spot Price & Arrival Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/market/mandi_market_prices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/market/market_intelligence_processed.parquet",
+    "input_records": 29200,
+    "output_records": 11,
+    "duration_seconds": 4.15,
+    "status": "COMPLETED",
+    "metrics": {
+      "commodities_tracked": 11
+    },
+    "executed_at": "2026-11-19T18:58:57.752308",
+    "_id": "65d49c7b-3bde-4865-bde7-e63c26bef7af"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094941840",
+    "job_name": "Crop Recommendation Agronomic Feature Store",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/crops/crop_recommendation.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/crops/crop_features_processed.parquet",
+    "input_records": 2200,
+    "output_records": 22,
+    "duration_seconds": 4.09,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_profiled": 22
+    },
+    "executed_at": "2026-11-19T18:59:01.840876",
+    "_id": "a169a062-469c-4d83-9d71-33f2ec1f32ee"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094941882",
+    "job_name": "Yield Prediction Seasonal Feature Extraction",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / yield_seasonal_impact_matrix",
+    "input_records": 2000,
+    "output_records": 40,
+    "duration_seconds": 0.04,
+    "status": "COMPLETED",
+    "metrics": {
+      "feature_combinations": 40
+    },
+    "executed_at": "2026-11-19T18:59:01.882841",
+    "_id": "ce8ceaf5-09f8-4c7d-84af-5d7c5d526bd0"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094941957",
+    "job_name": "Satellite NDVI & Canopy Vigour Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/satellite/vegetation_ndvi_indices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / satellite_canopy_vigour_distribution",
+    "input_records": 1200,
+    "output_records": 40,
+    "duration_seconds": 0.07,
+    "status": "COMPLETED",
+    "metrics": {
+      "spatial_clusters": 40
+    },
+    "executed_at": "2026-11-19T18:59:01.957290",
+    "_id": "eba1b252-59a1-4a09-974b-5db3f0b4394c"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094964748",
+    "job_name": "Crop Production & Yield Analytics ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/yield/crop_production_processed.parquet",
+    "input_records": 2000,
+    "output_records": 2000,
+    "duration_seconds": 4.1,
+    "status": "COMPLETED",
+    "metrics": {
+      "aggregated_groups": 100
+    },
+    "executed_at": "2026-11-19T18:59:24.748498",
+    "_id": "0087a14f-03c2-4c71-8148-5c0317c598ac"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094964790",
+    "job_name": "Crop Yield Statistics & Variance Profiler",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / crop_yield_benchmark_summary",
+    "input_records": 2000,
+    "output_records": 10,
+    "duration_seconds": 0.04,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_analyzed": 10
+    },
+    "executed_at": "2026-11-19T18:59:24.791001",
+    "_id": "0d700bc0-0904-4b56-adf3-25540b3cfdd4"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094968904",
+    "job_name": "Soil Health Quality & Chemistry Analysis",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/soil/soil_health_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/soil/soil_health_processed.parquet",
+    "input_records": 3500,
+    "output_records": 3500,
+    "duration_seconds": 4.11,
+    "status": "COMPLETED",
+    "metrics": {
+      "soil_types_profiled": 60
+    },
+    "executed_at": "2026-11-19T18:59:28.904505",
+    "_id": "e5db68de-8a8e-42b6-b40d-472ccaf99ed0"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094973008",
+    "job_name": "Meteorological Records & Rainfall ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/weather/weather_daily_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/weather/weather_trends_processed.parquet",
+    "input_records": 5840,
+    "output_records": 192,
+    "duration_seconds": 4.1,
+    "status": "COMPLETED",
+    "metrics": {
+      "monthly_intervals": 192
+    },
+    "executed_at": "2026-11-19T18:59:33.008630",
+    "_id": "e94b4d4f-d28f-48a4-b499-f16aed9868c1"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094977120",
+    "job_name": "Mandi APMC Spot Price & Arrival Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/market/mandi_market_prices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/market/market_intelligence_processed.parquet",
+    "input_records": 29200,
+    "output_records": 11,
+    "duration_seconds": 4.11,
+    "status": "COMPLETED",
+    "metrics": {
+      "commodities_tracked": 11
+    },
+    "executed_at": "2026-11-19T18:59:37.120797",
+    "_id": "2c40c9a6-abe0-4153-9e31-f43f3af2e004"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094981201",
+    "job_name": "Crop Recommendation Agronomic Feature Store",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/crops/crop_recommendation.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/crops/crop_features_processed.parquet",
+    "input_records": 2200,
+    "output_records": 22,
+    "duration_seconds": 4.08,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_profiled": 22
+    },
+    "executed_at": "2026-11-19T18:59:41.202037",
+    "_id": "ba0bf90e-8d4f-46e6-86eb-8ddb42263aaf"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094981277",
+    "job_name": "Yield Prediction Seasonal Feature Extraction",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / yield_seasonal_impact_matrix",
+    "input_records": 2000,
+    "output_records": 40,
+    "duration_seconds": 0.07,
+    "status": "COMPLETED",
+    "metrics": {
+      "feature_combinations": 40
+    },
+    "executed_at": "2026-11-19T18:59:41.277600",
+    "_id": "9b77fc45-2918-49e3-bb62-cf57ff4d1d36"
+  },
+  {
+    "job_id": "SPARK-JOB-1795094981358",
+    "job_name": "Satellite NDVI & Canopy Vigour Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/satellite/vegetation_ndvi_indices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / satellite_canopy_vigour_distribution",
+    "input_records": 1200,
+    "output_records": 40,
+    "duration_seconds": 0.08,
+    "status": "COMPLETED",
+    "metrics": {
+      "spatial_clusters": 40
+    },
+    "executed_at": "2026-11-19T18:59:41.358366",
+    "_id": "ca27d9ae-6cef-48f8-8eb4-2b1312efbee4"
+  },
+  {
+    "job_id": "SPARK-JOB-1795102175352",
+    "job_name": "Crop Production & Yield Analytics ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/yield/crop_production_processed.parquet",
+    "input_records": 2000,
+    "output_records": 2000,
+    "duration_seconds": 4.57,
+    "status": "COMPLETED",
+    "metrics": {
+      "aggregated_groups": 100
+    },
+    "executed_at": "2026-11-19T20:59:35.352298",
+    "_id": "f672bcc4-e634-4ded-9653-191747f25123"
+  },
+  {
+    "job_id": "SPARK-JOB-1795102175444",
+    "job_name": "Crop Yield Statistics & Variance Profiler",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / crop_yield_benchmark_summary",
+    "input_records": 2000,
+    "output_records": 10,
+    "duration_seconds": 0.09,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_analyzed": 10
+    },
+    "executed_at": "2026-11-19T20:59:35.444472",
+    "_id": "f1882fcf-0a35-4228-a169-83325e264be1"
+  },
+  {
+    "job_id": "SPARK-JOB-1795102179734",
+    "job_name": "Soil Health Quality & Chemistry Analysis",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/soil/soil_health_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/soil/soil_health_processed.parquet",
+    "input_records": 3500,
+    "output_records": 3500,
+    "duration_seconds": 4.28,
+    "status": "COMPLETED",
+    "metrics": {
+      "soil_types_profiled": 60
+    },
+    "executed_at": "2026-11-19T20:59:39.734369",
+    "_id": "c56bc200-627a-4fa0-b0bd-9d3c74a39d42"
+  },
+  {
+    "job_id": "SPARK-JOB-1795102183930",
+    "job_name": "Meteorological Records & Rainfall ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/weather/weather_daily_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/weather/weather_trends_processed.parquet",
+    "input_records": 5840,
+    "output_records": 192,
+    "duration_seconds": 4.19,
+    "status": "COMPLETED",
+    "metrics": {
+      "monthly_intervals": 192
+    },
+    "executed_at": "2026-11-19T20:59:43.930390",
+    "_id": "b6164b30-14e9-441a-a681-5aacad0dd971"
+  },
+  {
+    "job_id": "SPARK-JOB-1795102188077",
+    "job_name": "Mandi APMC Spot Price & Arrival Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/market/mandi_market_prices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/market/market_intelligence_processed.parquet",
+    "input_records": 29200,
+    "output_records": 11,
+    "duration_seconds": 4.14,
+    "status": "COMPLETED",
+    "metrics": {
+      "commodities_tracked": 11
+    },
+    "executed_at": "2026-11-19T20:59:48.077359",
+    "_id": "04944dbf-4b5b-4261-9bb7-35fa85c37886"
+  },
+  {
+    "job_id": "SPARK-JOB-1795102192384",
+    "job_name": "Crop Recommendation Agronomic Feature Store",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/crops/crop_recommendation.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/crops/crop_features_processed.parquet",
+    "input_records": 2200,
+    "output_records": 22,
+    "duration_seconds": 4.3,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_profiled": 22
+    },
+    "executed_at": "2026-11-19T20:59:52.384491",
+    "_id": "56ccd8a6-25f1-4862-8413-0f55859e6ccf"
+  },
+  {
+    "job_id": "SPARK-JOB-1795102192457",
+    "job_name": "Yield Prediction Seasonal Feature Extraction",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / yield_seasonal_impact_matrix",
+    "input_records": 2000,
+    "output_records": 40,
+    "duration_seconds": 0.07,
+    "status": "COMPLETED",
+    "metrics": {
+      "feature_combinations": 40
+    },
+    "executed_at": "2026-11-19T20:59:52.457868",
+    "_id": "ede0c811-d7af-4b3a-baf0-9d6caf952c02"
+  },
+  {
+    "job_id": "SPARK-JOB-1795102192540",
+    "job_name": "Satellite NDVI & Canopy Vigour Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/satellite/vegetation_ndvi_indices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / satellite_canopy_vigour_distribution",
+    "input_records": 1200,
+    "output_records": 40,
+    "duration_seconds": 0.08,
+    "status": "COMPLETED",
+    "metrics": {
+      "spatial_clusters": 40
+    },
+    "executed_at": "2026-11-19T20:59:52.540753",
+    "_id": "8bab7c77-c684-42d6-9b19-43a63e8ab418"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194171138",
+    "job_name": "Crop Production & Yield Analytics ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/yield/crop_production_processed.parquet",
+    "input_records": 2000,
+    "output_records": 2000,
+    "duration_seconds": 5.05,
+    "status": "COMPLETED",
+    "metrics": {
+      "aggregated_groups": 100
+    },
+    "executed_at": "2026-11-20T22:32:51.138957",
+    "_id": "81b1acdc-a07f-4b14-875f-92992c988050"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194171220",
+    "job_name": "Crop Yield Statistics & Variance Profiler",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / crop_yield_benchmark_summary",
+    "input_records": 2000,
+    "output_records": 10,
+    "duration_seconds": 0.08,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_analyzed": 10
+    },
+    "executed_at": "2026-11-20T22:32:51.220809",
+    "_id": "f93307a7-0d36-4e58-a69f-1e434eaaf11c"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194175389",
+    "job_name": "Soil Health Quality & Chemistry Analysis",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/soil/soil_health_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/soil/soil_health_processed.parquet",
+    "input_records": 3500,
+    "output_records": 3500,
+    "duration_seconds": 4.15,
+    "status": "COMPLETED",
+    "metrics": {
+      "soil_types_profiled": 60
+    },
+    "executed_at": "2026-11-20T22:32:55.389164",
+    "_id": "f304682c-4a96-476b-a0e6-7e9a8e34963d"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194179569",
+    "job_name": "Meteorological Records & Rainfall ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/weather/weather_daily_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/weather/weather_trends_processed.parquet",
+    "input_records": 5840,
+    "output_records": 192,
+    "duration_seconds": 4.18,
+    "status": "COMPLETED",
+    "metrics": {
+      "monthly_intervals": 192
+    },
+    "executed_at": "2026-11-20T22:32:59.569424",
+    "_id": "3eed1a73-1e8b-4e24-aa04-014d8077755c"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194183760",
+    "job_name": "Mandi APMC Spot Price & Arrival Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/market/mandi_market_prices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/market/market_intelligence_processed.parquet",
+    "input_records": 29200,
+    "output_records": 11,
+    "duration_seconds": 4.19,
+    "status": "COMPLETED",
+    "metrics": {
+      "commodities_tracked": 11
+    },
+    "executed_at": "2026-11-20T22:33:03.760185",
+    "_id": "bb5c7b5b-43ef-4422-95b3-5433ac130a85"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194187895",
+    "job_name": "Crop Recommendation Agronomic Feature Store",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/crops/crop_recommendation.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/crops/crop_features_processed.parquet",
+    "input_records": 2200,
+    "output_records": 22,
+    "duration_seconds": 4.13,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_profiled": 22
+    },
+    "executed_at": "2026-11-20T22:33:07.895960",
+    "_id": "5a4d7d59-cf1d-457c-b097-8074efc3e243"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194187982",
+    "job_name": "Yield Prediction Seasonal Feature Extraction",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / yield_seasonal_impact_matrix",
+    "input_records": 2000,
+    "output_records": 40,
+    "duration_seconds": 0.08,
+    "status": "COMPLETED",
+    "metrics": {
+      "feature_combinations": 40
+    },
+    "executed_at": "2026-11-20T22:33:07.982919",
+    "_id": "5ba51b1c-0a37-4147-9f8f-8a37605136b0"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194188095",
+    "job_name": "Satellite NDVI & Canopy Vigour Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/satellite/vegetation_ndvi_indices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / satellite_canopy_vigour_distribution",
+    "input_records": 1200,
+    "output_records": 40,
+    "duration_seconds": 0.11,
+    "status": "COMPLETED",
+    "metrics": {
+      "spatial_clusters": 40
+    },
+    "executed_at": "2026-11-20T22:33:08.095239",
+    "_id": "17f67180-bc42-46c4-bf70-7e9a901c9f1c"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194203902",
+    "job_name": "Crop Production & Yield Analytics ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/yield/crop_production_processed.parquet",
+    "input_records": 2000,
+    "output_records": 2000,
+    "duration_seconds": 4.11,
+    "status": "COMPLETED",
+    "metrics": {
+      "aggregated_groups": 100
+    },
+    "executed_at": "2026-11-20T22:33:23.902717",
+    "_id": "8ba62fc5-33bb-458d-9c9a-f11a1a5a00e2"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194204003",
+    "job_name": "Crop Yield Statistics & Variance Profiler",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / crop_yield_benchmark_summary",
+    "input_records": 2000,
+    "output_records": 10,
+    "duration_seconds": 0.1,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_analyzed": 10
+    },
+    "executed_at": "2026-11-20T22:33:24.003284",
+    "_id": "a3a3004f-7ee6-48df-b9f1-9b6e7ec4dc80"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194208185",
+    "job_name": "Soil Health Quality & Chemistry Analysis",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/soil/soil_health_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/soil/soil_health_processed.parquet",
+    "input_records": 3500,
+    "output_records": 3500,
+    "duration_seconds": 4.18,
+    "status": "COMPLETED",
+    "metrics": {
+      "soil_types_profiled": 60
+    },
+    "executed_at": "2026-11-20T22:33:28.185472",
+    "_id": "c364679d-9f48-4ec7-bf5b-3be8b62717b9"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194212317",
+    "job_name": "Meteorological Records & Rainfall ETL",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/weather/weather_daily_records.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/weather/weather_trends_processed.parquet",
+    "input_records": 5840,
+    "output_records": 192,
+    "duration_seconds": 4.13,
+    "status": "COMPLETED",
+    "metrics": {
+      "monthly_intervals": 192
+    },
+    "executed_at": "2026-11-20T22:33:32.317664",
+    "_id": "0a0e162f-8fb9-4c25-9637-e62a628ca99d"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194216462",
+    "job_name": "Mandi APMC Spot Price & Arrival Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/market/mandi_market_prices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/market/market_intelligence_processed.parquet",
+    "input_records": 29200,
+    "output_records": 11,
+    "duration_seconds": 4.14,
+    "status": "COMPLETED",
+    "metrics": {
+      "commodities_tracked": 11
+    },
+    "executed_at": "2026-11-20T22:33:36.462086",
+    "_id": "4fd2cff8-1b80-480a-8602-25c84f50c99c"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194220565",
+    "job_name": "Crop Recommendation Agronomic Feature Store",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/crops/crop_recommendation.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "/agrinova/processed/crops/crop_features_processed.parquet",
+    "input_records": 2200,
+    "output_records": 22,
+    "duration_seconds": 4.1,
+    "status": "COMPLETED",
+    "metrics": {
+      "crops_profiled": 22
+    },
+    "executed_at": "2026-11-20T22:33:40.565059",
+    "_id": "045856e9-a3e5-4c67-853f-44fa027480f0"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194220652",
+    "job_name": "Yield Prediction Seasonal Feature Extraction",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/yield/crop_yield_historical.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / yield_seasonal_impact_matrix",
+    "input_records": 2000,
+    "output_records": 40,
+    "duration_seconds": 0.08,
+    "status": "COMPLETED",
+    "metrics": {
+      "feature_combinations": 40
+    },
+    "executed_at": "2026-11-20T22:33:40.652409",
+    "_id": "0a00b044-1c09-4351-b024-3982f64d0988"
+  },
+  {
+    "job_id": "SPARK-JOB-1795194220718",
+    "job_name": "Satellite NDVI & Canopy Vigour Analytics",
+    "engine": "Apache Spark / PySpark 3.5+ (Distributed Execution)",
+    "input_hdfs_path": "/agrinova/raw/satellite/vegetation_ndvi_indices.csv",
+    "output_format": "Parquet & MongoDB Document Store",
+    "output_path": "MongoDB / analytics_results / satellite_canopy_vigour_distribution",
+    "input_records": 1200,
+    "output_records": 40,
+    "duration_seconds": 0.06,
+    "status": "COMPLETED",
+    "metrics": {
+      "spatial_clusters": 40
+    },
+    "executed_at": "2026-11-20T22:33:40.718516",
+    "_id": "f28f8be2-61f4-4abf-90de-eddeeb76fe02"
   }
 ]

@@ -1,5 +1,5 @@
 """
-AgriNova Automated Subsystem Verification Engine
+MYTHORA Automated Subsystem Verification Engine
 Tests all agricultural intelligence modules, ML pipelines, HDFS, Spark, and Kafka.
 """
 
@@ -24,7 +24,7 @@ from backend.app.routes.bigdata import get_hdfs_status, list_hdfs_files, get_spa
 from backend.app.routes.analytics import get_dashboard_summary
 
 def run_tests():
-    print(f"=== AgriNova Subsystem & Verification Suite [{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ===", flush=True)
+    print(f"=== MYTHORA Subsystem & Verification Suite [{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] ===", flush=True)
     passed = 0
     failed = 0
 

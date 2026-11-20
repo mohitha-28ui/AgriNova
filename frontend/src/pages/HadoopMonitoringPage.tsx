@@ -50,11 +50,11 @@ export const HadoopMonitoringPage: React.FC = () => {
       <div className="bg-slate-900 text-white p-8 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
           <span className="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 uppercase tracking-wider">
-            Distributed File System
+            AgriNova Distributed Storage • Smart Farming, Better Tomorrow.
           </span>
-          <h1 className="text-3xl font-extrabold tracking-tight mt-2">Hadoop HDFS Cluster Monitor</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight mt-2">AgriNova Hadoop HDFS Cluster Monitor</h1>
           <p className="text-slate-400 text-sm mt-1 max-w-xl">
-            Live telemetry for NameNodes, DataNodes, blocks distribution, and replicated file namespace.
+            Live telemetry for NameNodes, DataNodes, distributed block replication, and lakehouse storage.
           </p>
         </div>
 

@@ -6,6 +6,7 @@ import { AboutPage } from './pages/AboutPage';
 import { LoginPage } from './pages/LoginPage';
 import { RegisterPage } from './pages/RegisterPage';
 import { FarmerDashboardPage } from './pages/FarmerDashboardPage';
+import { FarmMonitoringPage } from './pages/FarmMonitoringPage';
 import { BigDataAnalyticsPage } from './pages/BigDataAnalyticsPage';
 import { HadoopMonitoringPage } from './pages/HadoopMonitoringPage';
 import { SparkMonitoringPage } from './pages/SparkMonitoringPage';
@@ -23,6 +24,7 @@ import { ReportsPage } from './pages/ReportsPage';
 import { ProfilePage } from './pages/ProfilePage';
 import { AdminDashboardPage } from './pages/AdminDashboardPage';
 import { SystemHealthPage } from './pages/SystemHealthPage';
+import { UserManagementPage } from './pages/UserManagementPage';
 
 export const App: React.FC = () => {
   return (
@@ -37,6 +39,7 @@ export const App: React.FC = () => {
         {/* Authenticated Application Shell */}
         <Route element={<AppLayout />}>
           <Route path="/dashboard" element={<FarmerDashboardPage />} />
+          <Route path="/farm-monitoring" element={<FarmMonitoringPage />} />
           <Route path="/bigdata-analytics" element={<BigDataAnalyticsPage />} />
           <Route path="/hadoop-monitor" element={<HadoopMonitoringPage />} />
           <Route path="/spark-monitor" element={<SparkMonitoringPage />} />
@@ -53,6 +56,7 @@ export const App: React.FC = () => {
           <Route path="/reports" element={<ReportsPage />} />
           <Route path="/profile" element={<ProfilePage />} />
           <Route path="/admin-dashboard" element={<AdminDashboardPage />} />
+          <Route path="/users" element={<UserManagementPage />} />
           <Route path="/system-health" element={<SystemHealthPage />} />
         </Route>
 

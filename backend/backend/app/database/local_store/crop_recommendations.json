@@ -62,5 +62,229 @@
     },
     "timestamp": "2026-11-18T23:16:18.592963",
     "_id": "c6f20070-6b54-426d-820d-758dd4afde5a"
+  },
+  {
+    "recommended_crop": "rice",
+    "suitability_score": 92.3,
+    "alternative_crops": [
+      {
+        "crop": "jute",
+        "confidence": 7.7
+      },
+      {
+        "crop": "pomegranate",
+        "confidence": 0.0
+      },
+      {
+        "crop": "pigeonpeas",
+        "confidence": 0.0
+      }
+    ],
+    "soil_suitability": "Ideal",
+    "weather_suitability": "Optimal Moisture & Warmth",
+    "explanation": "Based on your soil's NPK (80-45-40), pH of 6.5 (Ideal), and meteorological conditions (24.5\u00b0C, 82.0% humidity, 220.0mm rainfall), the agronomic profile perfectly matches Rice.",
+    "input_parameters": {
+      "N": 80.0,
+      "P": 45.0,
+      "K": 40.0,
+      "temperature": 24.5,
+      "humidity": 82.0,
+      "ph": 6.5,
+      "rainfall": 220.0
+    },
+    "timestamp": "2026-11-19T09:40:25.439454",
+    "_id": "c8230b37-9bfc-4106-ba9d-9bd01ac36ba3"
+  },
+  {
+    "recommended_crop": "rice",
+    "suitability_score": 92.3,
+    "alternative_crops": [
+      {
+        "crop": "jute",
+        "confidence": 7.7
+      },
+      {
+        "crop": "pomegranate",
+        "confidence": 0.0
+      },
+      {
+        "crop": "pigeonpeas",
+        "confidence": 0.0
+      }
+    ],
+    "soil_suitability": "Ideal",
+    "weather_suitability": "Optimal Moisture & Warmth",
+    "explanation": "Based on your soil's NPK (80-45-40), pH of 6.5 (Ideal), and meteorological conditions (24.5\u00b0C, 82.0% humidity, 220.0mm rainfall), the agronomic profile perfectly matches Rice.",
+    "input_parameters": {
+      "N": 80.0,
+      "P": 45.0,
+      "K": 40.0,
+      "temperature": 24.5,
+      "humidity": 82.0,
+      "ph": 6.5,
+      "rainfall": 220.0
+    },
+    "timestamp": "2026-11-19T09:41:35.187698",
+    "_id": "709caef3-a55b-474c-a1d5-53acb0e60579"
+  },
+  {
+    "recommended_crop": "rice",
+    "suitability_score": 88.0,
+    "alternative_crops": [
+      {
+        "crop": "jute",
+        "confidence": 39.18
+      },
+      {
+        "crop": "pomegranate",
+        "confidence": 0.0
+      },
+      {
+        "crop": "pigeonpeas",
+        "confidence": 0.0
+      }
+    ],
+    "soil_suitability": "Ideal",
+    "weather_suitability": "Optimal Moisture & Warmth",
+    "explanation": "Based on your soil's NPK (90-42-43), pH of 6.5 (Ideal), and meteorological conditions (20.8\u00b0C, 82.0% humidity, 202.9mm rainfall), the agronomic profile perfectly matches Rice.",
+    "input_parameters": {
+      "N": 90.0,
+      "P": 42.0,
+      "K": 43.0,
+      "temperature": 20.8,
+      "humidity": 82.0,
+      "ph": 6.5,
+      "rainfall": 202.9
+    },
+    "timestamp": "2026-11-19T19:42:51.009730",
+    "_id": "ee81d852-1c06-40c2-b137-ae88f5714fde"
+  },
+  {
+    "recommended_crop": "rice",
+    "suitability_score": 88.0,
+    "alternative_crops": [
+      {
+        "crop": "jute",
+        "confidence": 39.18
+      },
+      {
+        "crop": "pomegranate",
+        "confidence": 0.0
+      },
+      {
+        "crop": "pigeonpeas",
+        "confidence": 0.0
+      }
+    ],
+    "soil_suitability": "Ideal",
+    "weather_suitability": "Optimal Moisture & Warmth",
+    "explanation": "Based on your soil's NPK (90-42-43), pH of 6.5 (Ideal), and meteorological conditions (20.8\u00b0C, 82.0% humidity, 202.9mm rainfall), the agronomic profile perfectly matches Rice.",
+    "input_parameters": {
+      "N": 90.0,
+      "P": 42.0,
+      "K": 43.0,
+      "temperature": 20.8,
+      "humidity": 82.0,
+      "ph": 6.5,
+      "rainfall": 202.9
+    },
+    "timestamp": "2026-11-19T19:45:21.282393",
+    "_id": "fc9ba3c3-fc52-4c08-b33c-e18e9ae64078"
+  },
+  {
+    "recommended_crop": "rice",
+    "suitability_score": 92.3,
+    "alternative_crops": [
+      {
+        "crop": "jute",
+        "confidence": 7.7
+      },
+      {
+        "crop": "pomegranate",
+        "confidence": 0.0
+      },
+      {
+        "crop": "pigeonpeas",
+        "confidence": 0.0
+      }
+    ],
+    "soil_suitability": "Ideal",
+    "weather_suitability": "Optimal Moisture & Warmth",
+    "explanation": "Based on your soil's NPK (80-45-40), pH of 6.5 (Ideal), and meteorological conditions (24.5\u00b0C, 82.0% humidity, 220.0mm rainfall), the agronomic profile perfectly matches Rice.",
+    "input_parameters": {
+      "N": 80.0,
+      "P": 45.0,
+      "K": 40.0,
+      "temperature": 24.5,
+      "humidity": 82.0,
+      "ph": 6.5,
+      "rainfall": 220.0
+    },
+    "timestamp": "2026-11-19T21:14:57.784954",
+    "_id": "10d70cff-4b7f-4250-87c4-929201205abb"
+  },
+  {
+    "recommended_crop": "rice",
+    "suitability_score": 92.3,
+    "alternative_crops": [
+      {
+        "crop": "jute",
+        "confidence": 7.7
+      },
+      {
+        "crop": "pomegranate",
+        "confidence": 0.0
+      },
+      {
+        "crop": "pigeonpeas",
+        "confidence": 0.0
+      }
+    ],
+    "soil_suitability": "Ideal",
+    "weather_suitability": "Optimal Moisture & Warmth",
+    "explanation": "Based on your soil's NPK (80-45-40), pH of 6.5 (Ideal), and meteorological conditions (24.5\u00b0C, 82.0% humidity, 220.0mm rainfall), the agronomic profile perfectly matches Rice.",
+    "input_parameters": {
+      "N": 80.0,
+      "P": 45.0,
+      "K": 40.0,
+      "temperature": 24.5,
+      "humidity": 82.0,
+      "ph": 6.5,
+      "rainfall": 220.0
+    },
+    "timestamp": "2026-11-19T22:56:33.870831",
+    "_id": "b81b4bd9-70fd-4e84-b724-53a1a6dc8f1f"
+  },
+  {
+    "recommended_crop": "rice",
+    "suitability_score": 92.3,
+    "alternative_crops": [
+      {
+        "crop": "jute",
+        "confidence": 7.7
+      },
+      {
+        "crop": "pomegranate",
+        "confidence": 0.0
+      },
+      {
+        "crop": "pigeonpeas",
+        "confidence": 0.0
+      }
+    ],
+    "soil_suitability": "Ideal",
+    "weather_suitability": "Optimal Moisture & Warmth",
+    "explanation": "Based on your soil's NPK (80-45-40), pH of 6.5 (Ideal), and meteorological conditions (24.5\u00b0C, 82.0% humidity, 220.0mm rainfall), the agronomic profile perfectly matches Rice.",
+    "input_parameters": {
+      "N": 80.0,
+      "P": 45.0,
+      "K": 40.0,
+      "temperature": 24.5,
+      "humidity": 82.0,
+      "ph": 6.5,
+      "rainfall": 220.0
+    },
+    "timestamp": "2026-11-20T21:03:02.178473",
+    "_id": "051374f2-8d76-4d18-9964-454f7e5cf9ed"
   }
 ]

@@ -16,6 +16,8 @@ export const LoginPage: React.FC = () => {
     setLoading(true);
     try {
       const res = await api.login({ email, password });
+      localStorage.setItem('mythora_token', res.data.access_token);
+      localStorage.setItem('mythora_user', JSON.stringify(res.data.user));
       localStorage.setItem('agrinova_token', res.data.access_token);
       localStorage.setItem('agrinova_user', JSON.stringify(res.data.user));
       navigate('/dashboard');
@@ -44,7 +46,7 @@ export const LoginPage: React.FC = () => {
             <Sprout className="w-7 h-7" />
           </div>
           <h1 className="text-2xl font-extrabold text-slate-800">Welcome to AgriNova</h1>
-          <p className="text-xs text-slate-500 mt-1">Sign in to your smart agriculture intelligence console</p>
+          <p className="text-xs text-slate-500 mt-1">Smart Farming, Better Tomorrow. • Smart Agriculture Console</p>
         </div>
 
         {error && (
@@ -64,7 +66,7 @@ export const LoginPage: React.FC = () => {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="name@agrinova.ai"
+                placeholder="name@mythora.ai"
                 className="w-full pl-9 pr-4 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
               />
             </div>
@@ -116,7 +118,7 @@ export const LoginPage: React.FC = () => {
         </div>
 
         <p className="mt-6 text-center text-xs text-slate-500">
-          New to AgriNova?{' '}
+          New to MYTHORA?{' '}
           <Link to="/register" className="text-emerald-600 font-bold hover:underline">
             Register Farmer Account
           </Link>

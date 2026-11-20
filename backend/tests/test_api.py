@@ -1,5 +1,5 @@
 """
-AgriNova Automated Test Suite
+MYTHORA Automated Test Suite
 Verifies API endpoints, ML predictions, HDFS storage, PySpark jobs, and Kafka streaming.
 """
 
@@ -7,7 +7,7 @@ import unittest
 from fastapi.testclient import TestClient
 from backend.main import app
 
-class TestAgriNovaPlatform(unittest.TestCase):
+class TestMYTHORAPlatform(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.client = TestClient(app)

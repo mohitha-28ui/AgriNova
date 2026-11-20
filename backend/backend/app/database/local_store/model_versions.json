@@ -1,7 +1,7 @@
 [
   {
     "model_id": "MOD-CR-V1",
-    "name": "AgriNova Crop Recommendation Engine",
+    "name": "MYTHORA Crop Recommendation Engine",
     "algorithm": "RandomForestClassifier",
     "accuracy": 0.9886,
     "version": "1.0.0",
@@ -11,7 +11,7 @@
   },
   {
     "model_id": "MOD-CYP-V1",
-    "name": "AgriNova Crop Yield Predictor",
+    "name": "MYTHORA Crop Yield Predictor",
     "algorithm": "GradientBoostingRegressor",
     "r2_score": 0.9865,
     "rmse": 2.5964,

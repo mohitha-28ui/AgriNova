@@ -22,7 +22,10 @@ export const LandingPage: React.FC = () => {
           <div className="w-10 h-10 rounded-xl bg-emerald-500 flex items-center justify-center text-white shadow-lg shadow-emerald-500/30">
             <Sprout className="w-6 h-6" />
           </div>
-          <span className="font-extrabold text-2xl tracking-tight bg-gradient-to-r from-emerald-400 via-teal-200 to-white bg-clip-text text-transparent">AgriNova</span>
+          <div>
+            <span className="font-extrabold text-2xl tracking-wider bg-gradient-to-r from-emerald-400 via-teal-200 to-white bg-clip-text text-transparent">AgriNova</span>
+            <span className="block text-[10px] text-emerald-400 font-medium tracking-wide">Smart Farming, Better Tomorrow.</span>
+          </div>
         </div>
         <div className="flex items-center gap-4">
           <Link to="/about" className="text-sm font-medium text-slate-300 hover:text-white transition">About</Link>
@@ -40,13 +43,13 @@ export const LandingPage: React.FC = () => {
       <section className="max-w-7xl mx-auto px-6 pt-20 pb-24 text-center">
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-950/80 border border-emerald-800/60 text-emerald-300 text-xs font-semibold mb-8">
           <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-          Apache Hadoop HDFS + PySpark + Kafka Streaming + MongoDB
+          AgriNova • Smart Farming, Better Tomorrow • Apache Hadoop HDFS + PySpark + Kafka + MongoDB + MySQL
         </div>
         <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight max-w-4xl mx-auto leading-tight">
-          AI-Powered Big Data Intelligence Platform for <span className="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">Smart Agriculture</span>
+          AGRINOVA – AI and Big Data Platform for <span className="bg-gradient-to-r from-emerald-400 to-teal-300 bg-clip-text text-transparent">Smart Agriculture</span>
         </h1>
         <p className="mt-6 text-lg md:text-xl text-slate-400 max-w-2xl mx-auto leading-relaxed">
-          Unifying distributed storage, Apache Spark analytics, real-time IoT event streaming, and machine learning into an enterprise intelligence system for modern agricultural productivity.
+          Transforming agricultural data into intelligent decisions through distributed storage, Apache Spark analytics, real-time IoT data streaming and predictive machine learning.
         </p>
 
         <div className="mt-10 flex flex-wrap justify-center gap-4">
@@ -60,7 +63,7 @@ export const LandingPage: React.FC = () => {
             to="/bigdata-analytics"
             className="flex items-center gap-2 px-6 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-800 border border-slate-700 text-white font-semibold text-base transition"
           >
-            Inspect Big Data Center <Database className="w-5 h-5 text-emerald-400" />
+            Explore Big Data Center <Database className="w-5 h-5 text-emerald-400" />
           </Link>
         </div>
 
@@ -68,15 +71,15 @@ export const LandingPage: React.FC = () => {
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto text-left">
           <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800">
             <p className="text-3xl font-extrabold text-emerald-400">43,940+</p>
-            <p className="text-xs text-slate-400 mt-1 uppercase font-semibold">Agro Records Processed</p>
+            <p className="text-xs text-slate-400 mt-1 uppercase font-semibold">Agricultural Records Processed</p>
           </div>
           <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800">
             <p className="text-3xl font-extrabold text-emerald-400">98.86%</p>
-            <p className="text-xs text-slate-400 mt-1 uppercase font-semibold">ML Recommendation Accuracy</p>
+            <p className="text-xs text-slate-400 mt-1 uppercase font-semibold">Crop Recommendation Accuracy</p>
           </div>
           <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800">
             <p className="text-3xl font-extrabold text-emerald-400">100 GB</p>
-            <p className="text-xs text-slate-400 mt-1 uppercase font-semibold">HDFS Cluster Capacity</p>
+            <p className="text-xs text-slate-400 mt-1 uppercase font-semibold">HDFS Storage Capacity</p>
           </div>
           <div className="p-5 rounded-2xl bg-slate-900/60 border border-slate-800">
             <p className="text-3xl font-extrabold text-emerald-400">4 Topics</p>
@@ -123,7 +126,7 @@ export const LandingPage: React.FC = () => {
 
       {/* Footer */}
       <footer className="max-w-7xl mx-auto px-6 py-8 border-t border-slate-900 text-center text-xs text-slate-500">
-        AgriNova AI-Powered Big Data Smart Agriculture Platform © 2026. Designed for College Major Projects, Placement Interviews, and Enterprise Smart Farming.
+        AgriNova – AI and Big Data Platform for Smart Agriculture © 2026. Smart Farming, Better Tomorrow.
       </footer>
     </div>
   );

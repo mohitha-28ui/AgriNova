@@ -1,5 +1,6 @@
 """
 AgriNova MongoDB Database Architecture & Connection Manager
+Smart Farming, Better Tomorrow.
 Database: agrinova_db
 Collections:
 1. users
@@ -135,15 +136,19 @@ class LocalCollection:
         return len(self.find(query, limit=100000))
 
     def update_one(self, query: Dict[str, Any], update: Dict[str, Any]):
-        target = self.find_one(query)
-        if target:
-            idx = self.docs.index(target)
-            if "$set" in update:
-                self.docs[idx].update(update["$set"])
-            else:
-                self.docs[idx].update(update)
-            self._save()
-            return True
+        for idx, d in enumerate(self.docs):
+            match = True
+            for k, v in query.items():
+                if d.get(k) != v:
+                    match = False
+                    break
+            if match:
+                payload = update.get("$set", update)
+                d.update(payload)
+                if "" in d:
+                    del d[""]
+                self._save()
+                return True
         return False
 
     def delete_one(self, query: Dict[str, Any]):

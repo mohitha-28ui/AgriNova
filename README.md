@@ -1,4 +1,7 @@
-# AgriNova – AI-Powered Big Data Intelligence Platform for Smart Agriculture
+# AgriNova – AI and Big Data Powered Smart Agriculture Intelligence and Predictive Analytics Platform
+
+> **Tagline:** Smart Farming, Better Tomorrow.
+> **Full Title:** AgriNova – AI and Big Data Powered Smart Agriculture Intelligence and Predictive Analytics Platform.
 
 [![Python](https://img.shields.io/badge/Python-3.11%20%7C%203.14-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Apache Spark](https://img.shields.io/badge/Apache%20Spark-3.5%2B-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)](https://spark.apache.org/)
@@ -145,7 +148,7 @@ AgriNova implements 8 reusable, independent PySpark processing jobs:
 ## 6. Apache Kafka Real-Time Streaming
 AgriNova features real-time stream processing for field agro-telemetry:
 - **Broker Port:** `9092`
-- **Consumer Groups:** `spark-streaming-agrinova-cg1`, `dashboard-websocket-cg2`
+- **Consumer Groups:** `spark-streaming-mythora-cg1`, `dashboard-websocket-cg2`
 - **Topics:**
   - `agrinova-weather`: Station ID, temperature, relative humidity, wind speed, rainfall rate.
   - `agrinova-soil`: Soil probe ID, field cadastral parcel, volumetric moisture %, soil temp, EC.

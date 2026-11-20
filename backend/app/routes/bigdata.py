@@ -1,5 +1,5 @@
 """
-AgriNova Big Data Infrastructure Router
+MYTHORA Big Data Infrastructure Router
 Endpoints for Hadoop HDFS, Apache Spark ETL Pipelines, and Apache Kafka Streaming.
 """
 

@@ -1,5 +1,5 @@
 """
-AgriNova Central Big Data Analytics Router
+MYTHORA Central Big Data Analytics Router
 Supplies pre-aggregated PySpark results to the dashboard and analytics center.
 """
 

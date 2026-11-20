@@ -44,5 +44,235 @@
     ],
     "timestamp": "2026-11-18T23:16:18.603624",
     "_id": "3381174a-39df-4fe0-a4d3-4cacfcac7488"
+  },
+  {
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 1.76,
+    "predicted_total_production_tonnes": 17.6,
+    "benchmark_yield_tonnes_per_ha": 4.2,
+    "variance_from_benchmark_pct": -58.1,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Punjab during Rabi season is favorable."
+    ],
+    "timestamp": "2026-11-19T09:40:25.483427",
+    "_id": "0583a2ad-ebe5-427f-a5f2-01daa3da9e19"
+  },
+  {
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 1.76,
+    "predicted_total_production_tonnes": 17.6,
+    "benchmark_yield_tonnes_per_ha": 4.2,
+    "variance_from_benchmark_pct": -58.1,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Punjab during Rabi season is favorable."
+    ],
+    "timestamp": "2026-11-19T09:41:35.208244",
+    "_id": "d246ad2a-426f-418a-bf89-b72cd911af1a"
+  },
+  {
+    "crop": "Cotton",
+    "state": "Andhra Pradesh",
+    "season": "Summer",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 0.5,
+    "predicted_total_production_tonnes": 5.0,
+    "benchmark_yield_tonnes_per_ha": 1.8,
+    "variance_from_benchmark_pct": -72.2,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Andhra Pradesh during Summer season is favorable."
+    ],
+    "timestamp": "2026-11-19T19:00:44.689448",
+    "_id": "85015778-eb84-4c6a-b56b-e5e3997dc08d"
+  },
+  {
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 1.76,
+    "predicted_total_production_tonnes": 17.6,
+    "benchmark_yield_tonnes_per_ha": 4.2,
+    "variance_from_benchmark_pct": -58.1,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Punjab during Rabi season is favorable."
+    ],
+    "timestamp": "2026-11-19T19:42:51.064988",
+    "_id": "f168e9a1-0a07-455e-a887-f0c3cd55e20b"
+  },
+  {
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 1.76,
+    "predicted_total_production_tonnes": 17.6,
+    "benchmark_yield_tonnes_per_ha": 4.2,
+    "variance_from_benchmark_pct": -58.1,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Punjab during Rabi season is favorable."
+    ],
+    "timestamp": "2026-11-19T19:45:21.323519",
+    "_id": "c814cbf5-2ceb-498c-92e0-212c99869553"
+  },
+  {
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 1.76,
+    "predicted_total_production_tonnes": 17.6,
+    "benchmark_yield_tonnes_per_ha": 4.2,
+    "variance_from_benchmark_pct": -58.1,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Punjab during Rabi season is favorable."
+    ],
+    "timestamp": "2026-11-19T22:56:33.882674",
+    "_id": "415876b8-8753-439c-bd2f-f8d14e41515a"
+  },
+  {
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 1.76,
+    "predicted_total_production_tonnes": 17.6,
+    "benchmark_yield_tonnes_per_ha": 4.2,
+    "variance_from_benchmark_pct": -58.1,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Punjab during Rabi season is favorable."
+    ],
+    "timestamp": "2026-11-20T21:03:02.219981",
+    "_id": "6641f14f-6410-42f4-a492-0b2806b5d7a8"
+  },
+  {
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 1.76,
+    "predicted_total_production_tonnes": 17.6,
+    "benchmark_yield_tonnes_per_ha": 4.2,
+    "variance_from_benchmark_pct": -58.1,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Punjab during Rabi season is favorable."
+    ],
+    "timestamp": "2026-11-20T22:30:19.841620",
+    "_id": "a476ee23-11a1-4399-b2b1-d65e5d43dd52"
+  },
+  {
+    "crop": "Wheat",
+    "state": "Punjab",
+    "season": "Rabi",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 1.76,
+    "predicted_total_production_tonnes": 17.6,
+    "benchmark_yield_tonnes_per_ha": 4.2,
+    "variance_from_benchmark_pct": -58.1,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Punjab during Rabi season is favorable."
+    ],
+    "timestamp": "2026-11-20T22:34:41.158695",
+    "_id": "b28d8e41-83e5-48ba-84a2-2a7b33688c50"
+  },
+  {
+    "crop": "Cotton",
+    "state": "Andhra Pradesh",
+    "season": "Whole Year",
+    "area_hectares": 10.0,
+    "predicted_yield_tonnes_per_ha": 0.5,
+    "predicted_total_production_tonnes": 5.0,
+    "benchmark_yield_tonnes_per_ha": 1.8,
+    "variance_from_benchmark_pct": -72.2,
+    "yield_trend": "BELOW_AVERAGE",
+    "model_metrics": {
+      "algorithm": "GradientBoostingRegressor",
+      "r2": 0.9865,
+      "rmse": 2.59
+    },
+    "key_factors": [
+      "Rainfall intensity of 650.0mm supplies adequate vegetative moisture.",
+      "Fertilizer dosage of 140.0 kg/ha satisfies nutrient intake.",
+      "Agro-climatic suitability in Andhra Pradesh during Whole Year season is favorable."
+    ],
+    "timestamp": "2026-11-20T22:38:46.261009",
+    "_id": "332d42f0-6572-4e76-9540-f2f281950e92"
   }
 ]

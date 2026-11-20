@@ -51,7 +51,7 @@ export const KafkaStreamingPage: React.FC = () => {
 
   const filteredEvents = selectedTopic === 'ALL'
     ? events
-    : events.filter(e => e.topic === selectedTopic);
+    : events.filter(e => e.topic === selectedTopic || e.topic?.includes(selectedTopic.replace('mythora-', '')));
 
   return (
     <div className="space-y-6">
@@ -59,11 +59,11 @@ export const KafkaStreamingPage: React.FC = () => {
       <div className="bg-slate-900 text-white p-8 rounded-3xl border border-slate-800 shadow-xl flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
         <div>
           <span className="px-3 py-1 rounded-full text-xs font-semibold bg-purple-500/20 text-purple-400 border border-purple-500/30 uppercase tracking-wider">
-            Real-Time Stream Processing
+            AgriNova Event Streaming • Smart Farming, Better Tomorrow.
           </span>
-          <h1 className="text-3xl font-extrabold tracking-tight mt-2">Apache Kafka Event Streaming</h1>
+          <h1 className="text-3xl font-extrabold tracking-tight mt-2">AgriNova Apache Kafka Event Streaming</h1>
           <p className="text-slate-400 text-sm mt-1 max-w-xl">
-            High-velocity Pub/Sub telemetry ingestion across 4 dedicated agricultural topics feeding Spark Structured Streaming.
+            High-velocity Pub/Sub telemetry ingestion across dedicated agricultural topics feeding Spark Structured Streaming.
           </p>
         </div>
 
@@ -110,10 +110,10 @@ export const KafkaStreamingPage: React.FC = () => {
       {/* Topics Overview */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
         {[
-          { name: 'agrinova-weather', desc: 'Station temp, humidity, wind & rain rate' },
-          { name: 'agrinova-soil', desc: 'IoT field probe moisture, EC & pH' },
-          { name: 'agrinova-market', desc: 'Mandi spot trade arrival updates' },
-          { name: 'agrinova-irrigation', desc: 'Smart irrigation automated valve events' },
+          { name: 'mythora-weather', desc: 'Station temp, humidity, wind & rain rate' },
+          { name: 'mythora-soil', desc: 'IoT field probe moisture, EC & pH' },
+          { name: 'mythora-market', desc: 'Mandi spot trade arrival updates' },
+          { name: 'mythora-irrigation', desc: 'Smart irrigation automated valve events' },
         ].map((t) => (
           <div key={t.name} className="bg-white p-4 rounded-xl border border-slate-200 shadow-sm">
             <p className="font-mono text-xs font-bold text-slate-900">{t.name}</p>
@@ -138,10 +138,10 @@ export const KafkaStreamingPage: React.FC = () => {
               className="text-xs border border-slate-200 rounded-lg px-2.5 py-1 focus:outline-none focus:ring-2 focus:ring-purple-500 font-semibold text-slate-700"
             >
               <option value="ALL">All Topics</option>
-              <option value="agrinova-weather">agrinova-weather</option>
-              <option value="agrinova-soil">agrinova-soil</option>
-              <option value="agrinova-market">agrinova-market</option>
-              <option value="agrinova-irrigation">agrinova-irrigation</option>
+              <option value="mythora-weather">mythora-weather</option>
+              <option value="mythora-soil">mythora-soil</option>
+              <option value="mythora-market">mythora-market</option>
+              <option value="mythora-irrigation">mythora-irrigation</option>
             </select>
           </div>
         </div>

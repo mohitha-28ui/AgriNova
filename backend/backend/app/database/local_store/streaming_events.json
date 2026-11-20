@@ -377,5 +377,637 @@
     "event_type": "SYNTHETIC_TEST_TELEMETRY",
     "timestamp": "2026-11-18T23:16:18.652067",
     "_id": "0af2f166-6087-4c41-a069-69ae27165137"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 1,
+    "offset": 1,
+    "key": "IRR-VALVE-303",
+    "payload": {
+      "valve_id": "IRR-VALVE-303",
+      "status": "OPEN",
+      "flow_rate_lpm": 111.4,
+      "zone": "Zone-Alpha"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:40:25.537454",
+    "_id": "dc775716-1a7c-42e1-8839-c9febc59e5a9"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 0,
+    "offset": 2,
+    "key": "IRR-VALVE-321",
+    "payload": {
+      "valve_id": "IRR-VALVE-321",
+      "status": "CLOSED",
+      "flow_rate_lpm": 99.7,
+      "zone": "Zone-Gamma"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:40:25.540303",
+    "_id": "6b482450-f60f-49e8-9463-827e78dd1b8b"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 1,
+    "offset": 1,
+    "key": "WTHR-STN-107",
+    "payload": {
+      "sensor_id": "WTHR-STN-107",
+      "temperature_c": 22.7,
+      "humidity_pct": 87.5,
+      "wind_speed_kmh": 14.3,
+      "rainfall_rate_mm_hr": 10.0
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:40:25.543553",
+    "_id": "0e4b5bbf-16ad-4f94-bb44-01ab2c2bfe38"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 0,
+    "offset": 3,
+    "key": "IRR-VALVE-318",
+    "payload": {
+      "valve_id": "IRR-VALVE-318",
+      "status": "OPEN",
+      "flow_rate_lpm": 110.6,
+      "zone": "Zone-Gamma"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:40:25.546264",
+    "_id": "15b6d024-4c7b-4f12-a90b-16eade483302"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 1,
+    "offset": 1,
+    "key": "SOIL-PRB-212",
+    "payload": {
+      "probe_id": "SOIL-PRB-212",
+      "field_id": "FLD-PB-37",
+      "moisture_pct": 34.7,
+      "soil_temp_c": 20.5,
+      "ec_ds_m": 0.57,
+      "ph": 7.56
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:40:25.548890",
+    "_id": "30ae14d9-c3f6-48d3-b149-96779aef7729"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 1,
+    "offset": 4,
+    "key": "IRR-VALVE-302",
+    "payload": {
+      "valve_id": "IRR-VALVE-302",
+      "status": "OPEN",
+      "flow_rate_lpm": 33.7,
+      "zone": "Zone-Beta"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:40:25.551920",
+    "_id": "f54df51c-935c-4f4b-a2e2-e9b763f7ffc8"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 1,
+    "offset": 1,
+    "key": "WTHR-STN-107",
+    "payload": {
+      "sensor_id": "WTHR-STN-107",
+      "temperature_c": 29.8,
+      "humidity_pct": 69.4,
+      "wind_speed_kmh": 13.8,
+      "rainfall_rate_mm_hr": 12.7
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:41:35.257466",
+    "_id": "83bb7af3-1f84-426e-a28a-f9d6b7e4e6ec"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 1,
+    "offset": 2,
+    "key": "WTHR-STN-105",
+    "payload": {
+      "sensor_id": "WTHR-STN-105",
+      "temperature_c": 25.6,
+      "humidity_pct": 77.7,
+      "wind_speed_kmh": 18.3,
+      "rainfall_rate_mm_hr": 0.9
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:41:35.260741",
+    "_id": "c7422b1b-5e89-44a7-80d9-38dab2466c08"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 0,
+    "offset": 1,
+    "key": "Potato",
+    "payload": {
+      "mandi_code": "APMC-511",
+      "commodity": "Potato",
+      "live_modal_price": 4499,
+      "daily_arrivals_mt": 158.0
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:41:35.263784",
+    "_id": "503dded7-38de-4223-90cb-f3aa61469091"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 2,
+    "offset": 2,
+    "key": "Wheat",
+    "payload": {
+      "mandi_code": "APMC-504",
+      "commodity": "Wheat",
+      "live_modal_price": 2518,
+      "daily_arrivals_mt": 212.9
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:41:35.266606",
+    "_id": "07c3c389-3551-4467-b10f-86d746dcfd3e"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 2,
+    "offset": 1,
+    "key": "SOIL-PRB-225",
+    "payload": {
+      "probe_id": "SOIL-PRB-225",
+      "field_id": "FLD-PB-31",
+      "moisture_pct": 16.9,
+      "soil_temp_c": 22.9,
+      "ec_ds_m": 1.07,
+      "ph": 7.47
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:41:35.269487",
+    "_id": "2c0d2fe8-87ec-46a5-b8b2-d33a8867f0d2"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 0,
+    "offset": 2,
+    "key": "SOIL-PRB-219",
+    "payload": {
+      "probe_id": "SOIL-PRB-219",
+      "field_id": "FLD-PB-20",
+      "moisture_pct": 14.1,
+      "soil_temp_c": 23.3,
+      "ec_ds_m": 0.71,
+      "ph": 6.4
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T09:41:35.272237",
+    "_id": "d504c281-b6fa-4ff7-9f4a-12c48f214bd0"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 2,
+    "offset": 1,
+    "key": "SOIL-PRB-205",
+    "payload": {
+      "probe_id": "SOIL-PRB-205",
+      "field_id": "FLD-PB-40",
+      "moisture_pct": 32.2,
+      "soil_temp_c": 21.6,
+      "ec_ds_m": 0.76,
+      "ph": 7.04
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T18:59:46.422940",
+    "_id": "b7d6a926-e112-4930-a488-2b1990fe1851"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 2,
+    "offset": 1,
+    "key": "WTHR-STN-102",
+    "payload": {
+      "sensor_id": "WTHR-STN-102",
+      "temperature_c": 29.7,
+      "humidity_pct": 54.3,
+      "wind_speed_kmh": 15.6,
+      "rainfall_rate_mm_hr": 13.1
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T18:59:46.432447",
+    "_id": "947c31b9-a98b-45d6-8eb6-150fc3dbb5e9"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 0,
+    "offset": 1,
+    "key": "IRR-VALVE-303",
+    "payload": {
+      "valve_id": "IRR-VALVE-303",
+      "status": "CLOSED",
+      "flow_rate_lpm": 45.2,
+      "zone": "Zone-Gamma"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T18:59:46.437765",
+    "_id": "62ad5af3-4320-4c4f-abb7-02c1c7ac3762"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 0,
+    "offset": 1,
+    "key": "Cotton",
+    "payload": {
+      "mandi_code": "APMC-510",
+      "commodity": "Cotton",
+      "live_modal_price": 5302,
+      "daily_arrivals_mt": 252.8
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T18:59:46.441693",
+    "_id": "081ad244-e3fd-4b26-8eff-172d678beaa7"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 0,
+    "offset": 2,
+    "key": "IRR-VALVE-318",
+    "payload": {
+      "valve_id": "IRR-VALVE-318",
+      "status": "OPEN",
+      "flow_rate_lpm": 64.7,
+      "zone": "Zone-Gamma"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T18:59:46.446408",
+    "_id": "b332a561-f21b-45ff-a6e9-d01cafe95b4f"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 2,
+    "offset": 2,
+    "key": "SOIL-PRB-228",
+    "payload": {
+      "probe_id": "SOIL-PRB-228",
+      "field_id": "FLD-PB-28",
+      "moisture_pct": 16.2,
+      "soil_temp_c": 20.5,
+      "ec_ds_m": 0.96,
+      "ph": 7.07
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T18:59:46.451720",
+    "_id": "fe6a5dbf-ec82-4462-b64e-cf6b7baee572"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 2,
+    "offset": 2,
+    "key": "Paddy",
+    "payload": {
+      "mandi_code": "APMC-508",
+      "commodity": "Paddy",
+      "live_modal_price": 4323,
+      "daily_arrivals_mt": 82.5
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T18:59:46.455561",
+    "_id": "a137bb58-e51f-49fe-9312-608be5070d6e"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 2,
+    "offset": 3,
+    "key": "Mustard",
+    "payload": {
+      "mandi_code": "APMC-505",
+      "commodity": "Mustard",
+      "live_modal_price": 5180,
+      "daily_arrivals_mt": 306.0
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T18:59:46.459739",
+    "_id": "ee635adf-aa18-4ffa-ac70-3382766ad298"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 2,
+    "offset": 2,
+    "key": "WTHR-STN-101",
+    "payload": {
+      "sensor_id": "WTHR-STN-101",
+      "temperature_c": 36.5,
+      "humidity_pct": 53.1,
+      "wind_speed_kmh": 20.1,
+      "rainfall_rate_mm_hr": 4.2
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T21:07:14.299893",
+    "_id": "74f8513c-54e1-45a2-8ffd-e846294f0b0b"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 1,
+    "offset": 3,
+    "key": "WTHR-STN-103",
+    "payload": {
+      "sensor_id": "WTHR-STN-103",
+      "temperature_c": 35.4,
+      "humidity_pct": 37.1,
+      "wind_speed_kmh": 8.2,
+      "rainfall_rate_mm_hr": 12.6
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T21:07:14.303699",
+    "_id": "6385ebac-ae48-4234-94a9-16ef6d38e3d8"
+  },
+  {
+    "topic": "agrinova-market",
+    "partition": 2,
+    "offset": 4,
+    "key": "Paddy",
+    "payload": {
+      "mandi_code": "APMC-514",
+      "commodity": "Paddy",
+      "live_modal_price": 6342,
+      "daily_arrivals_mt": 191.4
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T21:07:14.309010",
+    "_id": "62075c5d-1002-4122-926d-c5b4098095a2"
+  },
+  {
+    "topic": "agrinova-weather",
+    "partition": 2,
+    "offset": 4,
+    "key": "WTHR-STN-105",
+    "payload": {
+      "sensor_id": "WTHR-STN-105",
+      "temperature_c": 28.1,
+      "humidity_pct": 61.3,
+      "wind_speed_kmh": 15.5,
+      "rainfall_rate_mm_hr": 8.4
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T21:07:14.312077",
+    "_id": "a529e65a-7d65-459b-8fb9-89db1a1f83b1"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 0,
+    "offset": 3,
+    "key": "SOIL-PRB-220",
+    "payload": {
+      "probe_id": "SOIL-PRB-220",
+      "field_id": "FLD-PB-23",
+      "moisture_pct": 19.7,
+      "soil_temp_c": 19.1,
+      "ec_ds_m": 1.08,
+      "ph": 6.98
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T21:07:14.315481",
+    "_id": "52458a28-2572-4927-9c32-54543fc0da36"
+  },
+  {
+    "topic": "agrinova-irrigation",
+    "partition": 0,
+    "offset": 3,
+    "key": "IRR-VALVE-317",
+    "payload": {
+      "valve_id": "IRR-VALVE-317",
+      "status": "CLOSED",
+      "flow_rate_lpm": 99.8,
+      "zone": "Zone-Beta"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T21:07:14.319477",
+    "_id": "d4ec32c8-0336-4f0c-b720-b72d2c1f17a2"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 0,
+    "offset": 4,
+    "key": "SOIL-PRB-226",
+    "payload": {
+      "probe_id": "SOIL-PRB-226",
+      "field_id": "FLD-PB-24",
+      "moisture_pct": 30.9,
+      "soil_temp_c": 22.8,
+      "ec_ds_m": 1.22,
+      "ph": 7.44
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T21:07:14.323357",
+    "_id": "d8a16b4f-7233-41ef-a120-e924975241aa"
+  },
+  {
+    "topic": "agrinova-soil",
+    "partition": 1,
+    "offset": 5,
+    "key": "SOIL-PRB-215",
+    "payload": {
+      "probe_id": "SOIL-PRB-215",
+      "field_id": "FLD-PB-17",
+      "moisture_pct": 17.1,
+      "soil_temp_c": 24.9,
+      "ec_ds_m": 0.6,
+      "ph": 7.09
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T21:07:14.327379",
+    "_id": "db3e2643-a8b9-4b50-80f3-5f74cd2b723f"
+  },
+  {
+    "topic": "mythora-market",
+    "partition": 2,
+    "offset": 1,
+    "key": "Wheat",
+    "payload": {
+      "mandi_code": "APMC-515",
+      "commodity": "Wheat",
+      "live_modal_price": 5865,
+      "daily_arrivals_mt": 194.0
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T22:56:33.964802",
+    "_id": "afcc92b3-91b7-4ede-8539-bfc6eea12816"
+  },
+  {
+    "topic": "mythora-market",
+    "partition": 2,
+    "offset": 2,
+    "key": "Wheat",
+    "payload": {
+      "mandi_code": "APMC-501",
+      "commodity": "Wheat",
+      "live_modal_price": 3983,
+      "daily_arrivals_mt": 121.8
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T22:56:33.967580",
+    "_id": "f57a644a-6fb5-4865-a7b6-60fb239cea15"
+  },
+  {
+    "topic": "mythora-weather",
+    "partition": 0,
+    "offset": 1,
+    "key": "WTHR-STN-105",
+    "payload": {
+      "sensor_id": "WTHR-STN-105",
+      "temperature_c": 37.6,
+      "humidity_pct": 81.0,
+      "wind_speed_kmh": 11.1,
+      "rainfall_rate_mm_hr": 10.0
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T22:56:33.970897",
+    "_id": "5602671c-0e4e-4933-8bdc-3c2ee3c18c35"
+  },
+  {
+    "topic": "mythora-weather",
+    "partition": 0,
+    "offset": 2,
+    "key": "WTHR-STN-102",
+    "payload": {
+      "sensor_id": "WTHR-STN-102",
+      "temperature_c": 31.8,
+      "humidity_pct": 51.1,
+      "wind_speed_kmh": 15.7,
+      "rainfall_rate_mm_hr": 6.9
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T22:56:33.974123",
+    "_id": "2a0de979-a4d7-443d-8afe-8b00c0c18db4"
+  },
+  {
+    "topic": "mythora-weather",
+    "partition": 0,
+    "offset": 3,
+    "key": "WTHR-STN-101",
+    "payload": {
+      "sensor_id": "WTHR-STN-101",
+      "temperature_c": 28.2,
+      "humidity_pct": 41.2,
+      "wind_speed_kmh": 20.0,
+      "rainfall_rate_mm_hr": 11.9
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T22:56:33.977635",
+    "_id": "99059400-a077-4a34-a6c1-bea699b8b00f"
+  },
+  {
+    "topic": "mythora-weather",
+    "partition": 0,
+    "offset": 4,
+    "key": "WTHR-STN-103",
+    "payload": {
+      "sensor_id": "WTHR-STN-103",
+      "temperature_c": 26.1,
+      "humidity_pct": 42.8,
+      "wind_speed_kmh": 9.0,
+      "rainfall_rate_mm_hr": 8.9
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-19T22:56:33.980646",
+    "_id": "697b5327-2aa0-4f80-bfec-68cfc5aad2fd"
+  },
+  {
+    "topic": "mythora-weather",
+    "partition": 2,
+    "offset": 1,
+    "key": "WTHR-STN-103",
+    "payload": {
+      "sensor_id": "WTHR-STN-103",
+      "temperature_c": 34.9,
+      "humidity_pct": 40.7,
+      "wind_speed_kmh": 16.1,
+      "rainfall_rate_mm_hr": 3.7
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-20T21:03:02.270424",
+    "_id": "185f1178-002d-4e55-8d94-d346fa85800c"
+  },
+  {
+    "topic": "mythora-weather",
+    "partition": 2,
+    "offset": 2,
+    "key": "WTHR-STN-103",
+    "payload": {
+      "sensor_id": "WTHR-STN-103",
+      "temperature_c": 32.4,
+      "humidity_pct": 64.3,
+      "wind_speed_kmh": 20.7,
+      "rainfall_rate_mm_hr": 0.9
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-20T21:03:02.274411",
+    "_id": "ff729792-3866-4064-a291-bb64f66f063e"
+  },
+  {
+    "topic": "mythora-irrigation",
+    "partition": 0,
+    "offset": 1,
+    "key": "IRR-VALVE-301",
+    "payload": {
+      "valve_id": "IRR-VALVE-301",
+      "status": "CLOSED",
+      "flow_rate_lpm": 91.9,
+      "zone": "Zone-Alpha"
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-20T21:03:02.277869",
+    "_id": "c3e1b867-4e86-48bb-8b4f-66266252ee54"
+  },
+  {
+    "topic": "mythora-soil",
+    "partition": 0,
+    "offset": 1,
+    "key": "SOIL-PRB-220",
+    "payload": {
+      "probe_id": "SOIL-PRB-220",
+      "field_id": "FLD-PB-26",
+      "moisture_pct": 29.1,
+      "soil_temp_c": 23.5,
+      "ec_ds_m": 0.66,
+      "ph": 6.4
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-20T21:03:02.281647",
+    "_id": "d43a8e8c-516e-4fe5-8309-dd6f7a0f1e3a"
+  },
+  {
+    "topic": "mythora-weather",
+    "partition": 2,
+    "offset": 3,
+    "key": "WTHR-STN-104",
+    "payload": {
+      "sensor_id": "WTHR-STN-104",
+      "temperature_c": 37.1,
+      "humidity_pct": 61.2,
+      "wind_speed_kmh": 20.5,
+      "rainfall_rate_mm_hr": 10.5
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-20T21:03:02.285512",
+    "_id": "a8e19317-b0da-461f-bd37-6b64e46a5281"
+  },
+  {
+    "topic": "mythora-market",
+    "partition": 1,
+    "offset": 1,
+    "key": "Wheat",
+    "payload": {
+      "mandi_code": "APMC-513",
+      "commodity": "Wheat",
+      "live_modal_price": 2323,
+      "daily_arrivals_mt": 263.9
+    },
+    "event_type": "SYNTHETIC_TEST_TELEMETRY",
+    "timestamp": "2026-11-20T21:03:02.288869",
+    "_id": "61764e00-7220-48e2-b527-f950d6c8d7bc"
   }
 ]

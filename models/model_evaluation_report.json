@@ -1,9 +1,9 @@
 {
-  "project": "AgriNova Smart Agriculture Platform",
+  "project": "MYTHORA Smart Agriculture Platform",
   "generated_at": "2026-11-18T22:58:51.426393",
   "models": {
     "crop_recommendation": {
-      "model_name": "AgriNova Crop Recommender",
+      "model_name": "MYTHORA Crop Recommender",
       "algorithm": "RandomForestClassifier",
       "accuracy": 0.9886,
       "precision": 0.989,
@@ -42,7 +42,7 @@
       "version": "1.0.0"
     },
     "crop_yield_prediction": {
-      "model_name": "AgriNova Crop Yield Predictor",
+      "model_name": "MYTHORA Crop Yield Predictor",
       "algorithm": "GradientBoostingRegressor",
       "r2_score": 0.9865,
       "mae": 0.9121,

@@ -1,5 +1,5 @@
 """
-AgriNova Agricultural Dataset Generator & Curator
+MYTHORA Agricultural Dataset Generator & Curator
 Generates authentic, high-quality, scientifically sound agricultural datasets
 matching ICAR, FAO, and Indian Agricultural Mandi benchmarks.
 """
@@ -368,7 +368,7 @@ def generate_satellite_data():
     print(f"Generated {len(rows)} records in {file_path}")
 
 if __name__ == "__main__":
-    print("Beginning AgriNova Master Dataset Generation...")
+    print("Beginning MYTHORA Master Dataset Generation...")
     generate_crop_recommendation_data()
     generate_crop_yield_data()
     generate_soil_health_data()

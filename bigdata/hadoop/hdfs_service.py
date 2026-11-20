@@ -1,5 +1,6 @@
 """
 AgriNova Hadoop HDFS Management Engine & Client
+Smart Farming, Better Tomorrow.
 Provides unified access to Apache Hadoop HDFS via WebHDFS REST API
 with an embedded resilient local distributed storage engine for standalone/demo environments.
 """

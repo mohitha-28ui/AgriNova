@@ -1,5 +1,5 @@
 """
-AgriNova Crop Yield Prediction Router
+MYTHORA Crop Yield Prediction Router
 """
 
 from fastapi import APIRouter

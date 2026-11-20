@@ -1,5 +1,5 @@
 """
-AgriNova Recommendations Router (Crop & Fertilizer)
+MYTHORA Recommendations Router (Crop & Fertilizer)
 """
 
 from fastapi import APIRouter

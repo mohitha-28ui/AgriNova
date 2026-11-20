@@ -24,5 +24,57 @@
     "risk_level": "MODERATE_HIGH",
     "diagnosed_at": "2026-11-18T23:16:18.606256",
     "_id": "246ff3af-1869-4fc1-b317-3135f86ac079"
+  },
+  {
+    "crop": "Potato",
+    "detected_disease": "Late Blight (Phytophthora infestans)",
+    "confidence_score": 94.6,
+    "image_analyzed": "sample_crop_leaf.jpg",
+    "symptoms": "Dark water-soaked lesions on leaves and stems; white fuzzy mould underneath during humid weather; tuber rot.",
+    "prevention": "Use certified disease-free tubers; avoid overhead sprinkler irrigation; ensure wide plant spacing.",
+    "organic_treatment": "Spray Copper oxychloride (3g/L) or Bordeaux mixture (1%) at early symptom onset.",
+    "chemical_treatment": "Apply Metalaxyl + Mancozeb (Ridomil Gold) at 2.5g/L water every 10-12 days.",
+    "risk_level": "MODERATE_HIGH",
+    "diagnosed_at": "2026-11-19T09:40:25.488060",
+    "_id": "b965c114-9db6-4c01-b53d-8a84405e272b"
+  },
+  {
+    "crop": "Potato",
+    "detected_disease": "Late Blight (Phytophthora infestans)",
+    "confidence_score": 94.6,
+    "image_analyzed": "sample_crop_leaf.jpg",
+    "symptoms": "Dark water-soaked lesions on leaves and stems; white fuzzy mould underneath during humid weather; tuber rot.",
+    "prevention": "Use certified disease-free tubers; avoid overhead sprinkler irrigation; ensure wide plant spacing.",
+    "organic_treatment": "Spray Copper oxychloride (3g/L) or Bordeaux mixture (1%) at early symptom onset.",
+    "chemical_treatment": "Apply Metalaxyl + Mancozeb (Ridomil Gold) at 2.5g/L water every 10-12 days.",
+    "risk_level": "MODERATE_HIGH",
+    "diagnosed_at": "2026-11-19T09:41:35.213685",
+    "_id": "f2881b6d-af48-4663-8243-f3a0e6271b46"
+  },
+  {
+    "crop": "Potato",
+    "detected_disease": "Late Blight (Phytophthora infestans)",
+    "confidence_score": 94.6,
+    "image_analyzed": "sample_crop_leaf.jpg",
+    "symptoms": "Dark water-soaked lesions on leaves and stems; white fuzzy mould underneath during humid weather; tuber rot.",
+    "prevention": "Use certified disease-free tubers; avoid overhead sprinkler irrigation; ensure wide plant spacing.",
+    "organic_treatment": "Spray Copper oxychloride (3g/L) or Bordeaux mixture (1%) at early symptom onset.",
+    "chemical_treatment": "Apply Metalaxyl + Mancozeb (Ridomil Gold) at 2.5g/L water every 10-12 days.",
+    "risk_level": "MODERATE_HIGH",
+    "diagnosed_at": "2026-11-19T22:56:33.886497",
+    "_id": "b2e89eb9-749f-4c01-8225-7fc04f061d9e"
+  },
+  {
+    "crop": "Potato",
+    "detected_disease": "Late Blight (Phytophthora infestans)",
+    "confidence_score": 94.6,
+    "image_analyzed": "sample_crop_leaf.jpg",
+    "symptoms": "Dark water-soaked lesions on leaves and stems; white fuzzy mould underneath during humid weather; tuber rot.",
+    "prevention": "Use certified disease-free tubers; avoid overhead sprinkler irrigation; ensure wide plant spacing.",
+    "organic_treatment": "Spray Copper oxychloride (3g/L) or Bordeaux mixture (1%) at early symptom onset.",
+    "chemical_treatment": "Apply Metalaxyl + Mancozeb (Ridomil Gold) at 2.5g/L water every 10-12 days.",
+    "risk_level": "MODERATE_HIGH",
+    "diagnosed_at": "2026-11-20T21:03:02.226552",
+    "_id": "72c7b6c4-a72d-4fd5-af28-95e6c5c2d8b4"
   }
 ]

@@ -21,7 +21,8 @@ def get_system_health():
     kafka_health = kafka_engine.get_streaming_metrics()
     
     return {
-        "platform": "AgriNova Smart Agriculture Intelligence Platform",
+        "platform": "AgriNova – AI and Big Data Platform for Smart Agriculture",
+        "tagline": "Smart Farming, Better Tomorrow.",
         "version": "1.0.0",
         "status": "ALL_SYSTEMS_OPERATIONAL",
         "timestamp": datetime.now().isoformat(),

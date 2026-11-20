@@ -15,7 +15,7 @@ export const CopilotPage: React.FC = () => {
   const [messages, setMessages] = useState<any[]>([
     {
       role: 'assistant',
-      content: 'Hello! I am your AgriNova AI Farming Copilot. I analyze big data agronomic telemetry, soil chemistry, and ICAR protocols. How can I assist your crop planning or field management today?'
+      content: 'Hello! I am your AgriNova AI Farming Copilot. I analyze big data agronomic telemetry, soil chemistry, and ICAR protocols to help empower your precision farming. How can I assist your crop planning or field management today?'
     }
   ]);
   const [input, setInput] = useState('');
@@ -69,7 +69,7 @@ export const CopilotPage: React.FC = () => {
                 Online
               </span>
             </h2>
-            <p className="text-xs text-slate-500">Retrieval-Grounded Agronomic Decision Assistant</p>
+            <p className="text-xs text-slate-500">Turning Data into Growth • Retrieval-Grounded Agronomic Decision Assistant</p>
           </div>
         </div>
 

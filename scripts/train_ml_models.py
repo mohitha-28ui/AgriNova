@@ -1,5 +1,5 @@
 """
-AgriNova Machine Learning & MLOps Pipeline
+MYTHORA Machine Learning & MLOps Pipeline
 Trains, evaluates, versions, and persists genuine ML models:
 1. Crop Recommendation (Random Forest Classifier)
 2. Crop Yield Prediction (Gradient Boosting Regressor with Pipeline)
@@ -58,7 +58,7 @@ def train_crop_recommender():
     cv_scores = cross_val_score(pipeline, X, y, cv=5)
     
     metrics = {
-        "model_name": "AgriNova Crop Recommender",
+        "model_name": "MYTHORA Crop Recommender",
         "algorithm": "RandomForestClassifier",
         "accuracy": round(acc, 4),
         "precision": round(prec, 4),
@@ -118,7 +118,7 @@ def train_yield_predictor():
     r2 = float(r2_score(y_test, y_pred))
     
     metrics = {
-        "model_name": "AgriNova Crop Yield Predictor",
+        "model_name": "MYTHORA Crop Yield Predictor",
         "algorithm": "GradientBoostingRegressor",
         "r2_score": round(r2, 4),
         "mae": round(mae, 4),
@@ -140,7 +140,7 @@ if __name__ == "__main__":
     yield_metrics = train_yield_predictor()
     
     report = {
-        "project": "AgriNova Smart Agriculture Platform",
+        "project": "MYTHORA Smart Agriculture Platform",
         "generated_at": datetime.now().isoformat(),
         "models": {
             "crop_recommendation": recommender_metrics,

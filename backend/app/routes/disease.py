@@ -1,5 +1,5 @@
 """
-AgriNova Plant Disease Detection Router
+MYTHORA Plant Disease Detection Router
 """
 
 from fastapi import APIRouter, UploadFile, File, Form

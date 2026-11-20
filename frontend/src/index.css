@@ -1,25 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @layer base {
   body {
-    @apply selection:bg-emerald-500 selection:text-white;
+    background-color: #F7F9F6;
+    color: #1F2937;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 }
 
-/* Custom modern scrollbars */
+/* Text Selection Styling (AgriNova Leaf Green) */
+::selection {
+  background-color: #4E8B62;
+  color: #FFFFFF;
+}
+
+::-moz-selection {
+  background-color: #4E8B62;
+  color: #FFFFFF;
+}
+
+/* Custom sleek scrollbars */
 ::-webkit-scrollbar {
-  width: 6px;
-  height: 6px;
+  width: 5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #cbd5e1;
-  border-radius: 4px;
+  background: #CBD5E1;
+  border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #94a3b8;
+  background: #94A3B8;
+}
+
+/* Card utility styles */
+.agri-card {
+  background-color: #FFFFFF;
+  border: 1px solid #E5EAE5;
+  border-radius: 1rem;
+  box-shadow: 0 1px 3px 0 rgba(23, 63, 53, 0.04);
+}
+
+.agri-card:hover {
+  box-shadow: 0 4px 6px -1px rgba(23, 63, 53, 0.06);
 }

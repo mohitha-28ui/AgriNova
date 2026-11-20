@@ -1,4 +1,7 @@
 # AgriNova Presentation Deck & Technical Slide Outline
+
+> **Tagline:** Smart Farming, Better Tomorrow.  
+> **Full Title:** AgriNova – AI and Big Data Powered Smart Agriculture Intelligence and Predictive Analytics Platform.
 ## College Major Project & Placement Technical Demonstration
 
 ---

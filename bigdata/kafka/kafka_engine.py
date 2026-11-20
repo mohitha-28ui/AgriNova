@@ -1,10 +1,11 @@
 """
 AgriNova Apache Kafka Streaming Broker & Event Management Engine
+Smart Farming, Better Tomorrow.
 Topics:
-- agrinova-weather
-- agrinova-soil
-- agrinova-market
-- agrinova-irrigation
+- mythora-weather
+- mythora-soil
+- mythora-market
+- mythora-irrigation
 """
 
 import os
@@ -21,6 +22,10 @@ sys.path.append(BASE_DIR)
 from backend.app.database.mongodb import streaming_events_col
 
 KAFKA_TOPICS = [
+    "mythora-weather",
+    "mythora-soil",
+    "mythora-market",
+    "mythora-irrigation",
     "agrinova-weather",
     "agrinova-soil",
     "agrinova-market",
@@ -31,7 +36,7 @@ class KafkaEngine:
     """Enterprise Kafka Event Streaming Broker."""
     def __init__(self, bootstrap_servers: str = "localhost:9092"):
         self.bootstrap_servers = os.getenv("KAFKA_BOOTSTRAP_SERVERS", bootstrap_servers)
-        self.topics = KAFKA_TOPICS
+        self.topics = [t for t in KAFKA_TOPICS if t.startswith("mythora-")]
         self.is_connected = False
         self._event_buffer: Dict[str, List[Dict[str, Any]]] = {t: [] for t in KAFKA_TOPICS}
 
@@ -80,7 +85,7 @@ class KafkaEngine:
             "topics": self.topics,
             "total_events_in_buffer": total_evts,
             "topic_partitions": {t: 3 for t in self.topics},
-            "consumer_groups": ["spark-streaming-agrinova-cg1", "dashboard-websocket-cg2"],
+            "consumer_groups": ["spark-streaming-mythora-cg1", "dashboard-websocket-cg2"],
             "timestamp": datetime.now().isoformat()
         }
 
@@ -89,7 +94,7 @@ class KafkaEngine:
         generated = []
         for _ in range(count):
             topic = random.choice(self.topics)
-            if topic == "agrinova-weather":
+            if "weather" in topic:
                 payload = {
                     "sensor_id": f"WTHR-STN-{random.randint(101, 108)}",
                     "temperature_c": round(random.uniform(22.0, 38.5), 1),
@@ -98,7 +103,7 @@ class KafkaEngine:
                     "rainfall_rate_mm_hr": round(random.uniform(0.0, 15.0), 1)
                 }
                 key = payload["sensor_id"]
-            elif topic == "agrinova-soil":
+            elif "soil" in topic:
                 payload = {
                     "probe_id": f"SOIL-PRB-{random.randint(201, 230)}",
                     "field_id": f"FLD-PB-{random.randint(10, 40)}",
@@ -108,7 +113,7 @@ class KafkaEngine:
                     "ph": round(random.uniform(6.2, 7.8), 2)
                 }
                 key = payload["probe_id"]
-            elif topic == "agrinova-market":
+            elif "market" in topic:
                 payload = {
                     "mandi_code": f"APMC-{random.randint(501, 515)}",
                     "commodity": random.choice(["Wheat", "Paddy", "Cotton", "Mustard", "Potato"]),
@@ -116,7 +121,7 @@ class KafkaEngine:
                     "daily_arrivals_mt": round(random.uniform(40.0, 320.0), 1)
                 }
                 key = payload["commodity"]
-            else: # agrinova-irrigation
+            else: # irrigation
                 payload = {
                     "valve_id": f"IRR-VALVE-{random.randint(301, 325)}",
                     "status": random.choice(["OPEN", "CLOSED", "SCHEDULED"]),

@@ -1,4 +1,6 @@
-# AgriNova: AI-Powered Big Data Intelligence Platform for Smart Agriculture
+# AgriNova – AI and Big Data Powered Smart Agriculture Intelligence and Predictive Analytics Platform
+
+**Tagline: Smart Farming, Better Tomorrow.**
 ## Comprehensive Major Project Technical Report
 
 ### 1. Abstract

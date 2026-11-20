@@ -1,5 +1,5 @@
 """
-AgriNova AI Farming Copilot Assistant Router
+MYTHORA AI Farming Copilot Assistant Router
 """
 
 from fastapi import APIRouter

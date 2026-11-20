@@ -1,6 +1,6 @@
-# AgriNova One-Click Launcher for Windows PowerShell
+# MYTHORA One-Click Launcher for Windows PowerShell
 Write-Host "==========================================================" -ForegroundColor Green
-Write-Host "   AGRINOVA - Smart Agriculture Big Data AI Platform     " -ForegroundColor Yellow
+Write-Host "   MYTHORA - Turning Data into Growth (AI & Big Data)     " -ForegroundColor Yellow
 Write-Host "==========================================================" -ForegroundColor Green
 
 Write-Host "`n[1/3] Verifying Datasets & Database Seeding..." -ForegroundColor Cyan
@@ -15,7 +15,7 @@ Write-Host "`n[3/3] Starting Vite Frontend on http://localhost:5173..." -Foregro
 Set-Location frontend
 Start-Process -FilePath "npm" -ArgumentList "run dev" -WindowStyle Normal
 
-Write-Host "`n>>> AgriNova Platform is LIVE! <<<" -ForegroundColor Green
+Write-Host "`n>>> MYTHORA Platform is LIVE! <<<" -ForegroundColor Green
 Write-Host "Frontend Dashboard: http://localhost:5173" -ForegroundColor White
 Write-Host "Swagger REST API:   http://127.0.0.1:8000/api/docs" -ForegroundColor White
 Write-Host "System Health:      http://127.0.0.1:8000/api/admin/health" -ForegroundColor White

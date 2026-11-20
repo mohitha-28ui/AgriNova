@@ -6,10 +6,10 @@ export const AboutPage: React.FC = () => {
     <div className="max-w-5xl mx-auto space-y-8">
       {/* Header */}
       <div className="bg-gradient-to-r from-emerald-800 to-teal-900 rounded-3xl p-8 md:p-12 text-white shadow-xl">
-        <span className="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-700/60 uppercase tracking-wider">Project Specification</span>
+        <span className="px-3 py-1 rounded-full text-xs font-semibold bg-emerald-700/60 uppercase tracking-wider">Project Specification • Smart Farming, Better Tomorrow.</span>
         <h1 className="text-3xl md:text-5xl font-extrabold tracking-tight mt-3">About AgriNova</h1>
         <p className="mt-4 text-emerald-100 max-w-2xl leading-relaxed text-sm md:text-base">
-          AgriNova is an AI-powered Big Data Intelligence Platform engineered to solve complex data ingestion, storage, processing, and predictive analytics challenges in modern agriculture.
+          AgriNova is an enterprise AI and Big Data Platform for Smart Agriculture engineered to solve complex data ingestion, distributed storage, high-throughput processing, and agronomic predictive forecasting.
         </p>
       </div>
 
@@ -62,7 +62,7 @@ export const AboutPage: React.FC = () => {
           <div className="p-4 rounded-xl bg-slate-50 border border-slate-100">
             <p className="text-xs font-bold uppercase tracking-wide text-emerald-600">Database & ML</p>
             <p className="font-bold text-slate-800 mt-1">MongoDB + Scikit-learn</p>
-            <p className="text-xs text-slate-500 mt-1">agrinova_db (17 Collections), Random Forest, GBDT</p>
+            <p className="text-xs text-slate-500 mt-1">MYTHORA Database (17 Collections), Random Forest, GBDT</p>
           </div>
         </div>
       </div>

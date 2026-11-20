@@ -1,5 +1,5 @@
 """
-AgriNova Agricultural Operational Endpoints
+MYTHORA Agricultural Operational Endpoints
 Handles crops, soil samples, weather observations, mandi prices, and smart irrigation.
 """
 
@@ -47,21 +47,43 @@ def create_soil_record(req: SoilRecordCreate):
 
 # WEATHER
 @router.get("/weather/current")
-def get_current_weather(state: str = "Punjab", district: str = "Ludhiana"):
+def get_current_weather(state: str = "Andhra Pradesh", district: str = "Amaravati"):
     rec = weather_records_col.find_one({"State": state, "District": district})
     if not rec:
-        rec = weather_records_col.find_one() or {
-            "Station_ID": "STN-DEF",
-            "State": state,
-            "District": district,
-            "Max_Temp_C": 28.5,
-            "Min_Temp_C": 18.2,
-            "Mean_Temp_C": 23.3,
-            "Relative_Humidity_pct": 65.0,
-            "Precipitation_mm": 0.0,
-            "Wind_Speed_kmh": 12.0,
-            "Weather_Condition": "Sunny & Favorable"
-        }
+        if state == "Andhra Pradesh":
+            rec = {
+                "Station_ID": "AP-AMR-01",
+                "State": "Andhra Pradesh",
+                "District": district or "Amaravati",
+                "Max_Temp_C": 30.0,
+                "Min_Temp_C": 22.0,
+                "Mean_Temp_C": 28.0,
+                "Feels_Like_C": 30.0,
+                "Relative_Humidity_pct": 72.0,
+                "Wind_Speed_kmh": 14.0,
+                "Precipitation_mm": 2.1,
+                "Weather_Condition": "Partly Cloudy",
+                "forecast": [
+                    {"day": "Mon", "temp": 27, "condition": "Sunny"},
+                    {"day": "Tue", "temp": 29, "condition": "Sunny"},
+                    {"day": "Wed", "temp": 30, "condition": "Partly Cloudy"},
+                    {"day": "Thu", "temp": 31, "condition": "Sunny"},
+                    {"day": "Fri", "temp": 32, "condition": "Sunny"}
+                ]
+            }
+        else:
+            rec = weather_records_col.find_one() or {
+                "Station_ID": "STN-DEF",
+                "State": state,
+                "District": district,
+                "Max_Temp_C": 28.5,
+                "Min_Temp_C": 18.2,
+                "Mean_Temp_C": 23.3,
+                "Relative_Humidity_pct": 65.0,
+                "Precipitation_mm": 0.0,
+                "Wind_Speed_kmh": 12.0,
+                "Weather_Condition": "Sunny & Favorable"
+            }
     return rec
 
 @router.get("/weather/records")

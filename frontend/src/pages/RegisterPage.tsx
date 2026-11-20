@@ -23,6 +23,8 @@ export const RegisterPage: React.FC = () => {
     setLoading(true);
     try {
       const res = await api.register(formData);
+      localStorage.setItem('mythora_token', res.data.access_token);
+      localStorage.setItem('mythora_user', JSON.stringify(res.data.user));
       localStorage.setItem('agrinova_token', res.data.access_token);
       localStorage.setItem('agrinova_user', JSON.stringify(res.data.user));
       navigate('/dashboard');
@@ -41,7 +43,7 @@ export const RegisterPage: React.FC = () => {
             <Sprout className="w-7 h-7" />
           </div>
           <h1 className="text-2xl font-extrabold text-slate-800">Create Farmer Account</h1>
-          <p className="text-xs text-slate-500 mt-1">Join the AgriNova smart agriculture intelligence network</p>
+          <p className="text-xs text-slate-500 mt-1">Join the AgriNova smart agriculture intelligence network • Smart Farming, Better Tomorrow.</p>
         </div>
 
         {error && (
@@ -87,7 +89,7 @@ export const RegisterPage: React.FC = () => {
               <input
                 type="email"
                 required
-                placeholder="kisan@agrinova.ai"
+                placeholder="kisan@mythora.ai"
                 value={formData.email}
                 onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                 className="w-full pl-9 pr-3 py-2 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500"
