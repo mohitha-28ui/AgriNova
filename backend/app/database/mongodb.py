@@ -34,7 +34,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__fil
 LOCAL_DATA_DIR = os.path.join(BASE_DIR, "backend", "app", "database", "local_store")
 os.makedirs(LOCAL_DATA_DIR, exist_ok=True)
 
-MONGODB_URI = os.getenv("MONGODB_URI", "mongodb://localhost:27017")
+MONGODB_URI = os.getenv("MONGODB_URI", "").strip()
 DATABASE_NAME = os.getenv("DATABASE_NAME", "agrinova_db")
 
 COLLECTIONS = [
@@ -163,6 +163,123 @@ class LocalCollection:
         return "index_created"
 
 
+class MongoAtlasCollectionWrapper:
+    """Production-grade wrapper around PyMongo Collection ensuring serialization safety and API parity."""
+    def __init__(self, raw_col):
+        self.raw_col = raw_col
+        self.name = raw_col.name
+
+    def insert_one(self, doc: Dict[str, Any]):
+        doc_copy = dict(doc)
+        res = self.raw_col.insert_one(doc_copy)
+        class InsertResult:
+            inserted_id = str(res.inserted_id)
+        return InsertResult()
+
+    def insert_many(self, docs: List[Dict[str, Any]]):
+        docs_copy = [dict(d) for d in docs]
+        res = self.raw_col.insert_many(docs_copy)
+        class InsertManyResult:
+            inserted_ids = [str(i) for i in res.inserted_ids]
+        return InsertManyResult()
+
+    def find_one(self, query: Dict[str, Any] = None) -> Optional[Dict[str, Any]]:
+        query = query or {}
+        try:
+            doc = self.raw_col.find_one(query)
+            if doc:
+                doc = dict(doc)
+                if "_id" in doc:
+                    doc["_id"] = str(doc["_id"])
+                return doc
+        except Exception as e:
+            print(f"[MongoDB Atlas] find_one error on {self.name}: {e}")
+        return None
+
+    def find(self, query: Dict[str, Any] = None, limit: int = 1000, sort: Optional[List] = None) -> List[Dict[str, Any]]:
+        query = query or {}
+        try:
+            cursor = self.raw_col.find(query)
+            if sort:
+                cursor = cursor.sort(sort)
+            if limit:
+                cursor = cursor.limit(limit)
+            results = []
+            for d in cursor:
+                d_copy = dict(d)
+                if "_id" in d_copy:
+                    d_copy["_id"] = str(d_copy["_id"])
+                results.append(d_copy)
+            return results
+        except Exception as e:
+            print(f"[MongoDB Atlas] find error on {self.name}: {e}")
+            return []
+
+    def count_documents(self, query: Dict[str, Any] = None) -> int:
+        query = query or {}
+        try:
+            return self.raw_col.count_documents(query)
+        except Exception:
+            return 0
+
+    def update_one(self, query: Dict[str, Any], update: Dict[str, Any]):
+        try:
+            if not any(k.startswith("$") for k in update.keys()):
+                update = {"$set": update}
+            res = self.raw_col.update_one(query, update)
+            return res.modified_count > 0 or res.matched_count > 0
+        except Exception as e:
+            print(f"[MongoDB Atlas] update_one error on {self.name}: {e}")
+            return False
+
+    def delete_one(self, query: Dict[str, Any]):
+        try:
+            res = self.raw_col.delete_one(query or {})
+            return res.deleted_count > 0
+        except Exception:
+            return False
+
+    def create_index(self, keys, **kwargs):
+        try:
+            return self.raw_col.create_index(keys, **kwargs)
+        except Exception:
+            return "index_ready"
+
+
+class AgriNovaCollectionProxy:
+    """Dynamic Collection Proxy routing calls to live Atlas or resilient local fallback."""
+    def __init__(self, manager: 'AgriNovaDatabase', name: str):
+        self.manager = manager
+        self.name = name
+
+    def _target(self):
+        return self.manager.get_active_collection(self.name)
+
+    def insert_one(self, doc: Dict[str, Any]):
+        return self._target().insert_one(doc)
+
+    def insert_many(self, docs: List[Dict[str, Any]]):
+        return self._target().insert_many(docs)
+
+    def find_one(self, query: Dict[str, Any] = None):
+        return self._target().find_one(query)
+
+    def find(self, query: Dict[str, Any] = None, limit: int = 1000, sort: Optional[List] = None):
+        return self._target().find(query, limit=limit, sort=sort)
+
+    def count_documents(self, query: Dict[str, Any] = None):
+        return self._target().count_documents(query)
+
+    def update_one(self, query: Dict[str, Any], update: Dict[str, Any]):
+        return self._target().update_one(query, update)
+
+    def delete_one(self, query: Dict[str, Any]):
+        return self._target().delete_one(query)
+
+    def create_index(self, keys, **kwargs):
+        return self._target().create_index(keys, **kwargs)
+
+
 class AgriNovaDatabase:
     """Unified Database client supporting live MongoDB / MongoDB Atlas with resilient fallback."""
     def __init__(self):
@@ -171,30 +288,127 @@ class AgriNovaDatabase:
         self.client: Optional[MongoClient] = None
         self.db = None
         self.is_connected = False
+        self._local_cache: Dict[str, LocalCollection] = {}
+        self._atlas_cache: Dict[str, MongoAtlasCollectionWrapper] = {}
         self._init_connection()
 
-    def _init_connection(self):
+    def _mask_uri(self, uri: str) -> str:
+        """Sanitizes connection URI to prevent credential leakage in logs."""
+        if not uri or "@" not in uri:
+            return uri
         try:
-            self.client = MongoClient(self.uri, serverSelectionTimeoutMS=2000)
-            self.client.server_info() # trigger check
+            prefix, rest = uri.split("@", 1)
+            scheme = prefix.split("://")[0]
+            return f"{scheme}://***:***@{rest}"
+        except Exception:
+            return "mongodb+srv://***:***@hidden"
+
+    def _init_connection(self):
+        if not self.uri:
+            self.is_connected = False
+            return
+
+        try:
+            # 5-second timeout for cloud MongoDB Atlas connectivity checks
+            self.client = MongoClient(
+                self.uri,
+                serverSelectionTimeoutMS=5000,
+                connectTimeoutMS=5000,
+                socketTimeoutMS=10000
+            )
+            self.client.server_info()  # triggers live ping verification
             self.db = self.client[self.db_name]
             self.is_connected = True
-            print(f"Connected to live MongoDB at {self.uri} [{self.db_name}]")
-        except Exception:
+            masked = self._mask_uri(self.uri)
+            print(f"[AgriNova DB] Successfully connected to live MongoDB Atlas [{self.db_name}] at {masked}")
+        except Exception as e:
             self.is_connected = False
             self.client = None
             self.db = None
+            print(f"[AgriNova DB] Notice: Live MongoDB connection unavailable ({e}). Running on resilient local persistence.")
+
+    def get_active_collection(self, name: str):
+        if self.is_connected and self.db is not None:
+            if name not in self._atlas_cache:
+                self._atlas_cache[name] = MongoAtlasCollectionWrapper(self.db[name])
+            return self._atlas_cache[name]
+
+        if name not in self._local_cache:
+            self._local_cache[name] = LocalCollection(name, LOCAL_DATA_DIR)
+        return self._local_cache[name]
 
     def get_collection(self, name: str):
-        if self.is_connected and self.db is not None:
-            return self.db[name]
-        return LocalCollection(name, LOCAL_DATA_DIR)
+        return AgriNovaCollectionProxy(self, name)
+
+    def auto_seed_initial_data(self):
+        """Ensures baseline admin, farmer and metadata exist when deploying to fresh MongoDB Atlas."""
+        try:
+            from backend.app.utils.security import get_password_hash
+            users = self.get_collection("users")
+            admin_users = self.get_collection("admin_users")
+            farmer_profiles = self.get_collection("farmer_profiles")
+            crops = self.get_collection("crops")
+
+            # Seed Admin Account
+            if users.count_documents({"email": "admin@agrinova.ai"}) == 0:
+                admin_doc = {
+                    "email": "admin@agrinova.ai",
+                    "hashed_password": get_password_hash("Admin@12345"),
+                    "full_name": "Sana Mohitha",
+                    "role": "admin",
+                    "phone": "+91-9876543210",
+                    "is_active": True,
+                    "created_at": datetime.now().isoformat()
+                }
+                users.insert_one(admin_doc)
+                admin_users.insert_one(admin_doc)
+                print("[AgriNova DB] Auto-seeded default admin user: admin@agrinova.ai")
+
+            # Seed Farmer Account
+            if users.count_documents({"email": "farmer@agrinova.ai"}) == 0:
+                farmer_doc = {
+                    "email": "farmer@agrinova.ai",
+                    "hashed_password": get_password_hash("Farmer@12345"),
+                    "full_name": "Ramesh Kumar Patel",
+                    "role": "farmer",
+                    "phone": "+91-9123456789",
+                    "is_active": True,
+                    "created_at": datetime.now().isoformat()
+                }
+                res = users.insert_one(farmer_doc)
+                farmer_profiles.insert_one({
+                    "user_id": res.inserted_id,
+                    "full_name": "Ramesh Kumar Patel",
+                    "farm_name": "Surya Organic Farms",
+                    "state": "Punjab",
+                    "district": "Ludhiana",
+                    "total_land_acres": 14.5,
+                    "soil_type": "Alluvial",
+                    "primary_crops": ["Wheat", "Rice", "Mustard"],
+                    "irrigation_type": "Canal & Tube Well",
+                    "created_at": datetime.now().isoformat()
+                })
+                print("[AgriNova DB] Auto-seeded default farmer user: farmer@agrinova.ai")
+
+            # Seed Crop Catalog
+            if crops.count_documents() == 0:
+                crops_list = [
+                    {"name": "Rice", "type": "Cereal", "category": "Kharif", "water_req_mm": "1200-1500", "ideal_ph": "5.5-6.5", "growing_days": 120},
+                    {"name": "Wheat", "type": "Cereal", "category": "Rabi", "water_req_mm": "450-650", "ideal_ph": "6.0-7.0", "growing_days": 140},
+                    {"name": "Maize", "type": "Cereal", "category": "Kharif", "water_req_mm": "500-800", "ideal_ph": "5.8-7.2", "growing_days": 100},
+                    {"name": "Cotton", "type": "Fiber", "category": "Kharif", "water_req_mm": "700-1200", "ideal_ph": "6.5-8.0", "growing_days": 160},
+                    {"name": "Chickpea", "type": "Pulse", "category": "Rabi", "water_req_mm": "250-400", "ideal_ph": "6.0-7.5", "growing_days": 100}
+                ]
+                crops.insert_many(crops_list)
+                print("[AgriNova DB] Auto-seeded baseline crop catalog.")
+        except Exception as e:
+            print(f"[AgriNova DB] Auto-seed status: {e}")
 
     def check_health(self) -> Dict[str, Any]:
         return {
             "database_name": self.db_name,
             "connected_to_live_mongo": self.is_connected,
-            "engine": "MongoDB Engine (Atlas / Standalone Replicated Store)",
+            "engine": "MongoDB Atlas" if self.is_connected else "Resilient Local Data Engine",
             "collections_count": len(COLLECTIONS),
             "status": "HEALTHY",
             "timestamp": datetime.now().isoformat()
