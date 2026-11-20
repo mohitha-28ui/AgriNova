@@ -1,0 +1,19 @@
+# ==============================================================================
+# Netlify Configuration for AgriNova Frontend
+# AI & Big Data Smart Agriculture Intelligence and Predictive Analytics Platform
+# ==============================================================================
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_ENV = "development"
+  NPM_FLAGS = "--include=dev"
+
+# Single-Page Application (SPA) Client-Side Routing
+# Ensures React Router URLs (e.g. /dashboard, /crop-recommendation) load index.html without 404s
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
